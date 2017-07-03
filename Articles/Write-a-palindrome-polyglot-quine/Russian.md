@@ -1,5 +1,5 @@
-[<img align="left" alt="PalidromePolyglotQuine"
-src="https://habrastorage.org/files/b0e/458/9ec/b0e4589ec6494616b28f63c65843d896.png"/>](https://habrahabr.ru/post/309702/)
+<img align="left" alt="PalidromePolyglotQuine"
+src="https://habrastorage.org/files/b0e/458/9ec/b0e4589ec6494616b28f63c65843d896.png"/>
 
 Поздравляю всех трансляторов человеческого языка в машинный с их
 профессиональным днем, желаю вам меньше багов и больше-либо-равно классных идей!
@@ -344,6 +344,7 @@ class Program
     }
 }
 ```
+
 </details>
 
 Из листинга становится понятно, что переменная `s` содержит код программы, в
