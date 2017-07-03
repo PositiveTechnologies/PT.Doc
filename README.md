@@ -6,6 +6,11 @@
 
 ## Articles
 
+### Write a palindrome polyglot quine ([ru](Articles/Write-a-palindrome-polyglot-quine/Russian.md))
+
+* **12.09.2016**
+* [habrahabr.ru](https://habrahabr.ru/company/pt/blog/309702/)
+
 ### [Pattern language for a universal signature-based code analyzer](Articles/Pattern-language-for-a-universal-signature-based-code-analyzer/English.md) ([ru](Articles/Pattern-language-for-a-universal-signature-based-code-analyzer/Russian.md))
 
 * **17.05.2016**
