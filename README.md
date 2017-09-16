@@ -6,6 +6,8 @@
 
 ## Articles
 
+* Positive Technologies на GitHub ([ru](Articles/Positive-Technologies-at-GitHub/Russian.md))
+
 ### Write a palindrome polyglot quine ([ru](Articles/Write-a-palindrome-polyglot-quine/Russian.md))
 
 * **12.09.2016**
