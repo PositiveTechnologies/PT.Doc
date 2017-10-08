@@ -6,6 +6,11 @@
 
 ## Articles
 
+### Do WAFs dream of static analyzers ([ru](https://github.com/kochetkov/kochetkov.github.io-engine/blob/master/content/blog/2017-09-20.do-wafs-dream-of-static-analyzers.ru.md))
+
+* **17.09.2017**
+* [habrahabr.ru](https://habrahabr.ru/company/pt/blog/338110/)
+
 ### Positive Technologies на GitHub ([ru](Articles/Positive-Technologies-at-GitHub/Russian.md))
 
 * **13.09.2016**
