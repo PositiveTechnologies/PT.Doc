@@ -6,6 +6,11 @@
 
 ## Articles
 
+### MySql Grammar on ANTLR ([ru](Articles/MySql-Grammar-on-ANTLR/Russian.md))
+
+* **05.10.2017**
+* [habrahabr.ru](https://habrahabr.ru/company/pt/blog/339336/)
+
 ### Do WAFs dream of static analyzers ([ru](https://github.com/kochetkov/kochetkov.github.io-engine/blob/master/content/blog/2017-09-20.do-wafs-dream-of-static-analyzers.ru.md))
 
 * **17.09.2017**
