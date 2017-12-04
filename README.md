@@ -16,7 +16,7 @@
 * **17.09.2017**
 * [habrahabr.ru](https://habrahabr.ru/company/pt/blog/338110/)
 
-### Positive Technologies на GitHub ([ru](Articles/Positive-Technologies-at-GitHub/Russian.md))
+### [Positive Technologies на GitHub](Articles/Positive-Technologies-at-GitHub/English.md) ([ru](Articles/Positive-Technologies-at-GitHub/Russian.md))
 
 * **13.09.2016**
 * [habrahabr.ru](https://habrahabr.ru/company/pt/blog/327957/)
