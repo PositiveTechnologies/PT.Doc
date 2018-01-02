@@ -15,7 +15,7 @@ processing using Visitor and Listener strategies, converting AST to a
 unified format, simplifying an AST, and the algorithm for matching tree
 structures.
 
-<img alt="Visitor & Listener" align="right" src="https://habrastorage.org/getpro/habr/post_images/031/d2d/4ca/031d2d4cab81a98a67c1962ee1d75f41.png"/>
+<img alt="Title Image" width="50%" align="right" src="Title.svg"/>
 
 ## Contents
 
@@ -66,7 +66,7 @@ code to another (JSON -&gt; XML). For more information, refer to [The
 Definitive ANTLR 4
 Reference](http://www.amazon.com/Definitive-ANTLR-4-Reference/dp/1934356999).
 
-<img alt="Visitor & Listener" align="center" src="https://habrastorage.org/files/bd1/69c/535/bd169c535e854f9681520f520d0db9c3.png"/>
+![Visitor & Listener](Visitor-and-Listener.svg)
 
 ### Differences between Visitor in ANTLR and Roslyn
 
@@ -265,7 +265,7 @@ node is inherited from the AstNode and has its own type (NodeType),
 which is used at the stage of matching with patterns and deserialization
 from JSON. The structure of nodes looked like this:
 
-<img alt="UAST Types" align="center" src="https://habrastorage.org/files/13d/b83/ad5/13db83ad52fa491fbc89b8e0655912c3.png"/>
+![UAST Types](UAST-Types.svg)
 
 In addition to the type, each node has a property that stores the
 location in the code (TextSpan), which is used to display it in the
