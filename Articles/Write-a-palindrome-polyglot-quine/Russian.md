@@ -1,5 +1,6 @@
-<img align="left" alt="PalidromePolyglotQuine"
-src="https://habrastorage.org/files/b0e/458/9ec/b0e4589ec6494616b28f63c65843d896.png"/>
+# Как писать квайн-полиглот-палиндромы
+
+<img align="left" alt="PalidromePolyglotQuine" src="Title.png"/>
 
 Поздравляю всех трансляторов человеческого языка в машинный с их
 профессиональным днем, желаю вам меньше багов и больше-либо-равно классных идей!
@@ -35,7 +36,7 @@ A//\u002A\u002FB
 C#-компилятор будет "воспринимать" этот код обычным образом, комментарии
 останутся комментариями:
 
-```CSharp
+```csharp
 //\u000A\u002F\u002A
 A//\u002A\u002FB
 ```
@@ -43,7 +44,7 @@ A//\u002A\u002FB
 А вот с Java все интересней, т.к. юникод-запись трасформируется и получится
 следующее:
 
-```Java
+```java
 //
 /*
 A//*/B
@@ -60,7 +61,7 @@ A//*/B
 котором в секции `#if false` как раз и помещен код Python. А последовательности
 `'''` начинают и заканчивают комментарий в коде Python.
 
-```C
+```c
 #include <stdio.h>
 #if false
 print "Hello world"
@@ -83,7 +84,7 @@ return 0;
 
 ### Код-полиглот на C, Shell, Perl, Brainfuck, Befunge, Whitespace
 
-```
+```c
 # define x u    /*            v
 #    :::::::::::::::::::>>>>>>>$$$a"muroftih"#[>:#,_@]
 eval 'echo "hitforum";exit';sub echo { print    "@_\n"}               
@@ -94,9 +95,9 @@ main() { printf ("hitforum\n"); }
 ```
 
 <details>
-<summary>Код-полиглот на 16 язках</summary>
+<summary>Код-полиглот на 16 языках</summary>
 
-```Perl
+```perl
 # /* [	<!-- */ include	<stdio.h> /* 	\
 	#`{{coding=utf-8\
 "true" if 0 != 0 and	q != """0"	;	`	\
@@ -250,15 +251,15 @@ Polyquine](http://codegolf.stackexchange.com/questions/37464/write-a-polyquine).
 
 Для написания такого квайна-полиглота нужно экранировать символы, запрещенные в
 строках обоих языков и встречающиеся в строках самой программы. Такими символами
-являются кавычки ", перенос строки \n и обратный слеш \\. А чтобы еще уменьшить
-размер кода, повторяющиеся последовательности символов, такие как \\u000A,
-\\u002F и \\u002A, также были заменены на одиночные символы в самой кодирующей
+являются кавычки `"`, перенос строки `\n` и обратный слеш `\`. А чтобы еще уменьшить
+размер кода, повторяющиеся последовательности символов, такие как `\u000A`,
+`\u002F` и `\u002A`, также были заменены на одиночные символы в самой кодирующей
 строке. Вот пример получившегося квайна-полиглота, валидного для компиляторов C#
 и Java:
 
-### PolyglotQuine.cs.java, 757 символов:
+### PolyglotQuine.cs.java, 757 символов
 
-```CSharp
+```csharp
 //\u000A\u002F\u002A
 using System;//\u002A\u002F
 class Program{public static void//\u000A\u002F\u002A
@@ -280,7 +281,7 @@ Console.Write//\u002A\u002FSystem.out.printf
 программы помещается в однострочный или многострочный комментарий, что не мешает
 при компиляции. Простейший код-палиндром в C# выглядит следующим образом:
 
-```CSharp
+```csharp
 /**/class P{static void Main(){}};/*/;}}{)(niaM diov citats{P ssalc/**/
 ```
 
@@ -291,9 +292,9 @@ Console.Write//\u002A\u002FSystem.out.printf
 Итак, объединяя принципы создания палиндрома, полиглота и квайна, я написал
 следующий код:
 
-### PalidromePolyglotQuine.cs.java, 1747 символов:
+### PalindromePolyglotQuine.cs.java, 1747 символов
 
-```CSharp
+```csharp
 /**///\u000A\u002F\u002A
 using System;//\u002A\u002F
 class Program{public static void//\u000A\u002F\u002A
@@ -324,7 +325,7 @@ Java. Уверен, что на других языках можно будет 
 <details>
 <summary>Отформатированный и очищенный код PalidromePolyglotQuine.cs.java под C#</summary>
 
-```CSharp
+```csharp
 using System;
 class Program
 {
