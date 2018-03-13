@@ -2,11 +2,9 @@
 
 <img align="left" alt="PalidromePolyglotQuine" src="Title.png"/>
 
-Congratulations to all the translators of human language to machine code with
-their professional day! I wish you fewer bugs and a greater number of cool
-ideas! And as a gift, I offer a solution to one beautiful task - writing code
-that outputs its own text, is valid for interpreters and compilers of different
-languages, and is correctly executed when reversing its sources.
+I offer a solution to one beautiful task - writing code that outputs its own text,
+is valid for interpreters and compilers of different languages, and is correctly
+executed when reversing its sources.
 
 Not so long ago I learned about code that can be both interpreted in PHP and
 compiled to Java:
@@ -382,5 +380,3 @@ repository
 
 Share in the comments the code of your quines-palindromes-polyglots in other
 languages or other interesting code-freaky things, I'll read them with pleasure.
-
-Once again, I congratulate all programmers and sympathizers!
