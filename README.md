@@ -21,7 +21,7 @@
 * **13.09.2016**
 * [habrahabr.ru](https://habrahabr.ru/company/pt/blog/327957/)
 
-### Write a palindrome polyglot quine ([ru](Articles/Write-a-palindrome-polyglot-quine/Russian.md))
+### [Write a palindrome polyglot quine](Articles/Write-a-palindrome-polyglot-quine/English.md) ([ru](Articles/Write-a-palindrome-polyglot-quine/Russian.md))
 
 * **12.09.2016**
 * [habrahabr.ru](https://habrahabr.ru/company/pt/blog/309702/)
