@@ -627,14 +627,14 @@
 |CWE-625|Permissive Regular Expression||
 |CWE-626|Null Byte Interaction Error (Poison Null Byte)||
 |CWE-627|Dynamic Variable Evaluation||
-|CWE-628|Function Call with Incorrectly Specified Arguments||
+|CWE-628|Function Call with Incorrectly Specified Arguments|Вызов функции, используя некорректно заданные аргументы|
 |CWE-629|Weaknesses in OWASP Top Ten (2007)|Уязвимости из Топ-10 OWASP (2007 г.)|
-|CWE-630|Weaknesses Examined by SAMATE||
-|CWE-631|Resource-specific Weaknesses||
-|CWE-632|Weaknesses that Affect Files or Directories||
-|CWE-633|Weaknesses that Affect Memory||
-|CWE-634|Weaknesses that Affect System Processes||
-|CWE-635|Weaknesses Used by NVD||
+|CWE-630|DEPRECATED: Weaknesses Examined by SAMATE|НЕ РЕКОМЕНДУЕТСЯ: Уязвимости, использовавшиеся в проекте SAMATE|
+|CWE-631|DEPRECATED: Resource-specific Weaknesses|НЕ РЕКОМЕНДУЕТСЯ: Уязвимости, характерные для определенных ресурсов|
+|CWE-632|DEPRECATED: Weaknesses that Affect Files or Directories|НЕ РЕКОМЕНДУЕТСЯ: Уязвимости, связанные с файлами или каталогами|
+|CWE-633|DEPRECATED: Weaknesses that Affect Memory|НЕ РЕКОМЕНДУЕТСЯ: Уязвимости, связанные с памятью|
+|CWE-634|DEPRECATED: Weaknesses that Affect System Processes|НЕ РЕКОМЕНДУЕТСЯ: Уязвимости, связанные с системными процессами|
+|CWE-635|Weaknesses Used by NVD|Уязвимости, использовавшиеся в базе данных NVD (с 2008 по 2016 гг.)|
 |CWE-636|Not Failing Securely ('Failing Open')||
 |CWE-637|Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism')||
 |CWE-638|Not Using Complete Mediation||
@@ -650,13 +650,13 @@
 |CWE-648|Incorrect Use of Privileged APIs|Некорректное использование привилегированных API|
 |CWE-649|Reliance on Obfuscation or Encryption of Security-Relevant Inputs without Integrity Checking||
 |CWE-650|Trusting HTTP Permission Methods on the Server Side||
-|CWE-651|Information Exposure Through WSDL File||
-|CWE-652|Improper Neutralization of Data within XQuery Expressions ('XQuery Injection')||
+|CWE-651|Information Exposure Through WSDL File|Разглашение информации, связанное с WSDL-файлами|
+|CWE-652|Improper Neutralization of Data within XQuery Expressions ('XQuery Injection')|Некорректная нейтрализация данных в выражениях XQuery (Внедрение XQuery)|
 |CWE-653|Insufficient Compartmentalization||
 |CWE-654|Reliance on a Single Factor in a Security Decision||
 |CWE-655|Insufficient Psychological Acceptability||
 |CWE-656|Reliance on Security Through Obscurity||
-|CWE-657|Violation of Secure Design Principles||
+|CWE-657|Violation of Secure Design Principles|Нарушение принципов безопасного проектирования|
 |CWE-658|Weaknesses in Software Written in C|Уязвимости в ПО, написанном на языке C|
 |CWE-659|Weaknesses in Software Written in C++|Уязвимости в ПО, написанном на C++|
 |CWE-660|Weaknesses in Software Written in Java|Уязвимости в ПО, написанном на Java|
@@ -665,34 +665,34 @@
 |CWE-663|Use of a Non-reentrant Function in a Concurrent Context||
 |CWE-664|Improper Control of a Resource Through its Lifetime||
 |CWE-665|Improper Initialization|Некорректная инициализация|
-|CWE-666|Operation on Resource in Wrong Phase of Lifetime||
-|CWE-667|Improper Locking||
+|CWE-666|Operation on Resource in Wrong Phase of Lifetime|Операции с ресурсами, выполняемые на некорректном этапе их жизненного цикла|
+|CWE-667|Improper Locking|Некорректная блокировка|
 |CWE-668|Exposure of Resource to Wrong Sphere||
 |CWE-669|Incorrect Resource Transfer Between Spheres||
 |CWE-670|Always-Incorrect Control Flow Implementation||
-|CWE-671|Lack of Administrator Control over Security||
+|CWE-671|Lack of Administrator Control over Security|Недоступность контроля над безопасностью для администратора|
 |CWE-672|Operation on a Resource after Expiration or Release||
 |CWE-673|External Influence of Sphere Definition||
 |CWE-674|Uncontrolled Recursion|Неконтролируемая рекурсия|
 |CWE-675|Duplicate Operations on Resource||
-|CWE-676|Use of Potentially Dangerous Function||
+|CWE-676|Use of Potentially Dangerous Function|Использование потенциально опасной функции|
 |CWE-677|Weakness Base Elements||
 |CWE-678|Composites||
 |CWE-679|Chain Elements||
 |CWE-680|Integer Overflow to Buffer Overflow|Целочисленное переполнение, приводящее к переполнению буфера|
 |CWE-681|Incorrect Conversion between Numeric Types|Некорректное преобразование числовых типов|
 |CWE-682|Incorrect Calculation|Некорректные расчеты|
-|CWE-683|Function Call With Incorrect Order of Arguments||
-|CWE-684|Incorrect Provision of Specified Functionality||
-|CWE-685|Function Call With Incorrect Number of Arguments||
-|CWE-686|Function Call With Incorrect Argument Type||
-|CWE-687|Function Call With Incorrectly Specified Argument Value||
-|CWE-688|Function Call With Incorrect Variable or Reference as Argument||
-|CWE-689|Permission Race Condition During Resource Copy||
-|CWE-690|Unchecked Return Value to NULL Pointer Dereference||
-|CWE-691|Insufficient Control Flow Management||
-|CWE-692|Incomplete Blacklist to Cross-Site Scripting||
-|CWE-693|Protection Mechanism Failure||
+|CWE-683|Function Call With Incorrect Order of Arguments|Вызов функции, используя некорректный порядок аргументов|
+|CWE-684|Incorrect Provision of Specified Functionality|Некорректное обеспечение заявленных функций|
+|CWE-685|Function Call With Incorrect Number of Arguments|Вызов функции, используя некорректное количество аргументов|
+|CWE-686|Function Call With Incorrect Argument Type|Вызов функции, используя некорректный тип аргументов|
+|CWE-687|Function Call With Incorrectly Specified Argument Value|Вызов функции, используя некорректно заданные значения аргументов|
+|CWE-688|Function Call With Incorrect Variable or Reference as Argument|Вызов функции, используя некорректные переменные или ссылки в качестве аргумента|
+|CWE-689|Permission Race Condition During Resource Copy|Состояние гонки разрешений при копировании ресурсов|
+|CWE-690|Unchecked Return Value to NULL Pointer Dereference|Отсутствие проверки возвращаемого значения, приводящее к разыменованию нулевого указателя|
+|CWE-691|Insufficient Control Flow Management|Некорректное управление ходом выполнения команд|
+|CWE-692|Incomplete Blacklist to Cross-Site Scripting|Неполный черный список защиты от межсайтового выполнения сценариев|
+|CWE-693|Protection Mechanism Failure|Некорректное использование защитных механизмов|
 |CWE-694|Use of Multiple Resources with Duplicate Identifier||
 |CWE-695|Use of Low-Level Functionality||
 |CWE-696|Incorrect Behavior Order||
@@ -709,7 +709,7 @@
 |CWE-707|Improper Enforcement of Message or Data Structure||
 |CWE-708|Incorrect Ownership Assignment||
 |CWE-709|Named Chains||
-|CWE-710|Coding Standards Violation||
+|CWE-710|Coding Standards Violation|Нарушение стандартов разработки кода|
 |CWE-711|Weaknesses in OWASP Top Ten (2004)|Уязвимости из Топ-10 OWASP (2004 г.)|
 |CWE-712|OWASP Top Ten 2007 Category A1 - Cross Site Scripting (XSS)|Топ-10 OWASP 2007 Категория А1 - Межсайтовое выполнение сценариев|
 |CWE-713|OWASP Top Ten 2007 Category A2 - Injection Flaws|Топ-10 OWASP 2007 Категория А2 - Внедрение|
@@ -748,8 +748,8 @@
 |CWE-746|CERT C Secure Coding Section 12 - Error Handling (ERR)||
 |CWE-747|CERT C Secure Coding Section 49 - Miscellaneous (MSC)||
 |CWE-748|CERT C Secure Coding Section 50 - POSIX (POS)||
-|CWE-749|Exposed Dangerous Method or Function||
-|CWE-750|Weaknesses in the 2009 CWE/SANS Top 25 Most Dangerous Programming Errors||
+|CWE-749|Exposed Dangerous Method or Function|Доступны опасные методы или функции|
+|CWE-750|Weaknesses in the 2009 CWE/SANS Top 25 Most Dangerous Programming Errors|Уязвимости из Топ-25 самых опасных ошибок программирования по версии CWE/SANS 2009|
 |CWE-751|2009 Top 25 - Insecure Interaction Between Components|Топ-25 2009: Небезопасное взаимодействие между компонентами|
 |CWE-752|2009 Top 25 - Risky Resource Management||
 |CWE-753|2009 Top 25 - Porous Defenses||
@@ -763,8 +763,8 @@
 |CWE-761|Free of Pointer not at Start of Buffer||
 |CWE-762|Mismatched Memory Management Routines||
 |CWE-763|Release of Invalid Pointer or Reference||
-|CWE-764|Multiple Locks of a Critical Resource||
-|CWE-765|Multiple Unlocks of a Critical Resource||
+|CWE-764|Multiple Locks of a Critical Resource|Частая блокировка критичного ресурса|
+|CWE-765|Multiple Unlocks of a Critical Resource|Частая разблокировка критичного ресурса|
 |CWE-766|Critical Variable Declared Public||
 |CWE-767|Access to Critical Private Variable via Public Method||
 |CWE-768|Incorrect Short Circuit Evaluation||
@@ -799,8 +799,8 @@
 |CWE-797|Only Filtering Special Elements at an Absolute Position||
 |CWE-798|Use of Hard-coded Credentials|Использование жестко закодированных учетных данных|
 |CWE-799|Improper Control of Interaction Frequency|Некорректное ограничение частоты взаимодействия|
-|CWE-800|Weaknesses in the 2010 CWE/SANS Top 25 Most Dangerous Programming Errors||
-|CWE-801|2010 Top 25 - Insecure Interaction Between Components||
+|CWE-800|Weaknesses in the 2010 CWE/SANS Top 25 Most Dangerous Programming Errors|Уязвимости из Топ-25 самых опасных ошибок программирования по версии CWE/SANS 2010|
+|CWE-801|2010 Top 25 - Insecure Interaction Between Components|Топ-25 2010: Небезопасное взаимодействие между компонентами|
 |CWE-802|2010 Top 25 - Risky Resource Management||
 |CWE-803|2010 Top 25 - Porous Defenses||
 |CWE-804|Guessable CAPTCHA|Легко решаемая задача CAPTCHA|
@@ -822,8 +822,8 @@
 |CWE-820|Missing Synchronization|Отсутствие синхронизации|
 |CWE-821|Incorrect Synchronization|Некорректная синхронизация|
 |CWE-822|Untrusted Pointer Dereference|Разыменование непроверенного указателя|
-|CWE-823|Use of Out-of-range Pointer Offset||
-|CWE-824|Access of Uninitialized Pointer||
+|CWE-823|Use of Out-of-range Pointer Offset|Использование для указателя смещения за пределами назначенного диапазона|
+|CWE-824|Access of Uninitialized Pointer|Обращение к неинициализированному указателю|
 |CWE-825|Expired Pointer Dereference||
 |CWE-826|Premature Release of Resource During Expected Lifetime||
 |CWE-827|Improper Control of Document Type Definition||
@@ -975,26 +975,26 @@
 |CWE-973|SFP Secondary Cluster: Improper NULL Termination||
 |CWE-974|SFP Secondary Cluster: Incorrect Buffer Length Computation||
 |CWE-975|SFP Secondary Cluster: Architecture|Модели программных сбоев (вторичный кластер): архитектура|
-|CWE-976|SFP Secondary Cluster: Compiler||
-|CWE-977|SFP Secondary Cluster: Design||
+|CWE-976|SFP Secondary Cluster: Compiler|Модели программных сбоев (вторичный кластер): компилятор|
+|CWE-977|SFP Secondary Cluster: Design|Модели программных сбоев (вторичный кластер): проектирование|
 |CWE-978|SFP Secondary Cluster: Implementation|Модели программных сбоев (вторичный кластер): реализация|
 |CWE-979|SFP Secondary Cluster: Failed Chroot Jail||
 |CWE-980|SFP Secondary Cluster: Link in Resource Name Resolution||
-|CWE-981|SFP Secondary Cluster: Path Traversal||
+|CWE-981|SFP Secondary Cluster: Path Traversal|Модели программных сбоев (вторичный кластер): подмена пути|
 |CWE-982|SFP Secondary Cluster: Failure to Release Resource||
 |CWE-983|SFP Secondary Cluster: Faulty Resource Use||
 |CWE-984|SFP Secondary Cluster: Life Cycle|Модели программных сбоев (вторичный кластер): жизненный цикл|
-|CWE-985|SFP Secondary Cluster: Unrestricted Consumption||
-|CWE-986|SFP Secondary Cluster: Missing Lock||
-|CWE-987|SFP Secondary Cluster: Multiple Locks/Unlocks||
-|CWE-988|SFP Secondary Cluster: Race Condition Window||
-|CWE-989|SFP Secondary Cluster: Unrestricted Lock||
+|CWE-985|SFP Secondary Cluster: Unrestricted Consumption|Модели программных сбоев (вторичный кластер): неконтролируемое использование|
+|CWE-986|SFP Secondary Cluster: Missing Lock|Модели программных сбоев (вторичный кластер): отсутствует блокировка|
+|CWE-987|SFP Secondary Cluster: Multiple Locks/Unlocks|Модели программных сбоев (вторичный кластер): частые блокировки/разблокировки|
+|CWE-988|SFP Secondary Cluster: Race Condition Window|Модели программных сбоев (вторичный кластер): состояние гонки|
+|CWE-989|SFP Secondary Cluster: Unrestricted Lock|Модели программных сбоев (вторичный кластер): неконтролируемая блокировка|
 |CWE-990|SFP Secondary Cluster: Tainted Input to Command||
 |CWE-991|SFP Secondary Cluster: Tainted Input to Environment||
 |CWE-992|SFP Secondary Cluster: Faulty Input Transformation||
 |CWE-993|SFP Secondary Cluster: Incorrect Input Handling||
 |CWE-994|SFP Secondary Cluster: Tainted Input to Variable||
-|CWE-995|SFP Secondary Cluster: Feature||
+|CWE-995|SFP Secondary Cluster: Feature|Модели программных сбоев (вторичный кластер): функциональность|
 |CWE-996|SFP Secondary Cluster: Security|Модели программных сбоев (вторичный кластер): безопасность|
 |CWE-997|SFP Secondary Cluster: Information Loss|Модели программных сбоев (вторичный кластер): потеря данных|
 |CWE-998|SFP Secondary Cluster: Glitch in Computation|Модели программных сбоев (вторичный кластер): сбой при вычислении|
