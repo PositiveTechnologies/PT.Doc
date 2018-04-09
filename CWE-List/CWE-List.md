@@ -91,7 +91,7 @@
 |CWE-89|Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')|Некорректная нейтрализация специальных элементов, используемых в SQL-командах (Внедрение SQL)|
 |CWE-90|Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection')|Некорректная нейтрализация специальных элементов, используемых в LDAP-запросах (Внедрение LDAP)|
 |CWE-91|XML Injection (aka Blind XPath Injection)|Внедрение XML (Внедрение XPath вслепую)|
-|CWE-92|DEPRECATED: Improper Sanitization of Custom Special Characters|Не рекомендуется|
+|CWE-92|DEPRECATED: Improper Sanitization of Custom Special Characters|НЕ РЕКОМЕНДУЕТСЯ: Некорректная очистка пользовательских спецсимволов|
 |CWE-93|Improper Neutralization of CRLF Sequences ('CRLF Injection')|Некорректная нейтрализация последовательностей символов CRLF (Внедрение символов CRLF)|
 |CWE-94|Improper Control of Generation of Code ('Code Injection')|Некорректное управление генерированием кода (Внедрение кода)|
 |CWE-95|Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')|Некорректная нейтрализация директив в динамически вычисляемом коде (Внедрение eval)|
@@ -131,14 +131,14 @@
 |CWE-129|Improper Validation of Array Index|Некорректная проверка индекса массива|
 |CWE-130|Improper Handling of Length Parameter Inconsistency |Некорректная обработка несоответствий параметров длины|
 |CWE-131|Incorrect Calculation of Buffer Size|Некорректный расчет размера буфера|
-|CWE-132|DEPRECATED (Duplicate): Miscalculated Null Termination|Не рекомендуется|
+|CWE-132|DEPRECATED (Duplicate): Miscalculated Null Termination|НЕ РЕКОМЕНДУЕТСЯ|
 |CWE-133|String Errors|Ошибки при работе со строками|
 |CWE-134|Use of Externally-Controlled Format String|Использование форматной строки, контролируемой извне|
 |CWE-135|Incorrect Calculation of Multi-Byte String Length|Некорректный расчет длины многобайтовых строк|
 |CWE-136|Type Errors|Ошибки, связанные с типами данных|
 |CWE-137|Representation Errors|Уязвимости, связанные с представлением|
 |CWE-138|Improper Neutralization of Special Elements|Некорректная нейтрализация специальных элементов|
-|CWE-139|DEPRECATED: General Special Element Problems|Не рекомендуется|
+|CWE-139|DEPRECATED: General Special Element Problems|НЕ РЕКОМЕНДУЕТСЯ|
 |CWE-140|Improper Neutralization of Delimiters|Некорректная нейтрализация разделителей|
 |CWE-141|Improper Neutralization of Parameter/Argument Delimiters|Некорректная нейтрализация разделителей параметров или аргументов|
 |CWE-142|Improper Neutralization of Value Delimiters|Некорректная нейтрализация разделителей значений|
@@ -216,15 +216,15 @@
 |CWE-214|Information Exposure Through Process Environment|Разглашение информации через окружение процесса|
 |CWE-215|Information Exposure Through Debug Information|Разглашение данных через отладочную информацию|
 |CWE-216|Containment Errors (Container Errors)|Ошибки включения данных, связанные с контейнером|
-|CWE-217|DEPRECATED: Failure to Protect Stored Data from Modification|Не рекомендуется|
-|CWE-218|DEPRECATED (Duplicate): Failure to provide confidentiality for stored data|Не рекомендуется|
+|CWE-217|DEPRECATED: Failure to Protect Stored Data from Modification|НЕ РЕКОМЕНДУЕТСЯ|
+|CWE-218|DEPRECATED (Duplicate): Failure to provide confidentiality for stored data|НЕ РЕКОМЕНДУЕТСЯ|
 |CWE-219|Sensitive Data Under Web Root|Хранение критичных данных в корневом веб-каталоге|
 |CWE-220|Sensitive Data Under FTP Root|Хранение критичных данных в корневом FTP-каталоге|
 |CWE-221|Information Loss or Omission|Отсутствие регистрации или потеря данных|
 |CWE-222|Truncation of Security-relevant Information|Усечение данных, относящихся к безопасности|
 |CWE-223|Omission of Security-relevant Information|Отсутствует регистрация или отображение данных, относящихся к безопасности|
 |CWE-224|Obscured Security-relevant Information by Alternate Name|Информация, относящаяся к безопасности, скрывается за альтернативными именами|
-|CWE-225|DEPRECATED (Duplicate): General Information Management Problems|Не рекомендуется|
+|CWE-225|DEPRECATED (Duplicate): General Information Management Problems|НЕ РЕКОМЕНДУЕТСЯ|
 |CWE-226|Sensitive Information Uncleared Before Release|Неполное удаление критичных данных после их использования|
 |CWE-227|Improper Fulfillment of API Contract ('API Abuse')|Некорректное выполнение соглашений API (Злоупотребление API)|
 |CWE-228|Improper Handling of Syntactically Invalid Structure|Некорректная обработка синтаксически неверных структур|
@@ -246,9 +246,9 @@
 |CWE-244|Improper Clearing of Heap Memory Before Release ('Heap Inspection')|Некорректная очистка динамической памяти перед ее освобождением (Ревизия динамической памяти)|
 |CWE-245|J2EE Bad Practices: Direct Management of Connections|Уязвимости J2EE: управление подключениями напрямую|
 |CWE-246|J2EE Bad Practices: Direct Use of Sockets|Уязвимости J2EE: использование сокетов напрямую|
-|CWE-247|DEPRECATED (Duplicate): Reliance on DNS Lookups in a Security Decision|Не рекомендуется|
+|CWE-247|DEPRECATED (Duplicate): Reliance on DNS Lookups in a Security Decision|НЕ РЕКОМЕНДУЕТСЯ|
 |CWE-248|Uncaught Exception|Необработанное исключение|
-|CWE-249|DEPRECATED: Often Misused: Path Manipulation|Не рекомендуется|
+|CWE-249|DEPRECATED: Often Misused: Path Manipulation|НЕ РЕКОМЕНДУЕТСЯ|
 |CWE-250|Execution with Unnecessary Privileges|Выполнение операций с избыточными привилегиями|
 |CWE-251|Often Misused: String Management|Некорректная работа со строками|
 |CWE-252|Unchecked Return Value|Отсутствует проверка возвращаемых значений|
@@ -291,7 +291,7 @@
 |CWE-289|Authentication Bypass by Alternate Name|Обход аутентификации, связанный с альтернативными именами|
 |CWE-290|Authentication Bypass by Spoofing|Обход аутентификации, связанный с подменой данных|
 |CWE-291|Reliance on IP Address for Authentication|Использование IP-адреса для аутентификации|
-|CWE-292|DEPRECATED (Duplicate): Trusting Self-reported DNS Name|Не рекомендуется|
+|CWE-292|DEPRECATED (Duplicate): Trusting Self-reported DNS Name|НЕ РЕКОМЕНДУЕТСЯ|
 |CWE-293|Using Referer Field for Authentication|Использование поля Referer для аутентификации|
 |CWE-294|Authentication Bypass by Capture-replay|Обход аутентификации при помощи перехвата и воспроизведения|
 |CWE-295|Improper Certificate Validation|Некорректная проверка сертификатов|
@@ -372,7 +372,7 @@
 |CWE-370|Missing Check for Certificate Revocation after Initial Check|Отсутствует проверка отзыва сертификата после первоначальной проверки|
 |CWE-371|State Issues|Уязвимости, связанные с состоянием|
 |CWE-372|Incomplete Internal State Distinction|Некорректное определение внутреннего состояния|
-|CWE-373|DEPRECATED: State Synchronization Error|Не рекомендуется|
+|CWE-373|DEPRECATED: State Synchronization Error|НЕ РЕКОМЕНДУЕТСЯ|
 |CWE-374|Passing Mutable Objects to an Untrusted Method|Передача изменяемых объектов недоверенному методу|
 |CWE-375|Returning a Mutable Object to an Untrusted Caller|Возврат изменяемого объекта недоверенному вызывающему клиенту|
 |CWE-376|Temporary File Issues|Уязвимости, связанные с временными файлами|
@@ -422,7 +422,7 @@
 |CWE-420|Unprotected Alternate Channel|Незащищенность резервного канала|
 |CWE-421|Race Condition During Access to Alternate Channel|Состояние гонки при доступе к резервному каналу|
 |CWE-422|Unprotected Windows Messaging Channel ('Shatter')|Незащищенный канал сообщений Windows (атака Shatter/Осколок)|
-|CWE-423|DEPRECATED (Duplicate): Proxied Trusted Channel|Не рекомендуется|
+|CWE-423|DEPRECATED (Duplicate): Proxied Trusted Channel|НЕ РЕКОМЕНДУЕТСЯ|
 |CWE-424|Improper Protection of Alternate Path|Недостаточная защита резервного пути|
 |CWE-425|Direct Request ('Forced Browsing')|Прямой запрос (Принудительный переход)|
 |CWE-426|Untrusted Search Path|Подмена пути исполнения|
@@ -431,22 +431,22 @@
 |CWE-429|Handler Errors|Уязвимости, связанные с обработчиками|
 |CWE-430|Deployment of Wrong Handler|Использование некорректного обработчика|
 |CWE-431|Missing Handler|Отсутствует обработчик|
-|CWE-432|Dangerous Signal Handler not Disabled During Sensitive Operations||
-|CWE-433|Unparsed Raw Web Content Delivery||
+|CWE-432|Dangerous Signal Handler not Disabled During Sensitive Operations|Отсутствие блокировки опасного обработчика сигналов при выполнении критичных операций|
+|CWE-433|Unparsed Raw Web Content Delivery|Передача необработанного веб-содержимого|
 |CWE-434|Unrestricted Upload of File with Dangerous Type|Отсутствие ограничений на загрузку файлов небезопасного типа|
 |CWE-435|Interaction Error|Ошибка взаимодействия|
 |CWE-436|Interpretation Conflict|Конфликт интерпретации|
-|CWE-437|Incomplete Model of Endpoint Features||
-|CWE-438|Behavioral Problems||
-|CWE-439|Behavioral Change in New Version or Environment||
+|CWE-437|Incomplete Model of Endpoint Features|Неполная модель функций конечной точки|
+|CWE-438|Behavioral Problems|Уязвимости, связанные с непредусмотренным поведением|
+|CWE-439|Behavioral Change in New Version or Environment|Изменение поведения в новой версии или ином окружении|
 |CWE-440|Expected Behavior Violation|Отклонения от ожидаемого поведения|
 |CWE-441|Unintended Proxy or Intermediary ('Confused Deputy')|Непредусмотренный прокси или посредник ("Подмена заместителя")|
 |CWE-442|Web Problems|Веб-проблемы|
-|CWE-443|DEPRECATED (Duplicate): HTTP response splitting|Не рекомендуется|
+|CWE-443|DEPRECATED (Duplicate): HTTP response splitting|НЕ РЕКОМЕНДУЕТСЯ (дублирование): Расщепление HTTP-ответов|
 |CWE-444|Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling')|Некорректная интерпретация HTTP-запросов (Несанкционированные HTTP-запросы)|
-|CWE-445|DEPRECATED: User Interface Errors|Не рекомендуется|
-|CWE-446|UI Discrepancy for Security Feature||
-|CWE-447|Unimplemented or Unsupported Feature in UI||
+|CWE-445|DEPRECATED: User Interface Errors|НЕ РЕКОМЕНДУЕТСЯ: Ошибки, связанные с интерфейсом пользователя|
+|CWE-446|UI Discrepancy for Security Feature|Некорректное отображение интерфейсом настроек безопасности|
+|CWE-447|Unimplemented or Unsupported Feature in UI|Нереализованная или неподдерживаемая функция в интерфейсе|
 |CWE-448|Obsolete Feature in UI|Устаревшая функция в интерфейсе пользователя|
 |CWE-449|The UI Performs the Wrong Action|Некорректная работа интерфейса|
 |CWE-450|Multiple Interpretations of UI Input|Наличие вариантов интерпретации входных данных интерфейсом|
@@ -457,13 +457,13 @@
 |CWE-455|Non-exit on Failed Initialization||
 |CWE-456|Missing Initialization of a Variable|Отсутствует инициализация переменной|
 |CWE-457|Use of Uninitialized Variable|Использование неинициализированной переменной|
-|CWE-458|DEPRECATED: Incorrect Initialization|Не рекомендуется|
+|CWE-458|DEPRECATED: Incorrect Initialization|НЕ РЕКОМЕНДУЕТСЯ|
 |CWE-459|Incomplete Cleanup|Неполная очистка|
 |CWE-460|Improper Cleanup on Thrown Exception||
-|CWE-461|Data Structure Issues||
-|CWE-462|Duplicate Key in Associative List (Alist)||
-|CWE-463|Deletion of Data Structure Sentinel||
-|CWE-464|Addition of Data Structure Sentinel||
+|CWE-461|Data Structure Issues|Уязвимости, связанные со структурой данных|
+|CWE-462|Duplicate Key in Associative List (Alist)|Дублирование ключей в ассоциативном списке (alist)|
+|CWE-463|Deletion of Data Structure Sentinel|Имеется возможность удаления сигнальной метки|
+|CWE-464|Addition of Data Structure Sentinel|Имеется возможность добавления сигнальной метки|
 |CWE-465|Pointer Issues|Уязвимости, связанные с указателями|
 |CWE-466|Return of Pointer Value Outside of Expected Range|Возвращение указателя за пределами ожидаемого диапазона|
 |CWE-467|Use of sizeof() on a Pointer Type||
@@ -502,9 +502,9 @@
 |CWE-500|Public Static Field Not Marked Final|Публичное (public) статическое (static) поле не помечено как final|
 |CWE-501|Trust Boundary Violation|Нарушение границ доверия|
 |CWE-502|Deserialization of Untrusted Data|Десериализация недоверенных данных|
-|CWE-503|Byte/Object Code|Не рекомендуется|
-|CWE-504|Motivation/Intent|Не рекомендуется|
-|CWE-505|Intentionally Introduced Weakness|Не рекомендуется|
+|CWE-503|Byte/Object Code|НЕ РЕКОМЕНДУЕТСЯ|
+|CWE-504|Motivation/Intent|НЕ РЕКОМЕНДУЕТСЯ|
+|CWE-505|Intentionally Introduced Weakness|НЕ РЕКОМЕНДУЕТСЯ|
 |CWE-506|Embedded Malicious Code|Внедренный вредоносный код|
 |CWE-507|Trojan Horse|Троянское ПО|
 |CWE-508|Non-Replicating Malicious Code|Нераспространяющийся вредоносный код|
@@ -512,12 +512,12 @@
 |CWE-510|Trapdoor|Скрытые средства несанкционированного доступа|
 |CWE-511|Logic/Time Bomb|Логическая или временная бомба|
 |CWE-512|Spyware|Шпионское ПО|
-|CWE-513|Intentionally Introduced Nonmalicious Weakness||
-|CWE-514|Covert Channel||
-|CWE-515|Covert Storage Channel||
-|CWE-516|DEPRECATED (Duplicate): Covert Timing Channel|Не рекомендуется|
-|CWE-517|Other Intentional, Nonmalicious Weakness||
-|CWE-518|Inadvertently Introduced Weakness||
+|CWE-513|Intentionally Introduced Nonmalicious Weakness|НЕ РЕКОМЕНДУЕТСЯ|
+|CWE-514|Covert Channel|Скрытый канал|
+|CWE-515|Covert Storage Channel|Скрытый канал хранения данных|
+|CWE-516|DEPRECATED (Duplicate): Covert Timing Channel|НЕ РЕКОМЕНДУЕТСЯ|
+|CWE-517|Other Intentional, Nonmalicious Weakness|НЕ РЕКОМЕНДУЕТСЯ|
+|CWE-518|Inadvertently Introduced Weakness|НЕ РЕКОМЕНДУЕТСЯ|
 |CWE-519|.NET Environment Issues|Уязвимости, связанные со средой .NET|
 |CWE-520|.NET Misconfiguration: Use of Impersonation|Ошибка в конфигурации .NET: использование олицетворения|
 |CWE-521|Weak Password Requirements|Недостаточно надежный пароль|
@@ -526,10 +526,10 @@
 |CWE-524|Information Exposure Through Caching|Разглашение информации, связанное с кэшированием|
 |CWE-525|Information Exposure Through Browser Caching|Разглашение информации, связанное с кэшированием в браузерах|
 |CWE-526|Information Exposure Through Environmental Variables|Разглашение информации, связанное с переменными среды|
-|CWE-527|Exposure of CVS Repository to an Unauthorized Control Sphere||
-|CWE-528|Exposure of Core Dump File to an Unauthorized Control Sphere||
-|CWE-529|Exposure of Access Control List Files to an Unauthorized Control Sphere||
-|CWE-530|Exposure of Backup File to an Unauthorized Control Sphere||
+|CWE-527|Exposure of CVS Repository to an Unauthorized Control Sphere|Возможность непредусмотренного доступа к CVS-репозиторию|
+|CWE-528|Exposure of Core Dump File to an Unauthorized Control Sphere|Возможность непредусмотренного доступа к дампу ядра|
+|CWE-529|Exposure of Access Control List Files to an Unauthorized Control Sphere|Возможность непредусмотренного доступа к спискам контроля доступа|
+|CWE-530|Exposure of Backup File to an Unauthorized Control Sphere|Возможность непредусмотренного доступа к резервным копиям|
 |CWE-531|Information Exposure Through Test Code|Разглашение информации, связанное с тестовыми программами|
 |CWE-532|Information Exposure Through Log Files|Разглашение информации, связанное с файлами журналов|
 |CWE-533|Information Exposure Through Server Log Files|Разглашение информации, связанное с файлами журналов серверов|
@@ -544,21 +544,21 @@
 |CWE-542|Information Exposure Through Cleanup Log Files|Разглашение информации, связанное с файлами журналов очистки|
 |CWE-543|Use of Singleton Pattern Without Synchronization in a Multithreaded Context|Использование шаблона "Одиночка" без синхронизации в многопоточном контексте|
 |CWE-544|Missing Standardized Error Handling Mechanism|Отсутствует стандартизированный механизм обработки ошибок|
-|CWE-545|DEPRECATED: Use of Dynamic Class Loading|Не рекомендуется|
+|CWE-545|DEPRECATED: Use of Dynamic Class Loading|НЕ РЕКОМЕНДУЕТСЯ|
 |CWE-546|Suspicious Comment|Уязвимости, связанные с комментариями|
 |CWE-547|Use of Hard-coded, Security-relevant Constants|Уязвимости, связанные с жестко закодированными постоянными|
 |CWE-548|Information Exposure Through Directory Listing|Разглашение информации, связанное с выводом файлов в каталогах|
 |CWE-549|Missing Password Field Masking|Отображение символов пароля при вводе|
-|CWE-550|Information Exposure Through Server Error Message||
+|CWE-550|Information Exposure Through Server Error Message|Разглашение информации в сообщении об ошибке сервера|
 |CWE-551|Incorrect Behavior Order: Authorization Before Parsing and Canonicalization||
 |CWE-552|Files or Directories Accessible to External Parties||
 |CWE-553|Command Shell in Externally Accessible Directory||
 |CWE-554|ASP.NET Misconfiguration: Not Using Input Validation Framework||
 |CWE-555|J2EE Misconfiguration: Plaintext Password in Configuration File||
 |CWE-556|ASP.NET Misconfiguration: Use of Identity Impersonation||
-|CWE-557|Concurrency Issues||
-|CWE-558|Use of getlogin() in Multithreaded Application||
-|CWE-559|Often Misused: Arguments and Parameters||
+|CWE-557|Concurrency Issues|Уязвимости, связанные с одновременным использованием ресурсов|
+|CWE-558|Use of getlogin() in Multithreaded Application|Использование getlogin() в многопоточном приложении|
+|CWE-559|Often Misused: Arguments and Parameters|Некорректное использование аргументов или параметров|
 |CWE-560|Use of umask() with chmod-style Argument|Использование umask() с chmod-подобным аргументом|
 |CWE-561|Dead Code|Неиспользуемый код|
 |CWE-562|Return of Stack Variable Address|Возвращение адреса переменной стека|
@@ -567,54 +567,54 @@
 |CWE-565|Reliance on Cookies without Validation and Integrity Checking||
 |CWE-566|Authorization Bypass Through User-Controlled SQL Primary Key||
 |CWE-567|Unsynchronized Access to Shared Data in a Multithreaded Context||
-|CWE-568|finalize() Method Without super.finalize()||
-|CWE-569|Expression Issues||
-|CWE-570|Expression is Always False||
-|CWE-571|Expression is Always True||
-|CWE-572|Call to Thread run() instead of start()||
+|CWE-568|finalize() Method Without super.finalize()|Метод finalize() не использует super.finalize()|
+|CWE-569|Expression Issues|Уязвимости, связанные с некорректно написанными выражениями|
+|CWE-570|Expression is Always False|Выражение всегда "ложно"|
+|CWE-571|Expression is Always True|Выражение всегда "истинно"|
+|CWE-572|Call to Thread run() instead of start()|Вызов метода run() вместо start()|
 |CWE-573|Improper Following of Specification by Caller||
-|CWE-574|EJB Bad Practices: Use of Synchronization Primitives||
-|CWE-575|EJB Bad Practices: Use of AWT Swing||
-|CWE-576|EJB Bad Practices: Use of Java I/O||
-|CWE-577|EJB Bad Practices: Use of Sockets||
-|CWE-578|EJB Bad Practices: Use of Class Loader||
-|CWE-579|J2EE Bad Practices: Non-serializable Object Stored in Session||
-|CWE-580|clone() Method Without super.clone()||
+|CWE-574|EJB Bad Practices: Use of Synchronization Primitives|Уязвимости EJB: использование примитивов синхронизации|
+|CWE-575|EJB Bad Practices: Use of AWT Swing|Уязвимости EJB: использование AWT/Swing|
+|CWE-576|EJB Bad Practices: Use of Java I/O|Уязвимости EJB: использование Java I/O|
+|CWE-577|EJB Bad Practices: Use of Sockets|Уязвимости EJB: использование сокетов|
+|CWE-578|EJB Bad Practices: Use of Class Loader|Уязвимости EJB: использование загрузчика классов|
+|CWE-579|J2EE Bad Practices: Non-serializable Object Stored in Session|Уязвимости J2EE: хранение несериализуемых объектов в сессии|
+|CWE-580|clone() Method Without super.clone()|Метод clone() не использует super.clone()|
 |CWE-581|Object Model Violation: Just One of Equals and Hashcode Defined||
 |CWE-582|Array Declared Public, Final, and Static||
-|CWE-583|finalize() Method Declared Public||
+|CWE-583|finalize() Method Declared Public|Открытый доступ к методу finalize()|
 |CWE-584|Return Inside Finally Block||
-|CWE-585|Empty Synchronized Block||
-|CWE-586|Explicit Call to Finalize()||
-|CWE-587|Assignment of a Fixed Address to a Pointer||
+|CWE-585|Empty Synchronized Block|Пустой синхронизированный блок|
+|CWE-586|Explicit Call to Finalize()|Явный вызов метода finalize()|
+|CWE-587|Assignment of a Fixed Address to a Pointer|Назначение указателю фиксированного адреса|
 |CWE-588|Attempt to Access Child of a Non-structure Pointer||
 |CWE-589|Call to Non-ubiquitous API||
 |CWE-590|Free of Memory not on the Heap||
-|CWE-591|Sensitive Data Storage in Improperly Locked Memory||
-|CWE-592|DEPRECATED: Authentication Bypass Issues|Не рекомендуется|
-|CWE-593|Authentication Bypass: OpenSSL CTX Object Modified after SSL Objects are Created||
-|CWE-594|J2EE Framework: Saving Unserializable Objects to Disk||
-|CWE-595|Comparison of Object References Instead of Object Contents||
-|CWE-596|Incorrect Semantic Object Comparison||
-|CWE-597|Use of Wrong Operator in String Comparison||
-|CWE-598|Information Exposure Through Query Strings in GET Request||
+|CWE-591|Sensitive Data Storage in Improperly Locked Memory|Хранение важных данных в некорректно заблокированной памяти|
+|CWE-592|DEPRECATED: Authentication Bypass Issues|НЕ РЕКОМЕНДУЕТСЯ: Уязвимости, связанные с обходом аутентификации|
+|CWE-593|Authentication Bypass: OpenSSL CTX Object Modified after SSL Objects are Created|Обход аутентификации: изменение объекта OpenSSL CTX после создания SSL-объектов|
+|CWE-594|J2EE Framework: Saving Unserializable Objects to Disk|Фреймворк J2EE: сохранение несериализуемых объектов на диск|
+|CWE-595|Comparison of Object References Instead of Object Contents|Сравнение ссылок на объекты вместо содержимого объектов|
+|CWE-596|Incorrect Semantic Object Comparison|НЕ РЕКОМЕНДУЕТСЯ: Некорректное сравнение семантических объектов|
+|CWE-597|Use of Wrong Operator in String Comparison|Использование некорректного оператора при сравнении строк|
+|CWE-598|Information Exposure Through Query Strings in GET Request|Разглашение информации через GET-запросы|
 |CWE-599|Missing Validation of OpenSSL Certificate|Отсутствует проверка сертификатов OpenSSL|
 |CWE-600|Uncaught Exception in Servlet |Необработанные исключения в сервлете|
 |CWE-601|URL Redirection to Untrusted Site ('Open Redirect')|Перенаправление на небезопасный сайт ("Открытая переадресация")|
-|CWE-602|Client-Side Enforcement of Server-Side Security||
+|CWE-602|Client-Side Enforcement of Server-Side Security|Обеспечение безопасности сервера на стороне клиента|
 |CWE-603|Use of Client-Side Authentication|Использование аутентификации на стороне пользователя|
-|CWE-604|Deprecated Entries||
-|CWE-605|Multiple Binds to the Same Port||
+|CWE-604|Deprecated Entries|Не рекомендуемые к использованию определения|
+|CWE-605|Multiple Binds to the Same Port|Множественные привязки к одному порту|
 |CWE-606|Unchecked Input for Loop Condition||
 |CWE-607|Public Static Final Field References Mutable Object||
 |CWE-608|Struts: Non-private Field in ActionForm Class||
-|CWE-609|Double-Checked Locking||
+|CWE-609|Double-Checked Locking|Блокировка с двойной проверкой|
 |CWE-610|Externally Controlled Reference to a Resource in Another Sphere||
 |CWE-611|Improper Restriction of XML External Entity Reference ('XXE')|Некорректное ограничение ссылок на внешние сущности XML|
 |CWE-612|Information Exposure Through Indexing of Private Data||
-|CWE-613|Insufficient Session Expiration||
-|CWE-614|Sensitive Cookie in HTTPS Session Without 'Secure' Attribute||
-|CWE-615|Information Exposure Through Comments||
+|CWE-613|Insufficient Session Expiration|Некорректно настроенный срок действия сессий|
+|CWE-614|Sensitive Cookie in HTTPS Session Without 'Secure' Attribute|Отсутствие в HTTPS-сессиях атрибута Secure у конфиденциальных куки-файлов|
+|CWE-615|Information Exposure Through Comments|Разглашение информации в комментариях|
 |CWE-616|Incomplete Identification of Uploaded File Variables (PHP)||
 |CWE-617|Reachable Assertion||
 |CWE-618|Exposed Unsafe ActiveX Method||
@@ -663,18 +663,18 @@
 |CWE-661|Weaknesses in Software Written in PHP|Уязвимости в ПО, написанном на PHP|
 |CWE-662|Improper Synchronization|Некорректная синхронизация|
 |CWE-663|Use of a Non-reentrant Function in a Concurrent Context||
-|CWE-664|Improper Control of a Resource Through its Lifetime||
+|CWE-664|Improper Control of a Resource Through its Lifetime|Некорректное обращение с ресурсом на протяжении его жизненного цикла|
 |CWE-665|Improper Initialization|Некорректная инициализация|
 |CWE-666|Operation on Resource in Wrong Phase of Lifetime|Операции с ресурсами, выполняемые на некорректном этапе их жизненного цикла|
 |CWE-667|Improper Locking|Некорректная блокировка|
-|CWE-668|Exposure of Resource to Wrong Sphere||
+|CWE-668|Exposure of Resource to Wrong Sphere|Возможность несанкционированного доступа к ресурсу|
 |CWE-669|Incorrect Resource Transfer Between Spheres||
 |CWE-670|Always-Incorrect Control Flow Implementation||
 |CWE-671|Lack of Administrator Control over Security|Недоступность контроля над безопасностью для администратора|
 |CWE-672|Operation on a Resource after Expiration or Release||
 |CWE-673|External Influence of Sphere Definition||
 |CWE-674|Uncontrolled Recursion|Неконтролируемая рекурсия|
-|CWE-675|Duplicate Operations on Resource||
+|CWE-675|Duplicate Operations on Resource|Повторные операции с ресурсом|
 |CWE-676|Use of Potentially Dangerous Function|Использование потенциально опасной функции|
 |CWE-677|Weakness Base Elements||
 |CWE-678|Composites||
@@ -695,7 +695,7 @@
 |CWE-693|Protection Mechanism Failure|Некорректное использование защитных механизмов|
 |CWE-694|Use of Multiple Resources with Duplicate Identifier||
 |CWE-695|Use of Low-Level Functionality||
-|CWE-696|Incorrect Behavior Order||
+|CWE-696|Incorrect Behavior Order|Некорректный порядок работы|
 |CWE-697|Insufficient Comparison||
 |CWE-698|Execution After Redirect (EAR)||
 |CWE-699|Development Concepts|Уязвимости, связанные с разработкой ПО|
@@ -731,23 +731,23 @@
 |CWE-729|OWASP Top Ten 2004 Category A8 - Insecure Storage|Топ-10 OWASP 2004 Категория А8 - Небезопасное хранение|
 |CWE-730|OWASP Top Ten 2004 Category A9 - Denial of Service|Топ-10 OWASP 2004 Категория А9 - Отказ в обслуживании|
 |CWE-731|OWASP Top Ten 2004 Category A10 - Insecure Configuration Management|Топ-10 OWASP 2004 Категория А10 - Небезопасные настройки конфигурации|
-|CWE-732|Incorrect Permission Assignment for Critical Resource||
-|CWE-733|Compiler Optimization Removal or Modification of Security-critical Code||
-|CWE-734|Weaknesses Addressed by the CERT C Secure Coding Standard||
-|CWE-735|CERT C Secure Coding Section 01 - Preprocessor (PRE)||
-|CWE-736|CERT C Secure Coding Section 02 - Declarations and Initialization (DCL)||
-|CWE-737|CERT C Secure Coding Section 03 - Expressions (EXP)||
-|CWE-738|CERT C Secure Coding Section 04 - Integers (INT)||
-|CWE-739|CERT C Secure Coding Section 05 - Floating Point (FLP)||
-|CWE-740|CERT C Secure Coding Section 06 - Arrays (ARR)||
-|CWE-741|CERT C Secure Coding Section 07 - Characters and Strings (STR)||
-|CWE-742|CERT C Secure Coding Section 08 - Memory Management (MEM)||
-|CWE-743|CERT C Secure Coding Section 09 - Input Output (FIO)||
-|CWE-744|CERT C Secure Coding Section 10 - Environment (ENV)||
-|CWE-745|CERT C Secure Coding Section 11 - Signals (SIG)||
-|CWE-746|CERT C Secure Coding Section 12 - Error Handling (ERR)||
-|CWE-747|CERT C Secure Coding Section 49 - Miscellaneous (MSC)||
-|CWE-748|CERT C Secure Coding Section 50 - POSIX (POS)||
+|CWE-732|Incorrect Permission Assignment for Critical Resource|Некорректные разрешения для критичных ресурсов|
+|CWE-733|Compiler Optimization Removal or Modification of Security-critical Code|Удаление или изменение обеспечивающего безопасность кода при оптимизации компилятором|
+|CWE-734|Weaknesses Addressed by the CERT C Secure Coding Standard|Уязвимости из стандарта CERT по безопасному программированию на Си|
+|CWE-735|CERT C Secure Coding Section 01 - Preprocessor (PRE)|CERT Безопасное программирование на Си, Раздел 01 — Препроцессор (PRE)|
+|CWE-736|CERT C Secure Coding Section 02 - Declarations and Initialization (DCL)|CERT Безопасное программирование на Си, Раздел 02 — Объявления и инициализация (DCL)|
+|CWE-737|CERT C Secure Coding Section 03 - Expressions (EXP)|CERT Безопасное программирование на Си, Раздел 03 — Выражения (EXP)|
+|CWE-738|CERT C Secure Coding Section 04 - Integers (INT)|CERT Безопасное программирование на Си, Раздел 04 — Целые числа (INT)|
+|CWE-739|CERT C Secure Coding Section 05 - Floating Point (FLP)|CERT Безопасное программирование на Си, Раздел 05 — Плавающая запятая (FLP)|
+|CWE-740|CERT C Secure Coding Section 06 - Arrays (ARR)|CERT Безопасное программирование на Си, Раздел 06 — Массивы (ARR)|
+|CWE-741|CERT C Secure Coding Section 07 - Characters and Strings (STR)|CERT Безопасное программирование на Cи, Раздел 07 — Символы и строки (STR)|
+|CWE-742|CERT C Secure Coding Section 08 - Memory Management (MEM)|CERT Безопасное программирование на Cи, Раздел 08 — Управление памятью (MEM)|
+|CWE-743|CERT C Secure Coding Section 09 - Input Output (FIO)|CERT Безопасное программирование на Си, Раздел 09 — Ввод-вывод (FIO)|
+|CWE-744|CERT C Secure Coding Section 10 - Environment (ENV)|CERT Безопасное программирование на Cи, Раздел 10 — Среда (ENV)|
+|CWE-745|CERT C Secure Coding Section 11 - Signals (SIG)|CERT Безопасное программирование на Си, Раздел 11 — Сигналы (SIG)|
+|CWE-746|CERT C Secure Coding Section 12 - Error Handling (ERR)|CERT Безопасное программирование на Си, Раздел 12 — Обработка ошибок (ERR)|
+|CWE-747|CERT C Secure Coding Section 49 - Miscellaneous (MSC)|CERT Безопасное программирование на Си, Раздел 49 — Прочее (MSC)|
+|CWE-748|CERT C Secure Coding Section 50 - POSIX (POS)|CERT Безопасное программирование на Си, Раздел 50 — POSIX (POS)|
 |CWE-749|Exposed Dangerous Method or Function|Доступны опасные методы или функции|
 |CWE-750|Weaknesses in the 2009 CWE/SANS Top 25 Most Dangerous Programming Errors|Уязвимости из Топ-25 самых опасных ошибок программирования по версии CWE/SANS 2009|
 |CWE-751|2009 Top 25 - Insecure Interaction Between Components|Топ-25 2009: Небезопасное взаимодействие между компонентами|
@@ -765,13 +765,13 @@
 |CWE-763|Release of Invalid Pointer or Reference||
 |CWE-764|Multiple Locks of a Critical Resource|Частая блокировка критичного ресурса|
 |CWE-765|Multiple Unlocks of a Critical Resource|Частая разблокировка критичного ресурса|
-|CWE-766|Critical Variable Declared Public||
-|CWE-767|Access to Critical Private Variable via Public Method||
+|CWE-766|Critical Variable Declared Public|Открытый доступ к критичной переменной|
+|CWE-767|Access to Critical Private Variable via Public Method|Доступ к скрытой критичной переменной при помощи общедоступного (открытого) метода|
 |CWE-768|Incorrect Short Circuit Evaluation||
-|CWE-769|File Descriptor Exhaustion||
+|CWE-769|File Descriptor Exhaustion|Неконтролируемое использование файловых дескрипторов|
 |CWE-770|Allocation of Resources Without Limits or Throttling||
 |CWE-771|Missing Reference to Active Allocated Resource||
-|CWE-772|Missing Release of Resource after Effective Lifetime||
+|CWE-772|Missing Release of Resource after Effective Lifetime|Удержание ресурса после его использования|
 |CWE-773|Missing Reference to Active File Descriptor or Handle||
 |CWE-774|Allocation of File Descriptors or Handles Without Limits or Throttling||
 |CWE-775|Missing Release of File Descriptor or Handle after Effective Lifetime||
@@ -899,7 +899,7 @@
 |CWE-897|SFP Primary Cluster: Entry Points||
 |CWE-898|SFP Primary Cluster: Authentication|Модели программных сбоев (первичный кластер): аутентификация|
 |CWE-899|SFP Primary Cluster: Access Control|Модели программных сбоев (первичный кластер): управление доступом|
-|CWE-900|Weaknesses in the 2011 CWE/SANS Top 25 Most Dangerous Software Errors||
+|CWE-900|Weaknesses in the 2011 CWE/SANS Top 25 Most Dangerous Software Errors|Уязвимости из Топ-25 самых опасных ошибок в программном обеспечении по версии CWE/SANS 2011|
 |CWE-901|SFP Primary Cluster: Privilege|Модели программных сбоев (первичный кластер): привилегии|
 |CWE-902|SFP Primary Cluster: Channel|Модели программных сбоев (первичный кластер): каналы|
 |CWE-903|SFP Primary Cluster: Cryptography|Модели программных сбоев (первичный кластер): криптография|
@@ -972,8 +972,8 @@
 |CWE-970|SFP Secondary Cluster: Faulty Buffer Access||
 |CWE-971|SFP Secondary Cluster: Faulty Pointer Use||
 |CWE-972|SFP Secondary Cluster: Faulty String Expansion||
-|CWE-973|SFP Secondary Cluster: Improper NULL Termination||
-|CWE-974|SFP Secondary Cluster: Incorrect Buffer Length Computation||
+|CWE-973|SFP Secondary Cluster: Improper NULL Termination|Модели программных сбоев (вторичный кластер): некорректное использование нулевых символов|
+|CWE-974|SFP Secondary Cluster: Incorrect Buffer Length Computation|Модели программных сбоев (вторичный кластер): некорректный расчет размера буфера|
 |CWE-975|SFP Secondary Cluster: Architecture|Модели программных сбоев (вторичный кластер): архитектура|
 |CWE-976|SFP Secondary Cluster: Compiler|Модели программных сбоев (вторичный кластер): компилятор|
 |CWE-977|SFP Secondary Cluster: Design|Модели программных сбоев (вторичный кластер): проектирование|
@@ -981,8 +981,8 @@
 |CWE-979|SFP Secondary Cluster: Failed Chroot Jail||
 |CWE-980|SFP Secondary Cluster: Link in Resource Name Resolution||
 |CWE-981|SFP Secondary Cluster: Path Traversal|Модели программных сбоев (вторичный кластер): подмена пути|
-|CWE-982|SFP Secondary Cluster: Failure to Release Resource||
-|CWE-983|SFP Secondary Cluster: Faulty Resource Use||
+|CWE-982|SFP Secondary Cluster: Failure to Release Resource|Модели программных сбоев (вторичный кластер): некорректное освобождение ресурсов|
+|CWE-983|SFP Secondary Cluster: Faulty Resource Use|Модели программных сбоев (вторичный кластер): некорректное использование ресурсов|
 |CWE-984|SFP Secondary Cluster: Life Cycle|Модели программных сбоев (вторичный кластер): жизненный цикл|
 |CWE-985|SFP Secondary Cluster: Unrestricted Consumption|Модели программных сбоев (вторичный кластер): неконтролируемое использование|
 |CWE-986|SFP Secondary Cluster: Missing Lock|Модели программных сбоев (вторичный кластер): отсутствует блокировка|
