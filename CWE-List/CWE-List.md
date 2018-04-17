@@ -751,8 +751,8 @@
 |CWE-749|Exposed Dangerous Method or Function|Доступны опасные методы или функции|
 |CWE-750|Weaknesses in the 2009 CWE/SANS Top 25 Most Dangerous Programming Errors|Уязвимости из Топ-25 самых опасных ошибок программирования по версии CWE/SANS 2009|
 |CWE-751|2009 Top 25 - Insecure Interaction Between Components|Топ-25 2009: Небезопасное взаимодействие между компонентами|
-|CWE-752|2009 Top 25 - Risky Resource Management||
-|CWE-753|2009 Top 25 - Porous Defenses||
+|CWE-752|2009 Top 25 - Risky Resource Management|Топ-25 2009: Небезопасное управление ресурсами|
+|CWE-753|2009 Top 25 - Porous Defenses|Топ-25 2009: Ненадежная защита|
 |CWE-754|Improper Check for Unusual or Exceptional Conditions||
 |CWE-755|Improper Handling of Exceptional Conditions||
 |CWE-756|Missing Custom Error Page|Отсутствует настроенная страница ошибки|
@@ -760,9 +760,9 @@
 |CWE-758|Reliance on Undefined, Unspecified, or Implementation-Defined Behavior||
 |CWE-759|Use of a One-Way Hash without a Salt|Использование односторонней хеш-функции без соли|
 |CWE-760|Use of a One-Way Hash with a Predictable Salt|Использование односторонней хеш-функции с предсказуемой солью|
-|CWE-761|Free of Pointer not at Start of Buffer||
-|CWE-762|Mismatched Memory Management Routines||
-|CWE-763|Release of Invalid Pointer or Reference||
+|CWE-761|Free of Pointer not at Start of Buffer|Освобождение указателя, находящегося не в начале буфера|
+|CWE-762|Mismatched Memory Management Routines|Нарушение правил работы с памятью|
+|CWE-763|Release of Invalid Pointer or Reference|Освобождение недопустимого указателя или ссылки|
 |CWE-764|Multiple Locks of a Critical Resource|Частая блокировка критичного ресурса|
 |CWE-765|Multiple Unlocks of a Critical Resource|Частая разблокировка критичного ресурса|
 |CWE-766|Critical Variable Declared Public|Открытый доступ к критичной переменной|
@@ -776,7 +776,7 @@
 |CWE-774|Allocation of File Descriptors or Handles Without Limits or Throttling||
 |CWE-775|Missing Release of File Descriptor or Handle after Effective Lifetime||
 |CWE-776|Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion')||
-|CWE-777|Regular Expression without Anchors||
+|CWE-777|Regular Expression without Anchors|Регулярные выражения без якорей|
 |CWE-778|Insufficient Logging|Некорректное журналирование|
 |CWE-779|Logging of Excessive Data|Избыточное журналирование|
 |CWE-780|Use of RSA Algorithm without OAEP|Использование алгоритма RSA без OAEP|
@@ -801,13 +801,13 @@
 |CWE-799|Improper Control of Interaction Frequency|Некорректное ограничение частоты взаимодействия|
 |CWE-800|Weaknesses in the 2010 CWE/SANS Top 25 Most Dangerous Programming Errors|Уязвимости из Топ-25 самых опасных ошибок программирования по версии CWE/SANS 2010|
 |CWE-801|2010 Top 25 - Insecure Interaction Between Components|Топ-25 2010: Небезопасное взаимодействие между компонентами|
-|CWE-802|2010 Top 25 - Risky Resource Management||
-|CWE-803|2010 Top 25 - Porous Defenses||
+|CWE-802|2010 Top 25 - Risky Resource Management|Топ-25 2010: Небезопасное управление ресурсами|
+|CWE-803|2010 Top 25 - Porous Defenses|Топ-25 2010: Ненадежная защита|
 |CWE-804|Guessable CAPTCHA|Легко решаемая задача CAPTCHA|
 |CWE-805|Buffer Access with Incorrect Length Value|Доступ к памяти за пределами буфера|
 |CWE-806|Buffer Access Using Size of Source Buffer||
 |CWE-807|Reliance on Untrusted Inputs in a Security Decision||
-|CWE-808|2010 Top 25 - Weaknesses On the Cusp||
+|CWE-808|2010 Top 25 - Weaknesses On the Cusp|Топ-25 2010: Уязвимости из списка кандидатов|
 |CWE-809|Weaknesses in OWASP Top Ten (2010)|Уязвимости из Топ-10 OWASP (2010 г.)|
 |CWE-810|OWASP Top Ten 2010 Category A1 - Injection|Топ-10 OWASP 2010 Категория А1 - Внедрение|
 |CWE-811|OWASP Top Ten 2010 Category A2 - Cross-Site Scripting (XSS)|Топ-10 OWASP 2010 Категория А2 - Межсайтовое выполнение сценариев (XSS)|
@@ -863,10 +863,10 @@
 |CWE-861|CERT Java Secure Coding Section 49 - Miscellaneous (MSC)|CERT Безопасное программирование на Java, Раздел 49 — Прочее (MSC)|
 |CWE-862|Missing Authorization|Отсутствие авторизации|
 |CWE-863|Incorrect Authorization|Некорректная авторизация|
-|CWE-864|2011 Top 25 - Insecure Interaction Between Components||
-|CWE-865|2011 Top 25 - Risky Resource Management||
-|CWE-866|2011 Top 25 - Porous Defenses||
-|CWE-867|2011 Top 25 - Weaknesses On the Cusp||
+|CWE-864|2011 Top 25 - Insecure Interaction Between Components|Топ-25 2011: Небезопасное взаимодействие между компонентами|
+|CWE-865|2011 Top 25 - Risky Resource Management|Топ-25 2011: Небезопасное управление ресурсами|
+|CWE-866|2011 Top 25 - Porous Defenses|Топ-25 2011: Ненадежная защита|
+|CWE-867|2011 Top 25 - Weaknesses On the Cusp|Топ-25 2011: Уязвимости из списка кандидатов|
 |CWE-868|Weaknesses Addressed by the CERT C++ Secure Coding Standard|Уязвимости из стандарта CERT по безопасному программированию на C++|
 |CWE-869|CERT C++ Secure Coding Section 01 - Preprocessor (PRE)|CERT Безопасное программирование на C++, Раздел 01 — Препроцессор (PRE)|
 |CWE-870|CERT C++ Secure Coding Section 02 - Declarations and Initialization (DCL)|CERT Безопасное программирование на C++, Раздел 02 — Объявления и инициализация (DCL)|
@@ -1005,4 +1005,38 @@
 |CWE-1003|Weaknesses for Simplified Mapping of Published Vulnerabilities|Упрощенная привязка опубликованных уязвимостей|
 |CWE-1004|Sensitive Cookie Without 'HttpOnly' Flag|Отсутствие флага HttpOnly у конфиденциальных куки-файлов|
 |CWE-1005|Input Validation and Representation|Отображение и проверка входных данных|
+|CWE-1006|Bad Coding Practices|Недостатки программирования|
+|CWE-1007|Insufficient Visual Distinction of Homoglyphs Presented to User|Недостаточно очевидные для пользователя визуальные отличия омоглифов|
+|CWE-1008|Architectural Concepts|Архитектурные принципы|
+|CWE-1009|Audit|Аудит|
+|CWE-1010|Authenticate Actors|Аутентификация|
+|CWE-1011|Authorize Actors|Авторизация|
+|CWE-1012|Cross Cutting|Сквозные уязвимости|
+|CWE-1013|Encrypt Data|Шифрование данных|
+|CWE-1014|Identify Actors|Управление идентификацией|
+|CWE-1015|Limit Access|Ограничение доступа|
+|CWE-1016|Limit Exposure|Ограничение количества точек входа|
+|CWE-1017|Lock Computer|Блокировка системы|
+|CWE-1018|Manage User Sessions|Управление сессиями пользователей|
+|CWE-1019|Validate Inputs|Проверка входных данных|
+|CWE-1020|Verify Message Integrity|Проверка целостности данных|
+|CWE-1021|Improper Restriction of Rendered UI Layers or Frames|Некорректное ограничение отображаемых фреймов или слоев интерфейса|
+|CWE-1022|Use of Web Link to Untrusted Target with window.opener Access|Веб-ссылки на недоверенные сайты с использованием window.opener|
+|CWE-1023|Incomplete Comparison with Missing Factors|Неполное сравнение, связанное с отсутствующими факторами|
+|CWE-1024|Comparison of Incompatible Types|Сравнение несовместимых типов|
+|CWE-1025|Comparison Using Wrong Factors|Сравнение некорректных факторов|
+|CWE-1026|Weaknesses in OWASP Top Ten (2017)|Уязвимости из Топ-10 OWASP (2017 г.)|
+|CWE-1027|OWASP Top Ten 2017 Category A1 - Injection|Топ-10 OWASP 2017 Категория А1 - Внедрение|
+|CWE-1028|OWASP Top Ten 2017 Category A2 - Broken Authentication|Топ-10 OWASP 2017 Категория А2 - Недостатки аутентификации|
+|CWE-1029|OWASP Top Ten 2017 Category A3 - Sensitive Data Exposure|Топ-10 OWASP 2017 Категория А3 - Разглашение конфиденциальных данных|
+|CWE-1030|OWASP Top Ten 2017 Category A4 - XML External Entities (XXE)|Топ-10 OWASP 2017 Категория А4 - Внешние сущности XML (XXE)|
+|CWE-1031|OWASP Top Ten 2017 Category A5 - Broken Access Control|Топ-10 OWASP 2017 Категория А5 - Недостатки контроля доступа|
+|CWE-1032|OWASP Top Ten 2017 Category A6 - Security Misconfiguration|Топ-10 OWASP 2017 Категория А6 - Некорректная настройка параметров безопасности|
+|CWE-1033|OWASP Top Ten 2017 Category A7 - Cross-Site Scripting (XSS)|Топ-10 OWASP 2017 Категория А7 - Межсайтовое выполнение сценариев (XSS)|
+|CWE-1034|OWASP Top Ten 2017 Category A8 - Insecure Deserialization|Топ-10 OWASP 2017 Категория А8 - Небезопасная десериализация|
+|CWE-1035|OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities|Топ-10 OWASP 2017 Категория А9 - Использование компонентов с известными уязвимостями|
+|CWE-1036|OWASP Top Ten 2017 Category A10 - Insufficient Logging & Monitoring|Топ-10 OWASP 2017 Категория А10 - Недостатки журналирования и мониторинга|
+|CWE-1037|Processor Optimization Removal or Modification of Security-critical Code|Удаление или изменение обеспечивающего безопасность кода при оптимизации процессором|
+|CWE-1038|Insecure Automated Optimizations|Небезопасная автоматическая оптимизация|
+|CWE-1039|Automated Recognition Mechanism with Inadequate Detection or Handling of Adversarial Input Perturbations|Некорректная работа автоматизированного механизма распознавания при определении или обработке входных данных, модифицированных злоумышленником|
 |CWE-2000|Comprehensive CWE Dictionary|Полный список CWE|
