@@ -326,7 +326,7 @@
 |CWE-324|Use of a Key Past its Expiration Date|Использование ключа после истечения срока его действия|
 |CWE-325|Missing Required Cryptographic Step|Пропущена часть криптографического алгоритма|
 |CWE-326|Inadequate Encryption Strength|Недостаточно надежное шифрование|
-|CWE-327|Use of a Broken or Risky Cryptographic Algorithm|Использование скомпромитированного или ненадежного криптографического алгоритма|
+|CWE-327|Use of a Broken or Risky Cryptographic Algorithm|Использование скомпрометированного или ненадежного криптографического алгоритма|
 |CWE-328|Reversible One-Way Hash|Обратимая односторонняя хеш-функция|
 |CWE-329|Not Using a Random IV with CBC Mode|Использование непроизвольного вектора инициализации для режима сцепления блоков шифротекста|
 |CWE-330|Use of Insufficiently Random Values|Использование недостаточно случайных значений|
@@ -453,20 +453,20 @@
 |CWE-451|User Interface (UI) Misrepresentation of Critical Information|Некорректное представление важной информации интерфейсом пользователя|
 |CWE-452|Initialization and Cleanup Errors|Ошибки очистки и инициализации|
 |CWE-453|Insecure Default Variable Initialization|Небезопасная инициализация переменной по умолчанию|
-|CWE-454|External Initialization of Trusted Variables or Data Stores||
-|CWE-455|Non-exit on Failed Initialization||
+|CWE-454|External Initialization of Trusted Variables or Data Stores|Инициализация доверенных переменных или хранилищ данных извне|
+|CWE-455|Non-exit on Failed Initialization|Продолжение работы после сбоя инициализации|
 |CWE-456|Missing Initialization of a Variable|Отсутствует инициализация переменной|
 |CWE-457|Use of Uninitialized Variable|Использование неинициализированной переменной|
-|CWE-458|DEPRECATED: Incorrect Initialization|НЕ РЕКОМЕНДУЕТСЯ|
+|CWE-458|DEPRECATED: Incorrect Initialization|НЕ РЕКОМЕНДУЕТСЯ: Некорректная инициализация|
 |CWE-459|Incomplete Cleanup|Неполная очистка|
-|CWE-460|Improper Cleanup on Thrown Exception||
+|CWE-460|Improper Cleanup on Thrown Exception|Некорректная очистка при возникновении исключения|
 |CWE-461|Data Structure Issues|Уязвимости, связанные со структурой данных|
 |CWE-462|Duplicate Key in Associative List (Alist)|Дублирование ключей в ассоциативном списке (alist)|
 |CWE-463|Deletion of Data Structure Sentinel|Имеется возможность удаления сигнальной метки|
 |CWE-464|Addition of Data Structure Sentinel|Имеется возможность добавления сигнальной метки|
 |CWE-465|Pointer Issues|Уязвимости, связанные с указателями|
 |CWE-466|Return of Pointer Value Outside of Expected Range|Возвращение указателя за пределами ожидаемого диапазона|
-|CWE-467|Use of sizeof() on a Pointer Type||
+|CWE-467|Use of sizeof() on a Pointer Type|Использование sizeof() для типа указателя|
 |CWE-468|Incorrect Pointer Scaling||
 |CWE-469|Use of Pointer Subtraction to Determine Size||
 |CWE-470|Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection')||
@@ -839,9 +839,9 @@
 |CWE-837|Improper Enforcement of a Single, Unique Action||
 |CWE-838|Inappropriate Encoding for Output Context||
 |CWE-839|Numeric Range Comparison Without Minimum Check||
-|CWE-840|Business Logic Errors||
-|CWE-841|Improper Enforcement of Behavioral Workflow||
-|CWE-842|Placement of User into Incorrect Group||
+|CWE-840|Business Logic Errors|Ошибки в бизнес-логике|
+|CWE-841|Improper Enforcement of Behavioral Workflow|Некорректный контроль за последовательностью выполняемых действий|
+|CWE-842|Placement of User into Incorrect Group|Некорректное включение пользователя в группу|
 |CWE-843|Access of Resource Using Incompatible Type ('Type Confusion')|Доступ к ресурсам с использованием несовместимых типов (Смешение типов)|
 |CWE-844|Weaknesses Addressed by the CERT Java Secure Coding Standard|Уязвимости из стандарта CERT по безопасному программированию на Java|
 |CWE-845|CERT Java Secure Coding Section 00 - Input Validation and Data Sanitization (IDS)|CERT Безопасное программирование на Java, Раздел 00 — Проверка и очистка входных данных (IDS)|
@@ -883,20 +883,20 @@
 |CWE-881|CERT C++ Secure Coding Section 13 - Object Oriented Programming (OOP)|CERT Безопасное программирование на C++, Раздел 13 — Объектно-ориентированное программирование (OOP)|
 |CWE-882|CERT C++ Secure Coding Section 14 - Concurrency (CON)|CERT Безопасное программирование на C++, Раздел 14 — Параллелизм (CON)|
 |CWE-883|CERT C++ Secure Coding Section 49 - Miscellaneous (MSC)|CERT Безопасное программирование на C++, Раздел 49 — Прочее (MSC)|
-|CWE-884|CWE Cross-section||
+|CWE-884|CWE Cross-section|Сводная таблица CWE|
 |CWE-885|SFP Primary Cluster: Risky Values|Модели программных сбоев (первичный кластер): небезопасные значения|
 |CWE-886|SFP Primary Cluster: Unused entities|Модели программных сбоев (первичный кластер): неиспользуемые сущности|
 |CWE-887|SFP Primary Cluster: API|Модели программных сбоев (первичный кластер): API|
 |CWE-888|Software Fault Pattern (SFP) Clusters|Кластеры моделей программных сбоев|
-|CWE-889|SFP Primary Cluster: Exception Management||
-|CWE-890|SFP Primary Cluster: Memory Access||
-|CWE-891|SFP Primary Cluster: Memory Management||
-|CWE-892|SFP Primary Cluster: Resource Management||
-|CWE-893|SFP Primary Cluster: Path Resolution||
+|CWE-889|SFP Primary Cluster: Exception Management|Модели программных сбоев (первичный кластер): управление исключениями|
+|CWE-890|SFP Primary Cluster: Memory Access|Модели программных сбоев (первичный кластер): доступ к памяти|
+|CWE-891|SFP Primary Cluster: Memory Management|Модели программных сбоев (первичный кластер): управление памятью|
+|CWE-892|SFP Primary Cluster: Resource Management|Модели программных сбоев (первичный кластер): управление ресурсами|
+|CWE-893|SFP Primary Cluster: Path Resolution|Модели программных сбоев (первичный кластер): разрешение пути|
 |CWE-894|SFP Primary Cluster: Synchronization|Модели программных сбоев (первичный кластер): синхронизация|
 |CWE-895|SFP Primary Cluster: Information Leak|Модели программных сбоев (первичный кластер): утечка данных|
-|CWE-896|SFP Primary Cluster: Tainted Input||
-|CWE-897|SFP Primary Cluster: Entry Points||
+|CWE-896|SFP Primary Cluster: Tainted Input|Модели программных сбоев (первичный кластер): подмена входных данных|
+|CWE-897|SFP Primary Cluster: Entry Points|Модели программных сбоев (первичный кластер): точки входа|
 |CWE-898|SFP Primary Cluster: Authentication|Модели программных сбоев (первичный кластер): аутентификация|
 |CWE-899|SFP Primary Cluster: Access Control|Модели программных сбоев (первичный кластер): управление доступом|
 |CWE-900|Weaknesses in the 2011 CWE/SANS Top 25 Most Dangerous Software Errors|Уязвимости из Топ-25 самых опасных ошибок в программном обеспечении по версии CWE/SANS 2011|
@@ -912,15 +912,15 @@
 |CWE-910|Use of Expired File Descriptor|Использование недействительного файлового дескриптора|
 |CWE-911|Improper Update of Reference Count|Некорректное обновление данных счетчика ссылок|
 |CWE-912|Hidden Functionality|Скрытые функции|
-|CWE-913|Improper Control of Dynamically-Managed Code Resources||
-|CWE-914|Improper Control of Dynamically-Identified Variables||
-|CWE-915|Improperly Controlled Modification of Dynamically-Determined Object Attributes||
-|CWE-916|Use of Password Hash With Insufficient Computational Effort||
-|CWE-917|Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection')||
+|CWE-913|Improper Control of Dynamically-Managed Code Resources|Некорректное управление динамически изменяемыми программными ресурсами|
+|CWE-914|Improper Control of Dynamically-Identified Variables|Некорректное управление динамически задаваемыми переменными|
+|CWE-915|Improperly Controlled Modification of Dynamically-Determined Object Attributes|Некорректный контроль над изменением динамически определяемых атрибутов объектов|
+|CWE-916|Use of Password Hash With Insufficient Computational Effort|Создание недостаточно сложных хеш-сумм паролей|
+|CWE-917|Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection')|Некорректная нейтрализация специальных элементов, используемых в утверждениях языка выражений (Внедрение кода языка выражений)|
 |CWE-918|Server-Side Request Forgery (SSRF)|Подмена запросов на стороне сервера|
-|CWE-919|Weaknesses in Mobile Applications||
+|CWE-919|Weaknesses in Mobile Applications|Уязвимости в мобильных приложениях|
 |CWE-920|Improper Restriction of Power Consumption|Некорректное ограничение потребляемой мощности|
-|CWE-921|Storage of Sensitive Data in a Mechanism without Access Control||
+|CWE-921|Storage of Sensitive Data in a Mechanism without Access Control|Хранение важных данных без обеспечения контроля доступа|
 |CWE-922|Insecure Storage of Sensitive Information|Небезопасное хранение критичных данных|
 |CWE-923|Improper Restriction of Communication Channel to Intended Endpoints||
 |CWE-924|Improper Enforcement of Message Integrity During Transmission in a Communication Channel||
@@ -948,17 +948,17 @@
 |CWE-946|SFP Secondary Cluster: Insecure Resource Permissions|Модели программных сбоев (вторичный кластер): небезопасные разрешения для ресурсов|
 |CWE-947|SFP Secondary Cluster: Authentication Bypass|Модели программных сбоев (вторичный кластер): обход аутентификации|
 |CWE-948|SFP Secondary Cluster: Digital Certificate|Модели программных сбоев (вторичный кластер): цифровой сертификат|
-|CWE-949|SFP Secondary Cluster: Faulty Endpoint Authentication||
-|CWE-950|SFP Secondary Cluster: Hardcoded Sensitive Data||
-|CWE-951|SFP Secondary Cluster: Insecure Authentication Policy||
-|CWE-952|SFP Secondary Cluster: Missing Authentication||
-|CWE-953|SFP Secondary Cluster: Missing Endpoint Authentication||
-|CWE-954|SFP Secondary Cluster: Multiple Binds to the Same Port||
-|CWE-955|SFP Secondary Cluster: Unrestricted Authentication||
-|CWE-956|SFP Secondary Cluster: Channel Attack||
-|CWE-957|SFP Secondary Cluster: Protocol Error||
-|CWE-958|SFP Secondary Cluster: Broken Cryptography||
-|CWE-959|SFP Secondary Cluster: Weak Cryptography||
+|CWE-949|SFP Secondary Cluster: Faulty Endpoint Authentication|Модели программных сбоев (вторичный кластер): некорректная аутентификация конечной точки|
+|CWE-950|SFP Secondary Cluster: Hardcoded Sensitive Data|Модели программных сбоев (вторичный кластер): жестко закодированные критичные данные|
+|CWE-951|SFP Secondary Cluster: Insecure Authentication Policy|Модели программных сбоев (вторичный кластер): небезопасная политика аутентификации|
+|CWE-952|SFP Secondary Cluster: Missing Authentication|Модели программных сбоев (вторичный кластер): отсутствует аутентификация|
+|CWE-953|SFP Secondary Cluster: Missing Endpoint Authentication|Модели программных сбоев (вторичный кластер): отсутствует аутентификация конечной точки|
+|CWE-954|SFP Secondary Cluster: Multiple Binds to the Same Port|Модели программных сбоев (вторичный кластер): множественные привязки к одному порту|
+|CWE-955|SFP Secondary Cluster: Unrestricted Authentication|Модели программных сбоев (вторичный кластер): аутентификация без ограничений|
+|CWE-956|SFP Secondary Cluster: Channel Attack|Модели программных сбоев (вторичный кластер): атака по каналам|
+|CWE-957|SFP Secondary Cluster: Protocol Error|Модели программных сбоев (вторичный кластер): ошибки в протоколе|
+|CWE-958|SFP Secondary Cluster: Broken Cryptography|Модели программных сбоев (вторичный кластер): скомпрометированный криптографический алгоритм|
+|CWE-959|SFP Secondary Cluster: Weak Cryptography|Модели программных сбоев (вторичный кластер): ненадежный криптографический алгоритм|
 |CWE-960|SFP Secondary Cluster: Ambiguous Exception Type||
 |CWE-961|SFP Secondary Cluster: Incorrect Exception Behavior||
 |CWE-962|SFP Secondary Cluster: Unchecked Status Condition||
@@ -978,8 +978,8 @@
 |CWE-976|SFP Secondary Cluster: Compiler|Модели программных сбоев (вторичный кластер): компилятор|
 |CWE-977|SFP Secondary Cluster: Design|Модели программных сбоев (вторичный кластер): проектирование|
 |CWE-978|SFP Secondary Cluster: Implementation|Модели программных сбоев (вторичный кластер): реализация|
-|CWE-979|SFP Secondary Cluster: Failed Chroot Jail||
-|CWE-980|SFP Secondary Cluster: Link in Resource Name Resolution||
+|CWE-979|SFP Secondary Cluster: Failed Chroot Jail|Модели программных сбоев (вторичный кластер): неудачная реализация chroot jail|
+|CWE-980|SFP Secondary Cluster: Link in Resource Name Resolution|Модели программных сбоев (вторичный кластер): ссылка в разрешении имен ресурсов|
 |CWE-981|SFP Secondary Cluster: Path Traversal|Модели программных сбоев (вторичный кластер): подмена пути|
 |CWE-982|SFP Secondary Cluster: Failure to Release Resource|Модели программных сбоев (вторичный кластер): некорректное освобождение ресурсов|
 |CWE-983|SFP Secondary Cluster: Faulty Resource Use|Модели программных сбоев (вторичный кластер): некорректное использование ресурсов|
@@ -989,11 +989,11 @@
 |CWE-987|SFP Secondary Cluster: Multiple Locks/Unlocks|Модели программных сбоев (вторичный кластер): частые блокировки/разблокировки|
 |CWE-988|SFP Secondary Cluster: Race Condition Window|Модели программных сбоев (вторичный кластер): состояние гонки|
 |CWE-989|SFP Secondary Cluster: Unrestricted Lock|Модели программных сбоев (вторичный кластер): неконтролируемая блокировка|
-|CWE-990|SFP Secondary Cluster: Tainted Input to Command||
-|CWE-991|SFP Secondary Cluster: Tainted Input to Environment||
-|CWE-992|SFP Secondary Cluster: Faulty Input Transformation||
-|CWE-993|SFP Secondary Cluster: Incorrect Input Handling||
-|CWE-994|SFP Secondary Cluster: Tainted Input to Variable||
+|CWE-990|SFP Secondary Cluster: Tainted Input to Command|Модели программных сбоев (вторичный кластер): подмена данных для команды|
+|CWE-991|SFP Secondary Cluster: Tainted Input to Environment|Модели программных сбоев (вторичный кластер): подмена данных для среды|
+|CWE-992|SFP Secondary Cluster: Faulty Input Transformation|Модели программных сбоев (вторичный кластер): некорректное преобразование входных данных|
+|CWE-993|SFP Secondary Cluster: Incorrect Input Handling|Модели программных сбоев (вторичный кластер): некорректная обработка входных данных|
+|CWE-994|SFP Secondary Cluster: Tainted Input to Variable|Модели программных сбоев (вторичный кластер): подмена данных для переменной|
 |CWE-995|SFP Secondary Cluster: Feature|Модели программных сбоев (вторичный кластер): функциональность|
 |CWE-996|SFP Secondary Cluster: Security|Модели программных сбоев (вторичный кластер): безопасность|
 |CWE-997|SFP Secondary Cluster: Information Loss|Модели программных сбоев (вторичный кластер): потеря данных|
