@@ -595,7 +595,7 @@
 |CWE-593|Authentication Bypass: OpenSSL CTX Object Modified after SSL Objects are Created|Обход аутентификации: изменение объекта OpenSSL CTX после создания SSL-объектов|
 |CWE-594|J2EE Framework: Saving Unserializable Objects to Disk|Фреймворк J2EE: сохранение несериализуемых объектов на диск|
 |CWE-595|Comparison of Object References Instead of Object Contents|Сравнение ссылок на объекты вместо содержимого объектов|
-|CWE-596|Incorrect Semantic Object Comparison|НЕ РЕКОМЕНДУЕТСЯ: Некорректное сравнение семантических объектов|
+|CWE-596|DEPRECATED: Incorrect Semantic Object Comparison|НЕ РЕКОМЕНДУЕТСЯ: Некорректное сравнение семантических объектов|
 |CWE-597|Use of Wrong Operator in String Comparison|Использование некорректного оператора при сравнении строк|
 |CWE-598|Information Exposure Through Query Strings in GET Request|Разглашение информации через GET-запросы|
 |CWE-599|Missing Validation of OpenSSL Certificate|Отсутствует проверка сертификатов OpenSSL|
@@ -617,16 +617,16 @@
 |CWE-615|Information Exposure Through Comments|Разглашение информации в комментариях|
 |CWE-616|Incomplete Identification of Uploaded File Variables (PHP)||
 |CWE-617|Reachable Assertion||
-|CWE-618|Exposed Unsafe ActiveX Method||
+|CWE-618|Exposed Unsafe ActiveX Method|Доступность небезопасного метода ActiveX|
 |CWE-619|Dangling Database Cursor ('Cursor Injection')|Подвисший курсор базы данных (Внедрение курсора)|
 |CWE-620|Unverified Password Change|Смена пароля без подтверждения|
-|CWE-621|Variable Extraction Error||
+|CWE-621|Variable Extraction Error|Ошибка извлечения переменной|
 |CWE-622|Improper Validation of Function Hook Arguments||
 |CWE-623|Unsafe ActiveX Control Marked Safe For Scripting||
-|CWE-624|Executable Regular Expression Error||
-|CWE-625|Permissive Regular Expression||
-|CWE-626|Null Byte Interaction Error (Poison Null Byte)||
-|CWE-627|Dynamic Variable Evaluation||
+|CWE-624|Executable Regular Expression Error|Исполняемые регулярные выражения|
+|CWE-625|Permissive Regular Expression|Некорректное ограничение регулярных выражений|
+|CWE-626|Null Byte Interaction Error (Poison Null Byte)|Некорректная обработка нулевых байтов (Вредоносные нулевые байты)|
+|CWE-627|Dynamic Variable Evaluation|Уязвимости, связанные с динамическими переменными|
 |CWE-628|Function Call with Incorrectly Specified Arguments|Вызов функции, используя некорректно заданные аргументы|
 |CWE-629|Weaknesses in OWASP Top Ten (2007)|Уязвимости из Топ-10 OWASP (2007 г.)|
 |CWE-630|DEPRECATED: Weaknesses Examined by SAMATE|НЕ РЕКОМЕНДУЕТСЯ: Уязвимости, использовавшиеся в проекте SAMATE|
@@ -652,7 +652,7 @@
 |CWE-650|Trusting HTTP Permission Methods on the Server Side||
 |CWE-651|Information Exposure Through WSDL File|Разглашение информации, связанное с WSDL-файлами|
 |CWE-652|Improper Neutralization of Data within XQuery Expressions ('XQuery Injection')|Некорректная нейтрализация данных в выражениях XQuery (Внедрение XQuery)|
-|CWE-653|Insufficient Compartmentalization||
+|CWE-653|Insufficient Compartmentalization|Некорректная изоляция|
 |CWE-654|Reliance on a Single Factor in a Security Decision||
 |CWE-655|Insufficient Psychological Acceptability||
 |CWE-656|Reliance on Security Through Obscurity||
@@ -678,7 +678,7 @@
 |CWE-676|Use of Potentially Dangerous Function|Использование потенциально опасной функции|
 |CWE-677|Weakness Base Elements||
 |CWE-678|Composites||
-|CWE-679|Chain Elements|Элементы цепочки|
+|CWE-679|DEPRECATED: Chain Elements|НЕ РЕКОМЕНДУЕТСЯ: Элементы цепочки|
 |CWE-680|Integer Overflow to Buffer Overflow|Целочисленное переполнение, приводящее к переполнению буфера|
 |CWE-681|Incorrect Conversion between Numeric Types|Некорректное преобразование числовых типов|
 |CWE-682|Incorrect Calculation|Некорректные расчеты|
@@ -757,7 +757,7 @@
 |CWE-755|Improper Handling of Exceptional Conditions|Некорректная обработка исключений|
 |CWE-756|Missing Custom Error Page|Отсутствует настроенная страница ошибки|
 |CWE-757|Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade')|Выбор менее безопасного алгоритма при согласовании (Понижение надежности алгоритма)|
-|CWE-758|Reliance on Undefined, Unspecified, or Implementation-Defined Behavior||
+|CWE-758|Reliance on Undefined, Unspecified, or Implementation-Defined Behavior|Использование неопределенного, незаданного или зависящего от реализации поведения|
 |CWE-759|Use of a One-Way Hash without a Salt|Использование односторонней хеш-функции без соли|
 |CWE-760|Use of a One-Way Hash with a Predictable Salt|Использование односторонней хеш-функции с предсказуемой солью|
 |CWE-761|Free of Pointer not at Start of Buffer|Освобождение указателя, находящегося не в начале буфера|
@@ -767,7 +767,7 @@
 |CWE-765|Multiple Unlocks of a Critical Resource|Частая разблокировка критичного ресурса|
 |CWE-766|Critical Variable Declared Public|Открытый доступ к критичной переменной|
 |CWE-767|Access to Critical Private Variable via Public Method|Доступ к скрытой критичной переменной при помощи общедоступного (открытого) метода|
-|CWE-768|Incorrect Short Circuit Evaluation||
+|CWE-768|Incorrect Short Circuit Evaluation|Некорректные упрощенные вычисления|
 |CWE-769|File Descriptor Exhaustion|Неконтролируемое использование файловых дескрипторов|
 |CWE-770|Allocation of Resources Without Limits or Throttling|Выделение ресурсов без ограничений или регулировки|
 |CWE-771|Missing Reference to Active Allocated Resource|Отсутствие ссылки на активный выделенный ресурс|
@@ -824,20 +824,20 @@
 |CWE-822|Untrusted Pointer Dereference|Разыменование непроверенного указателя|
 |CWE-823|Use of Out-of-range Pointer Offset|Использование для указателя смещения за пределами назначенного диапазона|
 |CWE-824|Access of Uninitialized Pointer|Обращение к неинициализированному указателю|
-|CWE-825|Expired Pointer Dereference||
+|CWE-825|Expired Pointer Dereference|Разыменование недействительного указателя|
 |CWE-826|Premature Release of Resource During Expected Lifetime||
-|CWE-827|Improper Control of Document Type Definition||
+|CWE-827|Improper Control of Document Type Definition|Некорректные ограничения для определения типа документов (DTD)|
 |CWE-828|Signal Handler with Functionality that is not Asynchronous-Safe||
 |CWE-829|Inclusion of Functionality from Untrusted Control Sphere|Использование функций недоверенных источников|
 |CWE-830|Inclusion of Web Functionality from an Untrusted Source||
 |CWE-831|Signal Handler Function Associated with Multiple Signals||
-|CWE-832|Unlock of a Resource that is not Locked||
+|CWE-832|Unlock of a Resource that is not Locked|Разблокировка незаблокированного ресурса|
 |CWE-833|Deadlock|Взаимоблокировка|
-|CWE-834|Excessive Iteration||
-|CWE-835|Loop with Unreachable Exit Condition ('Infinite Loop')||
+|CWE-834|Excessive Iteration|Излишние итерации|
+|CWE-835|Loop with Unreachable Exit Condition ('Infinite Loop')|Бесконечный цикл (Зацикливание)|
 |CWE-836|Use of Password Hash Instead of Password for Authentication|Использование хеш-суммы пароля вместо пароля для аутентификации|
 |CWE-837|Improper Enforcement of a Single, Unique Action||
-|CWE-838|Inappropriate Encoding for Output Context||
+|CWE-838|Inappropriate Encoding for Output Context|Некорректная кодировка для выходных данных|
 |CWE-839|Numeric Range Comparison Without Minimum Check||
 |CWE-840|Business Logic Errors|Ошибки в бизнес-логике|
 |CWE-841|Improper Enforcement of Behavioral Workflow|Некорректный контроль за последовательностью выполняемых действий|
@@ -938,11 +938,11 @@
 |CWE-936|OWASP Top Ten 2013 Category A8 - Cross-Site Request Forgery (CSRF)|Топ-10 OWASP 2013 Категория A8 - Межсайтовая подмена запросов (CSRF)|
 |CWE-937|OWASP Top Ten 2013 Category A9 - Using Components with Known Vulnerabilities|Топ-10 OWASP 2013 Категория A9 - Использование компонентов с известными уязвимостями|
 |CWE-938|OWASP Top Ten 2013 Category A10 - Unvalidated Redirects and Forwards|Топ-10 OWASP 2013 Категория A10 - Непроверенные перенаправления и переадресации|
-|CWE-939|Improper Authorization in Handler for Custom URL Scheme||
-|CWE-940|Improper Verification of Source of a Communication Channel||
-|CWE-941|Incorrectly Specified Destination in a Communication Channel||
-|CWE-942|Overly Permissive Cross-domain Whitelist||
-|CWE-943|Improper Neutralization of Special Elements in Data Query Logic||
+|CWE-939|Improper Authorization in Handler for Custom URL Scheme|Некорректная авторизация в обработчике нестандартных схем URL|
+|CWE-940|Improper Verification of Source of a Communication Channel|Некорректная проверка источника для канала связи|
+|CWE-941|Incorrectly Specified Destination in a Communication Channel|Некорректное определение адреса назначения для канала связи|
+|CWE-942|Overly Permissive Cross-domain Whitelist|Некорректный междоменный белый список|
+|CWE-943|Improper Neutralization of Special Elements in Data Query Logic|Некорректная нейтрализация специальных элементов в запросах данных|
 |CWE-944|SFP Secondary Cluster: Access Management|Модели программных сбоев (вторичный кластер): управление доступом|
 |CWE-945|SFP Secondary Cluster: Insecure Resource Access|Модели программных сбоев (вторичный кластер): небезопасный доступ к ресурсам|
 |CWE-946|SFP Secondary Cluster: Insecure Resource Permissions|Модели программных сбоев (вторичный кластер): небезопасные разрешения для ресурсов|
