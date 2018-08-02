@@ -622,7 +622,7 @@
 |CWE-620|Unverified Password Change|Смена пароля без подтверждения|
 |CWE-621|Variable Extraction Error|Ошибка извлечения переменной|
 |CWE-622|Improper Validation of Function Hook Arguments||
-|CWE-623|Unsafe ActiveX Control Marked Safe For Scripting||
+|CWE-623|Unsafe ActiveX Control Marked Safe For Scripting|Небезопасный элемент ActiveX помечен как "безопасный для сценариев"|
 |CWE-624|Executable Regular Expression Error|Исполняемые регулярные выражения|
 |CWE-625|Permissive Regular Expression|Некорректное ограничение регулярных выражений|
 |CWE-626|Null Byte Interaction Error (Poison Null Byte)|Некорректная обработка нулевых байтов (Вредоносные нулевые байты)|
