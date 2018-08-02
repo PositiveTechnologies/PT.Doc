@@ -469,12 +469,12 @@
 |CWE-467|Use of sizeof() on a Pointer Type|Использование sizeof() для типа указателя|
 |CWE-468|Incorrect Pointer Scaling|Некорректное масштабирование указателей|
 |CWE-469|Use of Pointer Subtraction to Determine Size|Вычитание указателей для определения размера|
-|CWE-470|Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection')||
+|CWE-470|Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection')|Использование внешних входных данных для выбора класса или кода ("Небезопасное отражение")|
 |CWE-471|Modification of Assumed-Immutable Data (MAID)|Изменение предположительно неизменяемых данных|
 |CWE-472|External Control of Assumed-Immutable Web Parameter|Возможность изменения извне предположительно неизменяемых веб-параметров|
 |CWE-473|PHP External Variable Modification|Изменение переменных сторонними источниками в PHP|
-|CWE-474|Use of Function with Inconsistent Implementations||
-|CWE-475|Undefined Behavior for Input to API||
+|CWE-474|Use of Function with Inconsistent Implementations|Использование функции с непоследовательной реализацией|
+|CWE-475|Undefined Behavior for Input to API|Неопределенное поведение входных данных API|
 |CWE-476|NULL Pointer Dereference|Разыменование нулевого указателя|
 |CWE-477|Use of Obsolete Functions|Использование устаревших функций|
 |CWE-478|Missing Default Case in Switch Statement||
@@ -605,13 +605,13 @@
 |CWE-603|Use of Client-Side Authentication|Использование аутентификации на стороне пользователя|
 |CWE-604|Deprecated Entries|Не рекомендуемые к использованию определения|
 |CWE-605|Multiple Binds to the Same Port|Множественные привязки к одному порту|
-|CWE-606|Unchecked Input for Loop Condition||
+|CWE-606|Unchecked Input for Loop Condition|Отсутствует проверка входных данных для циклических операций|
 |CWE-607|Public Static Final Field References Mutable Object||
-|CWE-608|Struts: Non-private Field in ActionForm Class||
+|CWE-608|Struts: Non-private Field in ActionForm Class|Struts: общедоступное поле в классе ActionForm|
 |CWE-609|Double-Checked Locking|Блокировка с двойной проверкой|
 |CWE-610|Externally Controlled Reference to a Resource in Another Sphere||
 |CWE-611|Improper Restriction of XML External Entity Reference ('XXE')|Некорректное ограничение ссылок на внешние сущности XML|
-|CWE-612|Information Exposure Through Indexing of Private Data||
+|CWE-612|Information Exposure Through Indexing of Private Data|Разглашение информации, связанное с индексацией конфиденциальных данных|
 |CWE-613|Insufficient Session Expiration|Некорректно настроенный срок действия сессий|
 |CWE-614|Sensitive Cookie in HTTPS Session Without 'Secure' Attribute|Отсутствие в HTTPS-сессиях атрибута Secure у конфиденциальных куки-файлов|
 |CWE-615|Information Exposure Through Comments|Разглашение информации в комментариях|
@@ -638,10 +638,10 @@
 |CWE-636|Not Failing Securely ('Failing Open')||
 |CWE-637|Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism')||
 |CWE-638|Not Using Complete Mediation||
-|CWE-639|Authorization Bypass Through User-Controlled Key|Обход авторизации|
-|CWE-640|Weak Password Recovery Mechanism for Forgotten Password||
-|CWE-641|Improper Restriction of Names for Files and Other Resources||
-|CWE-642|External Control of Critical State Data||
+|CWE-639|Authorization Bypass Through User-Controlled Key|Обход авторизации, используя значение ключа пользователя|
+|CWE-640|Weak Password Recovery Mechanism for Forgotten Password|Ненадежный механизм восстановления забытого пароля|
+|CWE-641|Improper Restriction of Names for Files and Other Resources|Некорректные ограничения для имен фалов и ресурсов|
+|CWE-642|External Control of Critical State Data|Возможность доступа к критичной информации о состоянии|
 |CWE-643|Improper Neutralization of Data within XPath Expressions ('XPath Injection')|Некорректная нейтрализация данных в выражениях XPath (Внедрение Xpath)|
 |CWE-644|Improper Neutralization of HTTP Headers for Scripting Syntax||
 |CWE-645|Overly Restrictive Account Lockout Mechanism||
@@ -678,7 +678,7 @@
 |CWE-676|Use of Potentially Dangerous Function|Использование потенциально опасной функции|
 |CWE-677|Weakness Base Elements||
 |CWE-678|Composites||
-|CWE-679|Chain Elements||
+|CWE-679|Chain Elements|Элементы цепочки|
 |CWE-680|Integer Overflow to Buffer Overflow|Целочисленное переполнение, приводящее к переполнению буфера|
 |CWE-681|Incorrect Conversion between Numeric Types|Некорректное преобразование числовых типов|
 |CWE-682|Incorrect Calculation|Некорректные расчеты|
@@ -753,8 +753,8 @@
 |CWE-751|2009 Top 25 - Insecure Interaction Between Components|Топ-25 2009: Небезопасное взаимодействие между компонентами|
 |CWE-752|2009 Top 25 - Risky Resource Management|Топ-25 2009: Небезопасное управление ресурсами|
 |CWE-753|2009 Top 25 - Porous Defenses|Топ-25 2009: Ненадежная защита|
-|CWE-754|Improper Check for Unusual or Exceptional Conditions||
-|CWE-755|Improper Handling of Exceptional Conditions||
+|CWE-754|Improper Check for Unusual or Exceptional Conditions|Некорректная проверка наличия нестандартных условий или исключений|
+|CWE-755|Improper Handling of Exceptional Conditions|Некорректная обработка исключений|
 |CWE-756|Missing Custom Error Page|Отсутствует настроенная страница ошибки|
 |CWE-757|Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade')|Выбор менее безопасного алгоритма при согласовании (Понижение надежности алгоритма)|
 |CWE-758|Reliance on Undefined, Unspecified, or Implementation-Defined Behavior||
@@ -769,13 +769,13 @@
 |CWE-767|Access to Critical Private Variable via Public Method|Доступ к скрытой критичной переменной при помощи общедоступного (открытого) метода|
 |CWE-768|Incorrect Short Circuit Evaluation||
 |CWE-769|File Descriptor Exhaustion|Неконтролируемое использование файловых дескрипторов|
-|CWE-770|Allocation of Resources Without Limits or Throttling||
-|CWE-771|Missing Reference to Active Allocated Resource||
+|CWE-770|Allocation of Resources Without Limits or Throttling|Выделение ресурсов без ограничений или регулировки|
+|CWE-771|Missing Reference to Active Allocated Resource|Отсутствие ссылки на активный выделенный ресурс|
 |CWE-772|Missing Release of Resource after Effective Lifetime|Удержание ресурса после его использования|
-|CWE-773|Missing Reference to Active File Descriptor or Handle||
-|CWE-774|Allocation of File Descriptors or Handles Without Limits or Throttling||
-|CWE-775|Missing Release of File Descriptor or Handle after Effective Lifetime||
-|CWE-776|Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion')||
+|CWE-773|Missing Reference to Active File Descriptor or Handle|Отсутствие ссылки на активный дескриптор файла|
+|CWE-774|Allocation of File Descriptors or Handles Without Limits or Throttling|Выделение файловых дескрипторов без ограничений или регулировки|
+|CWE-775|Missing Release of File Descriptor or Handle after Effective Lifetime|Удержание файлового дескриптора после его использования|
+|CWE-776|Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion')|Некорректное ограничение рекурсивных ссылок на сущности в определении типа документа (Распространение сущности XML)|
 |CWE-777|Regular Expression without Anchors|Регулярные выражения без якорей|
 |CWE-778|Insufficient Logging|Некорректное журналирование|
 |CWE-779|Logging of Excessive Data|Избыточное журналирование|
@@ -791,12 +791,12 @@
 |CWE-789|Uncontrolled Memory Allocation|Неконтролируемое выделение памяти|
 |CWE-790|Improper Filtering of Special Elements|Некорректная фильтрация специальных элементов|
 |CWE-791|Incomplete Filtering of Special Elements|Неполная фильтрация специальных элементов|
-|CWE-792|Incomplete Filtering of One or More Instances of Special Elements||
-|CWE-793|Only Filtering One Instance of a Special Element||
-|CWE-794|Incomplete Filtering of Multiple Instances of Special Elements||
-|CWE-795|Only Filtering Special Elements at a Specified Location||
-|CWE-796|Only Filtering Special Elements Relative to a Marker||
-|CWE-797|Only Filtering Special Elements at an Absolute Position||
+|CWE-792|Incomplete Filtering of One or More Instances of Special Elements|Неполная фильтрация одного или нескольких экземпляров специальных элементов|
+|CWE-793|Only Filtering One Instance of a Special Element|Фильтрация только одного экземпляра специальных элементов|
+|CWE-794|Incomplete Filtering of Multiple Instances of Special Elements|Неполная фильтрация нескольких экземпляров специальных элементов|
+|CWE-795|Only Filtering Special Elements at a Specified Location|Фильтрация специальных элементов только в указанных позициях|
+|CWE-796|Only Filtering Special Elements Relative to a Marker|Фильтрация специальных элементов на основе маркеров|
+|CWE-797|Only Filtering Special Elements at an Absolute Position|Фильтрация специальных элементов на основе расположения|
 |CWE-798|Use of Hard-coded Credentials|Использование жестко закодированных учетных данных|
 |CWE-799|Improper Control of Interaction Frequency|Некорректное ограничение частоты взаимодействия|
 |CWE-800|Weaknesses in the 2010 CWE/SANS Top 25 Most Dangerous Programming Errors|Уязвимости из Топ-25 самых опасных ошибок программирования по версии CWE/SANS 2010|
@@ -805,8 +805,8 @@
 |CWE-803|2010 Top 25 - Porous Defenses|Топ-25 2010: Ненадежная защита|
 |CWE-804|Guessable CAPTCHA|Легко решаемая задача CAPTCHA|
 |CWE-805|Buffer Access with Incorrect Length Value|Доступ к памяти за пределами буфера|
-|CWE-806|Buffer Access Using Size of Source Buffer||
-|CWE-807|Reliance on Untrusted Inputs in a Security Decision||
+|CWE-806|Buffer Access Using Size of Source Buffer|Использование размера исходного буфера при обращении к целевому буферу|
+|CWE-807|Reliance on Untrusted Inputs in a Security Decision|Использование недоверенных входных данных при обеспечении безопасности|
 |CWE-808|2010 Top 25 - Weaknesses On the Cusp|Топ-25 2010: Уязвимости из списка кандидатов|
 |CWE-809|Weaknesses in OWASP Top Ten (2010)|Уязвимости из Топ-10 OWASP (2010 г.)|
 |CWE-810|OWASP Top Ten 2010 Category A1 - Injection|Топ-10 OWASP 2010 Категория А1 - Внедрение|
