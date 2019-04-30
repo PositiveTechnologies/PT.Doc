@@ -542,7 +542,7 @@
 |CWE-540|Information Exposure Through Source Code|Разглашение информации, связанное с исходным кодом|
 |CWE-541|Information Exposure Through Include Source Code|Разглашение информации, связанное с исходным кодом включения|
 |CWE-542|DEPRECATED: Information Exposure Through Cleanup Log Files|НЕ РЕКОМЕНДУЕТСЯ: Разглашение информации, связанное с файлами журналов очистки|
-|CWE-543|Use of Singleton Pattern Without Synchronization in a Multithreaded Context|Использование шаблона "Одиночка" без синхронизации в многопоточном контексте|
+|CWE-543|Use of Singleton Pattern Without Synchronization in a Multithreaded Context|Использование шаблона "Одиночка" (Singleton) без синхронизации в многопоточном контексте|
 |CWE-544|Missing Standardized Error Handling Mechanism|Отсутствует стандартизированный механизм обработки ошибок|
 |CWE-545|DEPRECATED: Use of Dynamic Class Loading|НЕ РЕКОМЕНДУЕТСЯ: Использование динамической загрузки классов|
 |CWE-546|Suspicious Comment|Уязвимости, связанные с комментариями|
@@ -844,7 +844,7 @@
 |CWE-842|Placement of User into Incorrect Group|Некорректное включение пользователя в группу|
 |CWE-843|Access of Resource Using Incompatible Type ('Type Confusion')|Доступ к ресурсам с использованием несовместимых типов (Смешение типов)|
 |CWE-844|Weaknesses Addressed by the CERT Java Secure Coding Standard|Уязвимости из стандарта CERT по безопасному программированию на Java|
-|CWE-845|CERT Java Secure Coding Section 00 - Input Validation and Data Sanitization (IDS)|CERT Безопасное программирование на Java, Раздел 00 — Проверка и очистка входных данных (IDS)|
+|CWE-845|CERT Java Secure Coding Section 00 - Input Validation and Data Sanitization (IDS)|CERT Безопасное программирование на Java, Раздел 00 — Проверка и обработка входных данных (IDS)|
 |CWE-846|CERT Java Secure Coding Section 01 - Declarations and Initialization (DCL)|CERT Безопасное программирование на Java, Раздел 01 — Объявления и инициализация (DCL)|
 |CWE-847|CERT Java Secure Coding Section 02 - Expressions (EXP)|CERT Безопасное программирование на Java, Раздел 02 — Выражения (EXP)|
 |CWE-848|CERT Java Secure Coding Section 03 - Numeric Types and Operations (NUM)|CERT Безопасное программирование на Java, Раздел 03 — Числовые типы и операции (NUM)|
@@ -1039,4 +1039,141 @@
 |CWE-1037|Processor Optimization Removal or Modification of Security-critical Code|Удаление или изменение обеспечивающего безопасность кода при оптимизации процессором|
 |CWE-1038|Insecure Automated Optimizations|Небезопасная автоматическая оптимизация|
 |CWE-1039|Automated Recognition Mechanism with Inadequate Detection or Handling of Adversarial Input Perturbations|Некорректная работа автоматизированного механизма распознавания при определении или обработке входных данных, модифицированных злоумышленником|
+|CWE-1040|Quality Weaknesses with Indirect Security Impacts|Недостатки качества, оказывающие косвенное влияние на безопасность|
+|CWE-1041|Use of Redundant Code|Использование избыточного кода|
+|CWE-1042|Static Member Data Element outside of a Singleton Class Element|Статический элемент member, не принадлежащий классу "Одиночка" (Singleton)|
+|CWE-1043|Data Element Aggregating an Excessively Large Number of Non-Primitive Elements|Элемент данных со слишком большим количеством элементов, не являющихся примитивами|
+|CWE-1044|Architecture with Number of Horizontal Layers Outside of Expected Range|Количество горизонтальных слоев архитектуры не соответствует ожидаемому значению|
+|CWE-1045|Parent Class with a Virtual Destructor and a Child Class without a Virtual Destructor|Родительский класс имеет виртуальный деструктор, а дочерний нет|
+|CWE-1046|Creation of Immutable Text Using String Concatenation|Создание неизменяемого текста путем объединения строк|
+|CWE-1047|Modules with Circular Dependencies|Модули с циклическими зависимостями|
+|CWE-1048|Invokable Control Element with Large Number of Outward Calls|Вызываемый элемент управления с большим количеством внешних вызовов|
+|CWE-1049|Excessive Data Query Operations in a Large Data Table|Слишком сложная цепочка запроса данных для больших таблиц данных|
+|CWE-1050|Excessive Platform Resource Consumption within a Loop|Чрезмерное использование ресурсов платформы в цикле|
+|CWE-1051|Initialization with Hard-Coded Network Resource Configuration Data|Инициализация с помощью жестко закодированных данных о конфигурации сетевых ресурсов|
+|CWE-1052|Excessive Use of Hard-Coded Literals in Initialization|Чрезмерное использование жестко закодированных литералов для инициализации|
+|CWE-1053|Missing Documentation for Design|Отсутствие проектной документации|
+|CWE-1054|Invocation of a Control Element at an Unnecessarily Deep Horizontal Layer|Вызов элемента управления из излишне глубокого горизонтального слоя|
+|CWE-1055|Multiple Inheritance from Concrete Classes|Множественное наследование из "конкретных" (concrete) классов|
+|CWE-1056|Invokable Control Element with Variadic Parameters|Вызываемый элемент управления с переменным числом параметров или аргументов|
+|CWE-1057|Data Access Operations Outside of Expected Data Manager Component|Доступ к данным без использования специального компонента управления данными|
+|CWE-1058|Invokable Control Element in Multi-Thread Context with non-Final Static Storable or Member Element|Вызываемый элемент управления в многопоточном контексте с non-final статическим элементом storable или member|
+|CWE-1059|Incomplete Documentation|Неполная документация|
+|CWE-1060|Excessive Number of Inefficient Server-Side Data Accesses|Большое количество недопустимых обращений к данным на стороне сервера|
+|CWE-1061|Insufficient Encapsulation|Недостаточная инкапсуляция|
+|CWE-1062|Parent Class with References to Child Class|Родительский класс со ссылками на дочерний|
+|CWE-1063|Creation of Class Instance within a Static Code Block|Создание экземпляра класса в статическом блоке кода|
+|CWE-1064|Invokable Control Element with Signature Containing an Excessive Number of Parameters|Вызываемый элемент управления с подписью, содержащей большое количество параметров|
+|CWE-1065|Runtime Resource Management Control Element in a Component Built to Run on Application Servers|Компонент, созданный для работы на сервере, использует элементы управления ресурсами среды исполнения|
+|CWE-1066|Missing Serialization Control Element|Отсутствие элемента управления сериализацией|
+|CWE-1067|Excessive Execution of Sequential Searches of Data Resource|Чрезмерное использование последовательного поиска данных|
+|CWE-1068|Inconsistency Between Implementation and Documented Design|Несоответствие между реализацией и проектной документацией|
+|CWE-1069|Empty Exception Block|Пустой блок исключения|
+|CWE-1070|Serializable Data Element Containing non-Serializable Item Elements|Сериализуемый элемент данных содержит несериализуемые элементы|
+|CWE-1071|Empty Code Block|Пустой блок кода|
+|CWE-1072|Data Resource Access without Use of Connection Pooling|Доступ к данным без использования пула подключений|
+|CWE-1073|Non-SQL Invokable Control Element with Excessive Number of Data Resource Accesses|Вызываемый не-SQL элемент управления с большим количеством обращений к данным|
+|CWE-1074|Class with Excessively Deep Inheritance|Класс со слишком глубоким наследованием|
+|CWE-1075|Unconditional Control Flow Transfer outside of Switch Block|Безусловная передача управления за пределами блока переключения|
+|CWE-1076|Insufficient Adherence to Expected Conventions|Несоответствие принятым стандартам|
+|CWE-1077|Floating Point Comparison with Incorrect Operator|Сравнение значений с плавающей запятой, использующее некорректный оператор|
+|CWE-1078|Inappropriate Source Code Style or Formatting|Несоответствие стиля или форматирования исходного кода|
+|CWE-1079|Parent Class without Virtual Destructor Method|Родительский класс без метода виртуального деструктора|
+|CWE-1080|Source Code File with Excessive Number of Lines of Code|Файл исходного кода содержит слишком большое количество строк|
+|CWE-1082|Class Instance Self Destruction Control Element|Самоуничтожение экземпляра класса |
+|CWE-1083|Data Access from Outside Expected Data Manager Component|Доступ к данным без использования определенного компонента управления данными|
+|CWE-1084|Invokable Control Element with Excessive File or Data Access Operations|Вызываемый элемент управления с большим количеством обращений к файлам или данным|
+|CWE-1085|Invokable Control Element with Excessive Volume of Commented-out Code|Вызываемый элемент управления с большим количеством закомментированного кода|
+|CWE-1086|Class with Excessive Number of Child Classes|Класс со слишком большим количеством дочерних класов|
+|CWE-1087|Class with Virtual Method without a Virtual Destructor|Класс с виртуальным методом без виртуального деструктора|
+|CWE-1088|Synchronous Access of Remote Resource without Timeout|Синхронный доступ к удаленному ресурсу без тайм-аута|
+|CWE-1089|Large Data Table with Excessive Number of Indices|Большая таблица данных содержит слишком много индексов|
+|CWE-1090|Method Containing Access of a Member Element from Another Class|Метод, обращающийся к элементу member из другого класса|
+|CWE-1091|Use of Object without Invoking Destructor Method|Использование объекта без последующего вызова деструктора|
+|CWE-1092|Use of Same Invokable Control Element in Multiple Architectural Layers|Использование одного вызываемого элемента управления на нескольких архитектурных уровнях|
+|CWE-1093|Excessively Complex Data Representation|Слишком сложное представление данных|
+|CWE-1094|Excessive Index Range Scan for a Data Resource|Слишком большой диапазон сканирования индексов для источника данных|
+|CWE-1095|Loop Condition Value Update within the Loop|Значение условия цикла обновляется внутри цикла|
+|CWE-1096|Singleton Class Instance Creation without Proper Locking or Synchronization|Создание экземпляра класса "Одиночка" (Singleton) без соответствующей блокировки или синхронизации|
+|CWE-1097|Persistent Storable Data Element without Associated Comparison Control Element|Постоянно хранимый элемент данных без соответствующего элемента управления сравнением|
+|CWE-1098|Data Element containing Pointer Item without Proper Copy Control Element|Элемент данных с указателем без элемента управления копированием|
+|CWE-1099|Inconsistent Naming Conventions for Identifiers|Непоследовательная система именования идентификаторов|
+|CWE-1100|Insufficient Isolation of System-Dependent Functions|Недостаточная изоляция зависящих от системы функций|
+|CWE-1101|Reliance on Runtime Component in Generated Code|Использование специального компонента для выполнения генерируемого кода|
+|CWE-1102|Reliance on Machine-Dependent Data Representation|Использование машинозависимого представления данных|
+|CWE-1103|Use of Platform-Dependent Third Party Components|Использование сторонних платформозависимых компонентов|
+|CWE-1104|Use of Unmaintained Third Party Components|Использование сторонних неподдерживаемых компонентов|
+|CWE-1105|Insufficient Encapsulation of Machine-Dependent Functionality|Некорректная инкапсуляция машинозависимых функций|
+|CWE-1106|Insufficient Use of Symbolic Constants|Некорректное использование символических констант|
+|CWE-1107|Insufficient Isolation of Symbolic Constant Definitions|Некорректная изоляция определений символических констант|
+|CWE-1108|Excessive Reliance on Global Variables|Чрезмерное использование глобальных переменных|
+|CWE-1109|Use of Same Variable for Multiple Purposes|Использование одной переменной для разных целей|
+|CWE-1110|Incomplete Design Documentation|Неполная проектная документация|
+|CWE-1111|Incomplete I/O Documentation|Неполное описание ввода-вывода данных|
+|CWE-1112|Incomplete Documentation of Program Execution|Неполное описание работы программы|
+|CWE-1113|Inappropriate Comment Style|Неподходящий стиль комментариев|
+|CWE-1114|Inappropriate Whitespace Style|Неподходящий стиль пробелов|
+|CWE-1115|Source Code Element without Standard Prologue|Элемент исходного кода без стандартной вводной части|
+|CWE-1116|Inaccurate Comments|Неточные комментарии|
+|CWE-1117|Callable with Insufficient Behavioral Summary|Недостаточное описание поведения вызываемых функций или методов|
+|CWE-1118|Insufficient Documentation of Error Handling Techniques|Недостаточное описание способов обработки ошибок|
+|CWE-1119|Excessive Use of Unconditional Branching|Чрезмерное использоавние безусловных переходов|
+|CWE-1120|Excessive Code Complexity|Чрезмерная сложность кода|
+|CWE-1121|Excessive McCabe Cyclomatic Complexity|Избыточная цикломатическая сложность Маккейба|
+|CWE-1122|Excessive Halstead Complexity|Избыточная сложность Холстеда|
+|CWE-1123|Excessive Use of Self-Modifying Code|Чрезмерное использование самоизменяющегося кода|
+|CWE-1124|Excessively Deep Nesting|Чрезмерная вложенность|
+|CWE-1125|Excessive Attack Surface|Большое количество возможных векторов атаки|
+|CWE-1126|Declaration of Variable with Unnecessarily Wide Scope|Объявление переменной с необоснованно большой областью использования|
+|CWE-1127|Compilation with Insufficient Warnings or Errors|Компиляция без вывода соответствующих предупреждений или ошибок|
+|CWE-1128|CISQ Quality Measures (2016)|Критерии качества CISQ (2016)|
+|CWE-1129|CISQ Quality Measures - Reliability|Критерии качества CISQ - Надежность|
+|CWE-1130|CISQ Quality Measures - Maintainability|Критерии качества CISQ - Удобство сопровождения|
+|CWE-1131|CISQ Quality Measures - Security|Критерии качества CISQ - Безопасность|
+|CWE-1132|CISQ Quality Measures - Performance|Критерии качества CISQ - Производительность|
+|CWE-1133|Weaknesses Addressed by the SEI CERT Oracle Coding Standard for Java|Уязвимости из стандарта SEI CERT Oracle по программированию на Java|
+|CWE-1134|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 00. Input Validation and Data Sanitization (IDS)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 00. Проверка и обработка входных данных (IDS)|
+|CWE-1135|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 01. Declarations and Initialization (DCL)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 01. Объявления и инициализация (DCL)|
+|CWE-1136|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 02. Expressions (EXP)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 02. Выражения (EXP)|
+|CWE-1137|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 03. Numeric Types and Operations (NUM)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 03. Числовые типы и операции (NUM)|
+|CWE-1138|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 04. Characters and Strings (STR)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 04. Символы и строки (STR)|
+|CWE-1139|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 05. Object Orientation (OBJ)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 05. Объектная ориентация (OBJ)|
+|CWE-1140|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 06. Methods (MET)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 06. Методы (MET)|
+|CWE-1141|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 07. Exceptional Behavior (ERR)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 07. Необычное поведение (ERR)|
+|CWE-1142|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 08. Visibility and Atomicity (VNA)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 08. Видимость и атомарность (VNA)|
+|CWE-1143|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 09. Locking (LCK)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 09. Блокировка (LCK)|
+|CWE-1144|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 10. Thread APIs (THI)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 10. API потоков (THI)|
+|CWE-1145|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 11. Thread Pools (TPS)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 11. Пулы потоков (TPS)|
+|CWE-1146|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 12. Thread-Safety Miscellaneous (TSM)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 12. Прочие вопросы по безопасности потоков (TSM)|
+|CWE-1147|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 13. Input Output (FIO)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 13. Ввод-вывод (FIO)|
+|CWE-1148|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 14. Serialization (SER)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 14. Сериализация (SER)|
+|CWE-1149|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 15. Platform Security (SEC)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 15. Безопасность платформы (SEC)|
+|CWE-1150|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 16. Runtime Environment (ENV)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 16. Среда выполнения (ENV)|
+|CWE-1151|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 17. Java Native Interface (JNI)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 17. Собственный интерфейс Java (JNI)|
+|CWE-1152|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 49. Miscellaneous (MSC)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 49. Прочее (MSC)|
+|CWE-1153|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 50. Android (DRD)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 50. Андроид (DRD)|
+|CWE-1154|Weaknesses Addressed by the SEI CERT C Coding Standard|Уязвимости из стандарта SEI CERT по программированию на Си|
+|CWE-1155|SEI CERT C Coding Standard - Guidelines 01. Preprocessor (PRE)|Стандарт SEI CERT по программированию на Си - Рекомендации 01. Препроцессор (PRE)|
+|CWE-1156|SEI CERT C Coding Standard - Guidelines 02. Declarations and Initialization (DCL)|Стандарт SEI CERT по программированию на Си - Рекомендации 02. Объявления и инициализация (DCL)|
+|CWE-1157|SEI CERT C Coding Standard - Guidelines 03. Expressions (EXP)|Стандарт SEI CERT по программированию на Си - Рекомендации 03. Выражения (EXP)|
+|CWE-1158|SEI CERT C Coding Standard - Guidelines 04. Integers (INT)|Стандарт SEI CERT по программированию на Си - Рекомендации 04. Целые числа (INT)|
+|CWE-1159|SEI CERT C Coding Standard - Guidelines 05. Floating Point (FLP)|Стандарт SEI CERT по программированию на Си - Рекомендации 05. Плавающая запятая (FLP)|
+|CWE-1160|SEI CERT C Coding Standard - Guidelines 06. Arrays (ARR)|Стандарт SEI CERT по программированию на Си - Рекомендации 06. Массивы (ARR)|
+|CWE-1161|SEI CERT C Coding Standard - Guidelines 07. Characters and Strings (STR)|Стандарт SEI CERT по программированию на Си - Рекомендации 07. Символы и строки (STR)|
+|CWE-1162|SEI CERT C Coding Standard - Guidelines 08. Memory Management (MEM)|Стандарт SEI CERT по программированию на Си - Рекомендации 08. Управление памятью (MEM)|
+|CWE-1163|SEI CERT C Coding Standard - Guidelines 09. Input Output (FIO)|Стандарт SEI CERT по программированию на Си - Рекомендации 09. Ввод-вывод (FIO)|
+|CWE-1164|Irrelevant Code|Бесполезный код|
+|CWE-1165|SEI CERT C Coding Standard - Guidelines 10. Environment (ENV)|Стандарт SEI CERT по программированию на Си - Рекомендации 10. Среда (ENV)|
+|CWE-1166|SEI CERT C Coding Standard - Guidelines 11. Signals (SIG)|Стандарт SEI CERT по программированию на Си - Рекомендации 11. Сигналы (SIG)|
+|CWE-1167|SEI CERT C Coding Standard - Guidelines 12. Error Handling (ERR)|Стандарт SEI CERT по программированию на Си - Рекомендации 12. Обработка ошибок (ERR)|
+|CWE-1168|SEI CERT C Coding Standard - Guidelines 13. Application Programming Interfaces (API)|Стандарт SEI CERT по программированию на Си - Рекомендации 13. Интерфейсы прикладного программирования (API)|
+|CWE-1169|SEI CERT C Coding Standard - Guidelines 14. Concurrency (CON)|Стандарт SEI CERT по программированию на Си - Рекомендации 14. Параллелизм (CON)|
+|CWE-1170|SEI CERT C Coding Standard - Guidelines 48. Miscellaneous (MSC)|Стандарт SEI CERT по программированию на Си - Рекомендации 48. Прочее (MSC)|
+|CWE-1171|SEI CERT C Coding Standard - Guidelines 50. POSIX (POS)|Стандарт SEI CERT по программированию на Си - Рекомендации 50. POSIX (POS)|
+|CWE-1172|SEI CERT C Coding Standard - Guidelines 51. Microsoft Windows (WIN)|Стандарт SEI CERT по программированию на Си - Рекомендации 51. Microsoft Windows (WIN)|
+|CWE-1173|Improper Use of Validation Framework|Некорректное использование фреймворка проверки входных данных|
+|CWE-1174|ASP.NET Misconfiguration: Improper Model Validation|Ошибка в конфигурации ASP.NET: некорректная проверка моделей|
+|CWE-1175|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 18. Concurrency (CON)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 18. Параллелизм (CON)|
+|CWE-1176|Inefficient CPU Computation|Неэффективное использование ЦП|
+|CWE-1177|Use of Prohibited Code|Использование запрещенного кода|
 |CWE-2000|Comprehensive CWE Dictionary|Полный список CWE|
