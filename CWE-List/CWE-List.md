@@ -88,7 +88,7 @@
 |CWE-86|Improper Neutralization of Invalid Characters in Identifiers in Web Pages|Некорректная нейтрализация недопустимых символов в идентификаторах на веб-страницах|
 |CWE-87|Improper Neutralization of Alternate XSS Syntax|Межсайтовое выполнение сценариев, связанное с альтернативным синтаксисом сценариев|
 |CWE-88|Argument Injection or Modification|Внедрение или изменение аргументов|
-|CWE-89|Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')|Некорректная нейтрализация специальных элементов, используемых в SQL-командах (Внедрение SQL)|
+|CWE-89|Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')|Некорректная нейтрализация специальных элементов, используемых в SQL-командах (Внедрение SQL-кода)|
 |CWE-90|Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection')|Некорректная нейтрализация специальных элементов, используемых в LDAP-запросах (Внедрение LDAP)|
 |CWE-91|XML Injection (aka Blind XPath Injection)|Внедрение XML (Внедрение XPath вслепую)|
 |CWE-92|DEPRECATED: Improper Sanitization of Custom Special Characters|НЕ РЕКОМЕНДУЕТСЯ: Некорректная очистка пользовательских спецсимволов|
