@@ -21,23 +21,23 @@
 |CWE-19|Data Processing Errors|Ошибки, связанные с обработкой данных|
 |CWE-20|Improper Input Validation|Некорректная проверка входных данных|
 |CWE-21|Pathname Traversal and Equivalence Errors|Уязвимости, связанные с эквивалентностью и обходом пути|
-|CWE-22|Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')|Некорректные ограничения путей для каталогов (Подмена пути)|
+|CWE-22|Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')|Некорректные ограничения путей для каталогов (Выход за пределы каталога)|
 |CWE-23|Relative Path Traversal|Подмена относительного пути|
-|CWE-24|Path Traversal: '../filedir'|Подмена пути: '../filedir'|
-|CWE-25|Path Traversal: '/../filedir'|Подмена пути: '/../filedir'|
-|CWE-26|Path Traversal: '/dir/../filename'|Подмена пути: '/dir/../filename'|
-|CWE-27|Path Traversal: 'dir/../../filename'|Подмена пути: 'dir/../../filename'|
-|CWE-28|Path Traversal: '..\filedir'|Подмена пути: '..\filedir'|
-|CWE-29|Path Traversal: '\..\filename'|Подмена пути: '\..\filename'|
-|CWE-30|Path Traversal: '\dir\..\filename'|Подмена пути: '\dir\..\filename'|
-|CWE-31|Path Traversal: 'dir\..\..\filename'|Подмена пути: '\dir\..\filename'|
-|CWE-32|Path Traversal: '...' (Triple Dot)|Подмена пути: '...' (три точки)|
-|CWE-33|Path Traversal: '....' (Multiple Dot)|Подмена пути: '....' (несколько точек)|
-|CWE-34|Path Traversal: '....//'|Подмена пути: '....//'|
-|CWE-35|Path Traversal: '.../...//'|Подмена пути: '.../...//'|
+|CWE-24|Path Traversal: '../filedir'|Выход за пределы каталога с помощью '../filedir'|
+|CWE-25|Path Traversal: '/../filedir'|Выход за пределы каталога с помощью '/../filedir'|
+|CWE-26|Path Traversal: '/dir/../filename'|Выход за пределы каталога с помощью '/dir/../filename'|
+|CWE-27|Path Traversal: 'dir/../../filename'|Выход за пределы каталога с помощью 'dir/../../filename'|
+|CWE-28|Path Traversal: '..\filedir'|Выход за пределы каталога с помощью '..\filedir'|
+|CWE-29|Path Traversal: '\..\filename'|Выход за пределы каталога с помощью '\..\filename'|
+|CWE-30|Path Traversal: '\dir\..\filename'|Выход за пределы каталога с помощью '\dir\..\filename'|
+|CWE-31|Path Traversal: 'dir\..\..\filename'|Выход за пределы каталога с помощью '\dir\..\filename'|
+|CWE-32|Path Traversal: '...' (Triple Dot)|Выход за пределы каталога с помощью '...' (трех точек)|
+|CWE-33|Path Traversal: '....' (Multiple Dot)|Выход за пределы каталога с помощью '....' (нескольких точек)|
+|CWE-34|Path Traversal: '....//'|Выход за пределы каталога с помощью '....//'|
+|CWE-35|Path Traversal: '.../...//'|Выход за пределы каталога с помощью '.../...//'|
 |CWE-36|Absolute Path Traversal|Подмена абсолютного пути|
-|CWE-37|Path Traversal: '/absolute/pathname/here'|Подмена пути: '/здесь/абсолютный/путь'|
-|CWE-38|Path Traversal: '\absolute\pathname\here'|Подмена пути: '\здесь\абсолютный\путь'|
+|CWE-37|Path Traversal: '/absolute/pathname/here'|Выход за пределы каталога, используя '/здесь/абсолютный/путь'|
+|CWE-38|Path Traversal: '\absolute\pathname\here'|Выход за пределы каталога, используя '\здесь\абсолютный\путь'|
 |CWE-39|Path Traversal: 'C:dirname'|Подмена пути: 'C:имяпапки'|
 |CWE-40|Path Traversal: '\\UNC\share\name\' (Windows UNC Share)|Подмена пути: '\\UNC\общий\ресурс\' (общий ресурс UNC Windows)|
 |CWE-41|Improper Resolution of Path Equivalence|Некорректное разрешение эквивалентности пути|
@@ -77,7 +77,7 @@
 |CWE-75|Failure to Sanitize Special Elements into a Different Plane (Special Element Injection)|Некорректная обработка (очистка) специальных элементов управления (Внедрение специальных элементов)|
 |CWE-76|Improper Neutralization of Equivalent Special Elements|Некорректная нейтрализация эквивалентов специальных элементов|
 |CWE-77|Improper Neutralization of Special Elements used in a Command ('Command Injection')|Некорректная нейтрализация специальных элементов, используемых в командах (Внедрение команд)|
-|CWE-78|Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')|Некорректная нейтрализация специальных элементов, используемых в системных командах (Внедрение системных команд)|
+|CWE-78|Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')|Некорректная нейтрализация специальных элементов, используемых в системных командах (Внедрение команд ОС)|
 |CWE-79|Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')|Некорректная нейтрализация входных данных при генерировании веб-страниц (Межсайтовое выполнение сценариев)|
 |CWE-80|Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS)|Некорректная нейтрализация HTML-тегов, связанных со сценариями, на веб-страницах (Межсайтовое выполнение сценариев)|
 |CWE-81|Improper Neutralization of Script in an Error Message Web Page|Некорректная нейтрализация сценариев на веб-страницах сообщений об ошибках|
@@ -305,7 +305,7 @@
 |CWE-303|Incorrect Implementation of Authentication Algorithm|Некорректная реализация алгоритма аутентификации|
 |CWE-304|Missing Critical Step in Authentication|Пропущен важный шаг аутентификации|
 |CWE-305|Authentication Bypass by Primary Weakness|Возможность обхода аутентификации, связанная с наличием сторонней уязвимости|
-|CWE-306|Missing Authentication for Critical Function|Отсутствие аутентификации для критичных функций|
+|CWE-306|Missing Authentication for Critical Function|Отсутствие аутентификации для критически важных функций|
 |CWE-307|Improper Restriction of Excessive Authentication Attempts|Некорректное ограничение количества неудачных попыток аутентификации|
 |CWE-308|Use of Single-factor Authentication|Использование однофакторной аутентификации|
 |CWE-309|Use of Password System for Primary Authentication|Использование системы паролей для первичной аутентификации|
@@ -351,7 +351,7 @@
 |CWE-349|Acceptance of Extraneous Untrusted Data With Trusted Data|Одобрение сторонних недоверенных данных вместе с доверенными|
 |CWE-350|Reliance on Reverse DNS Resolution for a Security-Critical Action|Использование обратного разрешения DNS для принятия решений, связанных с безопасностью|
 |CWE-351|Insufficient Type Distinction|Некорректное распознавание типов|
-|CWE-352|Cross-Site Request Forgery (CSRF)|Межсайтовая подмена запросов|
+|CWE-352|Cross-Site Request Forgery (CSRF)|Подделка межсайтового запроса|
 |CWE-353|Missing Support for Integrity Check|Отсутствует проверка целостности|
 |CWE-354|Improper Validation of Integrity Check Value|Некорректная проверка контрольных сумм|
 |CWE-355|User Interface Security Issues|Уязвимости в интерфейсе пользователя|
@@ -399,7 +399,7 @@
 |CWE-397|Declaration of Throws for Generic Exception|Генерирование универсальных исключений|
 |CWE-398|Indicator of Poor Code Quality|Плохое качество кода|
 |CWE-399|Resource Management Errors|Уязвимости, связанные с управлением ресурсами|
-|CWE-400|Uncontrolled Resource Consumption ('Resource Exhaustion')|Неконтролируемое использование ресурсов (Чрезмерное потребление ресурсов)|
+|CWE-400|Uncontrolled Resource Consumption ('Resource Exhaustion')|Неконтролируемое использование ресурсов (Исчерпание ресурсов)|
 |CWE-401|Improper Release of Memory Before Removing Last Reference ('Memory Leak')|Некорректное освобождение памяти до удаления последней ссылки (Утечка памяти)|
 |CWE-402|Transmission of Private Resources into a New Sphere ('Resource Leak')|Передача ресурсов с ограниченным доступом другому окружению (Утечка ресурсов)|
 |CWE-403|Exposure of File Descriptor to Unintended Control Sphere ('File Descriptor Leak')|Доступность файлового дескриптора непредусмотренному процессу ("Утечка файловых дескрипторов")|
@@ -531,7 +531,7 @@
 |CWE-529|Exposure of Access Control List Files to an Unauthorized Control Sphere|Возможность непредусмотренного доступа к спискам контроля доступа|
 |CWE-530|Exposure of Backup File to an Unauthorized Control Sphere|Возможность непредусмотренного доступа к резервным копиям|
 |CWE-531|Information Exposure Through Test Code|Разглашение информации, связанное с тестовыми программами|
-|CWE-532|Information Exposure Through Log Files|Разглашение информации, связанное с файлами журналов|
+|CWE-532|Inclusion of Sensitive Information in Log Files|Включение важной информации в файлы журналов|
 |CWE-533|DEPRECATED: Information Exposure Through Server Log Files|НЕ РЕКОМЕНДУЕТСЯ: Разглашение информации, связанное с файлами журналов серверов|
 |CWE-534|DEPRECATED: Information Exposure Through Debug Log Files|НЕ РЕКОМЕНДУЕТСЯ: Разглашение информации, связанное с файлами журналов отладки|
 |CWE-535|Information Exposure Through Shell Error Message|Разглашение информации, связанное с сообщениями об ошибках Shell|
@@ -731,7 +731,7 @@
 |CWE-729|OWASP Top Ten 2004 Category A8 - Insecure Storage|Топ-10 OWASP 2004 Категория А8 - Небезопасное хранение|
 |CWE-730|OWASP Top Ten 2004 Category A9 - Denial of Service|Топ-10 OWASP 2004 Категория А9 - Отказ в обслуживании|
 |CWE-731|OWASP Top Ten 2004 Category A10 - Insecure Configuration Management|Топ-10 OWASP 2004 Категория А10 - Небезопасные настройки конфигурации|
-|CWE-732|Incorrect Permission Assignment for Critical Resource|Некорректные разрешения для критичных ресурсов|
+|CWE-732|Incorrect Permission Assignment for Critical Resource|Некорректные разрешения для критически важных ресурсов|
 |CWE-733|Compiler Optimization Removal or Modification of Security-critical Code|Удаление или изменение обеспечивающего безопасность кода при оптимизации компилятором|
 |CWE-734|Weaknesses Addressed by the CERT C Secure Coding Standard|Уязвимости из стандарта CERT по безопасному программированию на Си|
 |CWE-735|CERT C Secure Coding Section 01 - Preprocessor (PRE)|CERT Безопасное программирование на Си, Раздел 01 — Препроцессор (PRE)|
@@ -768,7 +768,7 @@
 |CWE-766|Critical Variable Declared Public|Открытый доступ к критичной переменной|
 |CWE-767|Access to Critical Private Variable via Public Method|Доступ к скрытой критичной переменной при помощи общедоступного (открытого) метода|
 |CWE-768|Incorrect Short Circuit Evaluation|Некорректные упрощенные вычисления|
-|CWE-769|File Descriptor Exhaustion|Неконтролируемое использование файловых дескрипторов|
+|CWE-769|DEPRECATED: File Descriptor Exhaustion|НЕ РЕКОМЕНДУЕТСЯ: Исчерпание файловых дескрипторов|
 |CWE-770|Allocation of Resources Without Limits or Throttling|Выделение ресурсов без ограничений или регулировки|
 |CWE-771|Missing Reference to Active Allocated Resource|Отсутствие ссылки на активный выделенный ресурс|
 |CWE-772|Missing Release of Resource after Effective Lifetime|Удержание ресурса после его использования|
