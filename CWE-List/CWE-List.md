@@ -600,7 +600,7 @@
 |CWE-598|Information Exposure Through Query Strings in GET Request|Разглашение информации через GET-запросы|
 |CWE-599|Missing Validation of OpenSSL Certificate|Отсутствует проверка сертификатов OpenSSL|
 |CWE-600|Uncaught Exception in Servlet |Необработанные исключения в сервлете|
-|CWE-601|URL Redirection to Untrusted Site ('Open Redirect')|Перенаправление на небезопасный сайт ("Открытая переадресация")|
+|CWE-601|URL Redirection to Untrusted Site ('Open Redirect')|Перенаправление на небезопасный сайт ("Открытое перенаправление")|
 |CWE-602|Client-Side Enforcement of Server-Side Security|Обеспечение безопасности сервера на стороне клиента|
 |CWE-603|Use of Client-Side Authentication|Использование аутентификации на стороне пользователя|
 |CWE-604|Deprecated Entries|Не рекомендуемые к использованию определения|
@@ -917,7 +917,7 @@
 |CWE-915|Improperly Controlled Modification of Dynamically-Determined Object Attributes|Некорректный контроль над изменением динамически определяемых атрибутов объектов|
 |CWE-916|Use of Password Hash With Insufficient Computational Effort|Создание недостаточно сложных хеш-сумм паролей|
 |CWE-917|Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection')|Некорректная нейтрализация специальных элементов, используемых в утверждениях языка выражений (Внедрение кода языка выражений)|
-|CWE-918|Server-Side Request Forgery (SSRF)|Подмена запросов на стороне сервера|
+|CWE-918|Server-Side Request Forgery (SSRF)|Подделка запроса со стороны сервера|
 |CWE-919|Weaknesses in Mobile Applications|Недостатки в мобильных приложениях|
 |CWE-920|Improper Restriction of Power Consumption|Некорректное ограничение потребляемой мощности|
 |CWE-921|Storage of Sensitive Data in a Mechanism without Access Control|Хранение важных данных без обеспечения контроля доступа|
