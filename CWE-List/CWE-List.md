@@ -16,8 +16,8 @@
 |CWE-14|Compiler Removal of Code to Clear Buffers|Отсутствие очистки буфера, связанное с компилятором|
 |CWE-15|External Control of System or Configuration Setting|Возможность управления системой или настройками извне|
 |CWE-16|Configuration|Уязвимости, связанные с конфигурацией|
-|CWE-17|Code|Уязвимости, связанные с кодом|
-|CWE-18|Source Code|Уязвимости, связанные с исходным кодом|
+|CWE-17|DEPRECATED: Code|НЕ РЕКОМЕНДУЕТСЯ: Уязвимости, связанные с кодом|
+|CWE-18|DEPRECATED: Source Code|НЕ РЕКОМЕНДУЕТСЯ: Уязвимости, связанные с исходным кодом|
 |CWE-19|Data Processing Errors|Ошибки, связанные с обработкой данных|
 |CWE-20|Improper Input Validation|Некорректная проверка входных данных|
 |CWE-21|Pathname Traversal and Equivalence Errors|Уязвимости, связанные с эквивалентностью и обходом пути|
@@ -304,7 +304,7 @@
 |CWE-302|Authentication Bypass by Assumed-Immutable Data|Обход аутентификации, используя предположительно неизменяемые данные|
 |CWE-303|Incorrect Implementation of Authentication Algorithm|Некорректная реализация алгоритма аутентификации|
 |CWE-304|Missing Critical Step in Authentication|Пропущен важный шаг аутентификации|
-|CWE-305|Authentication Bypass by Primary Weakness|Возможность обхода аутентификации, связанная с наличием сторонней уязвимости|
+|CWE-305|Authentication Bypass by Primary Weakness|Обход аутентификации с помощью стороннего недостатка|
 |CWE-306|Missing Authentication for Critical Function|Отсутствие аутентификации для критически важных функций|
 |CWE-307|Improper Restriction of Excessive Authentication Attempts|Некорректное ограничение количества неудачных попыток аутентификации|
 |CWE-308|Use of Single-factor Authentication|Использование однофакторной аутентификации|
@@ -504,7 +504,7 @@
 |CWE-502|Deserialization of Untrusted Data|Десериализация недоверенных данных|
 |CWE-503|DEPRECATED: Byte/Object Code|НЕ РЕКОМЕНДУЕТСЯ: Байтовый/объектный код|
 |CWE-504|DEPRECATED: Motivation/Intent|НЕ РЕКОМЕНДУЕТСЯ: Мотивация/намерение|
-|CWE-505|DEPRECATED: Intentionally Introduced Weakness|НЕ РЕКОМЕНДУЕТСЯ: Преднамеренно реализованная уязвимость|
+|CWE-505|DEPRECATED: Intentionally Introduced Weakness|НЕ РЕКОМЕНДУЕТСЯ: Преднамеренно реализованный недостаток|
 |CWE-506|Embedded Malicious Code|Внедренный вредоносный код|
 |CWE-507|Trojan Horse|Троянское ПО|
 |CWE-508|Non-Replicating Malicious Code|Нераспространяющийся вредоносный код|
@@ -512,12 +512,12 @@
 |CWE-510|Trapdoor|Скрытые средства несанкционированного доступа|
 |CWE-511|Logic/Time Bomb|Логическая или временная бомба|
 |CWE-512|Spyware|Шпионское ПО|
-|CWE-513|DEPRECATED: Intentionally Introduced Nonmalicious Weakness|НЕ РЕКОМЕНДУЕТСЯ: Преднамеренно реализованная неопасная уязвимость|
+|CWE-513|DEPRECATED: Intentionally Introduced Nonmalicious Weakness|НЕ РЕКОМЕНДУЕТСЯ: Преднамеренно реализованный неопасный недостаток|
 |CWE-514|Covert Channel|Скрытый канал|
 |CWE-515|Covert Storage Channel|Скрытый канал хранения данных|
 |CWE-516|DEPRECATED (Duplicate): Covert Timing Channel|НЕ РЕКОМЕНДУЕТСЯ (дубликат): Скрытый временной канал|
-|CWE-517|DEPRECATED: Other Intentional, Nonmalicious Weakness|НЕ РЕКОМЕНДУЕТСЯ: Прочие преднамеренно реализованные, неопасные уязвимости|
-|CWE-518|DEPRECATED: Inadvertently Introduced Weakness|НЕ РЕКОМЕНДУЕТСЯ: Непреднамеренно реализованная уязвимость|
+|CWE-517|DEPRECATED: Other Intentional, Nonmalicious Weakness|НЕ РЕКОМЕНДУЕТСЯ: Прочие преднамеренно реализованные, неопасные недостатки|
+|CWE-518|DEPRECATED: Inadvertently Introduced Weakness|НЕ РЕКОМЕНДУЕТСЯ: Непреднамеренно реализованный недостаток|
 |CWE-519|.NET Environment Issues|Уязвимости, связанные со средой .NET|
 |CWE-520|.NET Misconfiguration: Use of Impersonation|Ошибка в конфигурации .NET: использование олицетворения|
 |CWE-521|Weak Password Requirements|Недостаточно надежный пароль|
@@ -628,13 +628,13 @@
 |CWE-626|Null Byte Interaction Error (Poison Null Byte)|Некорректная обработка нулевых байтов (Вредоносные нулевые байты)|
 |CWE-627|Dynamic Variable Evaluation|Уязвимости, связанные с динамическими переменными|
 |CWE-628|Function Call with Incorrectly Specified Arguments|Вызов функции, используя некорректно заданные аргументы|
-|CWE-629|Weaknesses in OWASP Top Ten (2007)|Уязвимости из Топ-10 OWASP (2007 г.)|
-|CWE-630|DEPRECATED: Weaknesses Examined by SAMATE|НЕ РЕКОМЕНДУЕТСЯ: Уязвимости, использовавшиеся в проекте SAMATE|
-|CWE-631|DEPRECATED: Resource-specific Weaknesses|НЕ РЕКОМЕНДУЕТСЯ: Уязвимости, характерные для определенных ресурсов|
-|CWE-632|DEPRECATED: Weaknesses that Affect Files or Directories|НЕ РЕКОМЕНДУЕТСЯ: Уязвимости, связанные с файлами или каталогами|
-|CWE-633|DEPRECATED: Weaknesses that Affect Memory|НЕ РЕКОМЕНДУЕТСЯ: Уязвимости, связанные с памятью|
-|CWE-634|DEPRECATED: Weaknesses that Affect System Processes|НЕ РЕКОМЕНДУЕТСЯ: Уязвимости, связанные с системными процессами|
-|CWE-635|Weaknesses Used by NVD|Уязвимости, использовавшиеся в базе данных NVD (с 2008 по 2016 гг.)|
+|CWE-629|Weaknesses in OWASP Top Ten (2007)|Недостатки из Топ-10 OWASP (2007 г.)|
+|CWE-630|DEPRECATED: Weaknesses Examined by SAMATE|НЕ РЕКОМЕНДУЕТСЯ: Недостатки, использовавшиеся в проекте SAMATE|
+|CWE-631|DEPRECATED: Resource-specific Weaknesses|НЕ РЕКОМЕНДУЕТСЯ: Недостатки, характерные для определенных ресурсов|
+|CWE-632|DEPRECATED: Weaknesses that Affect Files or Directories|НЕ РЕКОМЕНДУЕТСЯ: Недостатки, связанные с файлами или каталогами|
+|CWE-633|DEPRECATED: Weaknesses that Affect Memory|НЕ РЕКОМЕНДУЕТСЯ: Недостатки, связанные с памятью|
+|CWE-634|DEPRECATED: Weaknesses that Affect System Processes|НЕ РЕКОМЕНДУЕТСЯ: Недостатки, связанные с системными процессами|
+|CWE-635|Weaknesses Originally Used by NVD from 2008 to 2016|Недостатки, использовавшиеся в базе данных NVD (с 2008 по 2016 гг.)|
 |CWE-636|Not Failing Securely ('Failing Open')|Небезопасное восстановление после сбоя (Сбой с открытием доступа)|
 |CWE-637|Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism')|Излишняя сложность защитного механизма (Неиспользование "простого механизма")|
 |CWE-638|Not Using Complete Mediation|Отсутствие постоянного контроля доступа|
@@ -657,10 +657,10 @@
 |CWE-655|Insufficient Psychological Acceptability|Использование неприемлемого защитного механизма|
 |CWE-656|Reliance on Security Through Obscurity|Защитный механизм на основе неизвестности|
 |CWE-657|Violation of Secure Design Principles|Нарушение принципов безопасного проектирования|
-|CWE-658|Weaknesses in Software Written in C|Уязвимости в ПО, написанном на языке C|
-|CWE-659|Weaknesses in Software Written in C++|Уязвимости в ПО, написанном на C++|
-|CWE-660|Weaknesses in Software Written in Java|Уязвимости в ПО, написанном на Java|
-|CWE-661|Weaknesses in Software Written in PHP|Уязвимости в ПО, написанном на PHP|
+|CWE-658|Weaknesses in Software Written in C|Недостатки в ПО, написанном на языке C|
+|CWE-659|Weaknesses in Software Written in C++|Недостатки в ПО, написанном на C++|
+|CWE-660|Weaknesses in Software Written in Java|Недостатки в ПО, написанном на Java|
+|CWE-661|Weaknesses in Software Written in PHP|Недостатки в ПО, написанном на PHP|
 |CWE-662|Improper Synchronization|Некорректная синхронизация|
 |CWE-663|Use of a Non-reentrant Function in a Concurrent Context|Использование нереентерабельной функции в параллельном контексте|
 |CWE-664|Improper Control of a Resource Through its Lifetime|Некорректное обращение с ресурсом на протяжении его жизненного цикла|
@@ -676,7 +676,7 @@
 |CWE-674|Uncontrolled Recursion|Неконтролируемая рекурсия|
 |CWE-675|Duplicate Operations on Resource|Повторные операции с ресурсом|
 |CWE-676|Use of Potentially Dangerous Function|Использование потенциально опасной функции|
-|CWE-677|Weakness Base Elements|Базовые элементы уязвимостей|
+|CWE-677|Weakness Base Elements|Базовые элементы недостатков|
 |CWE-678|Composites|Комбинированные уязвимости|
 |CWE-679|DEPRECATED: Chain Elements|НЕ РЕКОМЕНДУЕТСЯ: Элементы цепочки|
 |CWE-680|Integer Overflow to Buffer Overflow|Целочисленное переполнение, приводящее к переполнению буфера|
@@ -700,8 +700,8 @@
 |CWE-698|Execution After Redirect (EAR)|Выполнение после перенаправления|
 |CWE-699|Development Concepts|Уязвимости, связанные с разработкой ПО|
 |CWE-700|Seven Pernicious Kingdoms|Уязвимости, относящиеся к таксономии "7 губительных царств"|
-|CWE-701|Weaknesses Introduced During Design|Уязвимости, связанные с этапом проектирования|
-|CWE-702|Weaknesses Introduced During Implementation|Уязвимости, связанные с этапом реализации|
+|CWE-701|Weaknesses Introduced During Design|Недостатки, появившиеся на этапе проектирования|
+|CWE-702|Weaknesses Introduced During Implementation|Недостатки, появившиеся на этапе реализации|
 |CWE-703|Improper Check or Handling of Exceptional Conditions|Некорректная проверка или обработка исключительных ситуаций|
 |CWE-704|Incorrect Type Conversion or Cast|Некорректное преобразование или приведение типов|
 |CWE-705|Incorrect Control Flow Scoping|Некорректный ход выполнения команд|
@@ -710,7 +710,7 @@
 |CWE-708|Incorrect Ownership Assignment|Некорректное назначение владельца|
 |CWE-709|Named Chains|Именованные цепочки|
 |CWE-710|Coding Standards Violation|Нарушение стандартов разработки кода|
-|CWE-711|Weaknesses in OWASP Top Ten (2004)|Уязвимости из Топ-10 OWASP (2004 г.)|
+|CWE-711|Weaknesses in OWASP Top Ten (2004)|Недостатки из Топ-10 OWASP (2004 г.)|
 |CWE-712|OWASP Top Ten 2007 Category A1 - Cross Site Scripting (XSS)|Топ-10 OWASP 2007 Категория А1 - Межсайтовое выполнение сценариев|
 |CWE-713|OWASP Top Ten 2007 Category A2 - Injection Flaws|Топ-10 OWASP 2007 Категория А2 - Внедрение|
 |CWE-714|OWASP Top Ten 2007 Category A3 - Malicious File Execution|Топ-10 OWASP 2007 Категория А3 - Выполнение вредоносных файлов|
@@ -733,7 +733,7 @@
 |CWE-731|OWASP Top Ten 2004 Category A10 - Insecure Configuration Management|Топ-10 OWASP 2004 Категория А10 - Небезопасные настройки конфигурации|
 |CWE-732|Incorrect Permission Assignment for Critical Resource|Некорректные разрешения для критически важных ресурсов|
 |CWE-733|Compiler Optimization Removal or Modification of Security-critical Code|Удаление или изменение обеспечивающего безопасность кода при оптимизации компилятором|
-|CWE-734|Weaknesses Addressed by the CERT C Secure Coding Standard|Уязвимости из стандарта CERT по безопасному программированию на Си|
+|CWE-734|Weaknesses Addressed by the CERT C Secure Coding Standard|Недостатки из стандарта CERT по безопасному программированию на Си|
 |CWE-735|CERT C Secure Coding Section 01 - Preprocessor (PRE)|CERT Безопасное программирование на Си, Раздел 01 — Препроцессор (PRE)|
 |CWE-736|CERT C Secure Coding Section 02 - Declarations and Initialization (DCL)|CERT Безопасное программирование на Си, Раздел 02 — Объявления и инициализация (DCL)|
 |CWE-737|CERT C Secure Coding Section 03 - Expressions (EXP)|CERT Безопасное программирование на Си, Раздел 03 — Выражения (EXP)|
@@ -749,10 +749,10 @@
 |CWE-747|CERT C Secure Coding Section 49 - Miscellaneous (MSC)|CERT Безопасное программирование на Си, Раздел 49 — Прочее (MSC)|
 |CWE-748|CERT C Secure Coding Section 50 - POSIX (POS)|CERT Безопасное программирование на Си, Раздел 50 — POSIX (POS)|
 |CWE-749|Exposed Dangerous Method or Function|Доступны опасные методы или функции|
-|CWE-750|Weaknesses in the 2009 CWE/SANS Top 25 Most Dangerous Programming Errors|Уязвимости из Топ-25 самых опасных ошибок программирования по версии CWE/SANS 2009|
-|CWE-751|2009 Top 25 - Insecure Interaction Between Components|Топ-25 2009: Небезопасное взаимодействие между компонентами|
-|CWE-752|2009 Top 25 - Risky Resource Management|Топ-25 2009: Небезопасное управление ресурсами|
-|CWE-753|2009 Top 25 - Porous Defenses|Топ-25 2009: Ненадежная защита|
+|CWE-750|Weaknesses in the 2009 CWE/SANS Top 25 Most Dangerous Programming Errors|Недостатки из Топ-25 самых опасных ошибок программирования по версии CWE/SANS 2009 года|
+|CWE-751|2009 Top 25 - Insecure Interaction Between Components|Топ-25 — 2009: Небезопасное взаимодействие между компонентами|
+|CWE-752|2009 Top 25 - Risky Resource Management|Топ-25 — 2009: Небезопасное управление ресурсами|
+|CWE-753|2009 Top 25 - Porous Defenses|Топ-25 — 2009: Ненадежная защита|
 |CWE-754|Improper Check for Unusual or Exceptional Conditions|Некорректная проверка наличия нестандартных условий или исключений|
 |CWE-755|Improper Handling of Exceptional Conditions|Некорректная обработка исключений|
 |CWE-756|Missing Custom Error Page|Отсутствует настроенная страница ошибки|
@@ -799,26 +799,26 @@
 |CWE-797|Only Filtering Special Elements at an Absolute Position|Фильтрация специальных элементов на основе расположения|
 |CWE-798|Use of Hard-coded Credentials|Использование жестко закодированных учетных данных|
 |CWE-799|Improper Control of Interaction Frequency|Некорректное ограничение частоты взаимодействия|
-|CWE-800|Weaknesses in the 2010 CWE/SANS Top 25 Most Dangerous Programming Errors|Уязвимости из Топ-25 самых опасных ошибок программирования по версии CWE/SANS 2010|
-|CWE-801|2010 Top 25 - Insecure Interaction Between Components|Топ-25 2010: Небезопасное взаимодействие между компонентами|
-|CWE-802|2010 Top 25 - Risky Resource Management|Топ-25 2010: Небезопасное управление ресурсами|
-|CWE-803|2010 Top 25 - Porous Defenses|Топ-25 2010: Ненадежная защита|
+|CWE-800|Weaknesses in the 2010 CWE/SANS Top 25 Most Dangerous Programming Errors|Недостатки из Топ-25 самых опасных ошибок программирования по версии CWE/SANS 2010 года|
+|CWE-801|2010 Top 25 - Insecure Interaction Between Components|Топ-25 — 2010: Небезопасное взаимодействие между компонентами|
+|CWE-802|2010 Top 25 - Risky Resource Management|Топ-25 — 2010: Небезопасное управление ресурсами|
+|CWE-803|2010 Top 25 - Porous Defenses|Топ-25 — 2010: Ненадежная защита|
 |CWE-804|Guessable CAPTCHA|Легко решаемая задача CAPTCHA|
 |CWE-805|Buffer Access with Incorrect Length Value|Доступ к памяти за пределами буфера|
 |CWE-806|Buffer Access Using Size of Source Buffer|Использование размера исходного буфера при обращении к целевому буферу|
 |CWE-807|Reliance on Untrusted Inputs in a Security Decision|Использование недоверенных входных данных при обеспечении безопасности|
-|CWE-808|2010 Top 25 - Weaknesses On the Cusp|Топ-25 2010: Уязвимости из списка кандидатов|
-|CWE-809|Weaknesses in OWASP Top Ten (2010)|Уязвимости из Топ-10 OWASP (2010 г.)|
-|CWE-810|OWASP Top Ten 2010 Category A1 - Injection|Топ-10 OWASP 2010 Категория А1 - Внедрение|
-|CWE-811|OWASP Top Ten 2010 Category A2 - Cross-Site Scripting (XSS)|Топ-10 OWASP 2010 Категория А2 - Межсайтовое выполнение сценариев (XSS)|
-|CWE-812|OWASP Top Ten 2010 Category A3 - Broken Authentication and Session Management|Топ-10 OWASP 2010 Категория А3 - Недостатки аутентификации и управления сессиями|
-|CWE-813|OWASP Top Ten 2010 Category A4 - Insecure Direct Object References|Топ-10 OWASP 2010 Категория А4 - Небезопасные прямые ссылки на объекты|
-|CWE-814|OWASP Top Ten 2010 Category A5 - Cross-Site Request Forgery(CSRF)|Топ-10 OWASP 2010 Категория А5 - Межсайтовая подмена запросов (CSRF)|
-|CWE-815|OWASP Top Ten 2010 Category A6 - Security Misconfiguration|Топ-10 OWASP 2010 Категория А6 - Некорректная настройка параметров безопасности|
-|CWE-816|OWASP Top Ten 2010 Category A7 - Insecure Cryptographic Storage|Топ-10 OWASP 2010 Категория А7 - Ненадежное шифрование хранимых данных|
-|CWE-817|OWASP Top Ten 2010 Category A8 - Failure to Restrict URL Access|Топ-10 OWASP 2010 Категория А8 - Некорректное ограничение URL-доступа|
-|CWE-818|OWASP Top Ten 2010 Category A9 - Insufficient Transport Layer Protection|Топ-10 OWASP 2010 Категория А9 - Недостаточная защита транспортного уровня|
-|CWE-819|OWASP Top Ten 2010 Category A10 - Unvalidated Redirects and Forwards|Топ-10 OWASP 2010 Категория А10 - Непроверенные перенаправления и переадресации|
+|CWE-808|2010 Top 25 - Weaknesses On the Cusp|Топ-25 — 2010: Недостатки из списка кандидатов|
+|CWE-809|Weaknesses in OWASP Top Ten (2010)|Недостатки из Топ-10 OWASP (2010 г.)|
+|CWE-810|OWASP Top Ten 2010 Category A1 - Injection|Топ-10 OWASP — 2010 Категория А1 - Внедрение|
+|CWE-811|OWASP Top Ten 2010 Category A2 - Cross-Site Scripting (XSS)|Топ-10 OWASP — 2010 Категория А2 - Межсайтовое выполнение сценариев (XSS)|
+|CWE-812|OWASP Top Ten 2010 Category A3 - Broken Authentication and Session Management|Топ-10 OWASP — 2010 Категория А3 - Недостатки аутентификации и управления сессиями|
+|CWE-813|OWASP Top Ten 2010 Category A4 - Insecure Direct Object References|Топ-10 OWASP — 2010 Категория А4 - Небезопасные прямые ссылки на объекты|
+|CWE-814|OWASP Top Ten 2010 Category A5 - Cross-Site Request Forgery(CSRF)|Топ-10 OWASP — 2010 Категория А5 - Межсайтовая подмена запросов (CSRF)|
+|CWE-815|OWASP Top Ten 2010 Category A6 - Security Misconfiguration|Топ-10 OWASP — 2010 Категория А6 - Некорректная настройка параметров безопасности|
+|CWE-816|OWASP Top Ten 2010 Category A7 - Insecure Cryptographic Storage|Топ-10 OWASP — 2010 Категория А7 - Ненадежное шифрование хранимых данных|
+|CWE-817|OWASP Top Ten 2010 Category A8 - Failure to Restrict URL Access|Топ-10 OWASP — 2010 Категория А8 - Некорректное ограничение URL-доступа|
+|CWE-818|OWASP Top Ten 2010 Category A9 - Insufficient Transport Layer Protection|Топ-10 OWASP — 2010 Категория А9 - Недостаточная защита транспортного уровня|
+|CWE-819|OWASP Top Ten 2010 Category A10 - Unvalidated Redirects and Forwards|Топ-10 OWASP — 2010 Категория А10 - Непроверенные перенаправления и переадресации|
 |CWE-820|Missing Synchronization|Отсутствие синхронизации|
 |CWE-821|Incorrect Synchronization|Некорректная синхронизация|
 |CWE-822|Untrusted Pointer Dereference|Разыменование непроверенного указателя|
@@ -843,7 +843,7 @@
 |CWE-841|Improper Enforcement of Behavioral Workflow|Некорректный контроль за последовательностью выполняемых действий|
 |CWE-842|Placement of User into Incorrect Group|Некорректное включение пользователя в группу|
 |CWE-843|Access of Resource Using Incompatible Type ('Type Confusion')|Доступ к ресурсам с использованием несовместимых типов (Смешение типов)|
-|CWE-844|Weaknesses Addressed by the CERT Java Secure Coding Standard|Уязвимости из стандарта CERT по безопасному программированию на Java|
+|CWE-844|Weaknesses Addressed by the CERT Java Secure Coding Standard|Недостатки из стандарта CERT по безопасному программированию на Java|
 |CWE-845|CERT Java Secure Coding Section 00 - Input Validation and Data Sanitization (IDS)|CERT Безопасное программирование на Java, Раздел 00 — Проверка и обработка входных данных (IDS)|
 |CWE-846|CERT Java Secure Coding Section 01 - Declarations and Initialization (DCL)|CERT Безопасное программирование на Java, Раздел 01 — Объявления и инициализация (DCL)|
 |CWE-847|CERT Java Secure Coding Section 02 - Expressions (EXP)|CERT Безопасное программирование на Java, Раздел 02 — Выражения (EXP)|
@@ -863,11 +863,11 @@
 |CWE-861|CERT Java Secure Coding Section 49 - Miscellaneous (MSC)|CERT Безопасное программирование на Java, Раздел 49 — Прочее (MSC)|
 |CWE-862|Missing Authorization|Отсутствие авторизации|
 |CWE-863|Incorrect Authorization|Некорректная авторизация|
-|CWE-864|2011 Top 25 - Insecure Interaction Between Components|Топ-25 2011: Небезопасное взаимодействие между компонентами|
-|CWE-865|2011 Top 25 - Risky Resource Management|Топ-25 2011: Небезопасное управление ресурсами|
-|CWE-866|2011 Top 25 - Porous Defenses|Топ-25 2011: Ненадежная защита|
-|CWE-867|2011 Top 25 - Weaknesses On the Cusp|Топ-25 2011: Уязвимости из списка кандидатов|
-|CWE-868|Weaknesses Addressed by the CERT C++ Secure Coding Standard|Уязвимости из стандарта CERT по безопасному программированию на C++|
+|CWE-864|2011 Top 25 - Insecure Interaction Between Components|Топ-25 — 2011: Небезопасное взаимодействие между компонентами|
+|CWE-865|2011 Top 25 - Risky Resource Management|Топ-25 — 2011: Небезопасное управление ресурсами|
+|CWE-866|2011 Top 25 - Porous Defenses|Топ-25 — 2011: Ненадежная защита|
+|CWE-867|2011 Top 25 - Weaknesses On the Cusp|Топ-25 — 2011: Недостатки из списка кандидатов|
+|CWE-868|Weaknesses Addressed by the CERT C++ Secure Coding Standard|Недостатки из стандарта CERT по безопасному программированию на C++|
 |CWE-869|CERT C++ Secure Coding Section 01 - Preprocessor (PRE)|CERT Безопасное программирование на C++, Раздел 01 — Препроцессор (PRE)|
 |CWE-870|CERT C++ Secure Coding Section 02 - Declarations and Initialization (DCL)|CERT Безопасное программирование на C++, Раздел 02 — Объявления и инициализация (DCL)|
 |CWE-871|CERT C++ Secure Coding Section 03 - Expressions (EXP)|CERT Безопасное программирование на C++, Раздел 03 — Выражения (EXP)|
@@ -899,7 +899,7 @@
 |CWE-897|SFP Primary Cluster: Entry Points|Модели программных сбоев (первичный кластер): точки входа|
 |CWE-898|SFP Primary Cluster: Authentication|Модели программных сбоев (первичный кластер): аутентификация|
 |CWE-899|SFP Primary Cluster: Access Control|Модели программных сбоев (первичный кластер): управление доступом|
-|CWE-900|Weaknesses in the 2011 CWE/SANS Top 25 Most Dangerous Software Errors|Уязвимости из Топ-25 самых опасных ошибок в программном обеспечении по версии CWE/SANS 2011|
+|CWE-900|Weaknesses in the 2011 CWE/SANS Top 25 Most Dangerous Software Errors|Недостатки из Топ-25 самых опасных ошибок в программном обеспечении по версии CWE/SANS 2011 года|
 |CWE-901|SFP Primary Cluster: Privilege|Модели программных сбоев (первичный кластер): привилегии|
 |CWE-902|SFP Primary Cluster: Channel|Модели программных сбоев (первичный кластер): каналы|
 |CWE-903|SFP Primary Cluster: Cryptography|Модели программных сбоев (первичный кластер): криптография|
@@ -918,7 +918,7 @@
 |CWE-916|Use of Password Hash With Insufficient Computational Effort|Создание недостаточно сложных хеш-сумм паролей|
 |CWE-917|Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection')|Некорректная нейтрализация специальных элементов, используемых в утверждениях языка выражений (Внедрение кода языка выражений)|
 |CWE-918|Server-Side Request Forgery (SSRF)|Подмена запросов на стороне сервера|
-|CWE-919|Weaknesses in Mobile Applications|Уязвимости в мобильных приложениях|
+|CWE-919|Weaknesses in Mobile Applications|Недостатки в мобильных приложениях|
 |CWE-920|Improper Restriction of Power Consumption|Некорректное ограничение потребляемой мощности|
 |CWE-921|Storage of Sensitive Data in a Mechanism without Access Control|Хранение важных данных без обеспечения контроля доступа|
 |CWE-922|Insecure Storage of Sensitive Information|Небезопасное хранение критичных данных|
@@ -927,17 +927,17 @@
 |CWE-925|Improper Verification of Intent by Broadcast Receiver|Некорректная проверка намерений широковещательным приемником|
 |CWE-926|Improper Export of Android Application Components|Некорректный экспорт компонентов Андроид-приложением|
 |CWE-927|Use of Implicit Intent for Sensitive Communication|Неявное намерение передавать критичные данные|
-|CWE-928|Weaknesses in OWASP Top Ten (2013)|Уязвимости из Топ-10 OWASP (2013 г.)|
-|CWE-929|OWASP Top Ten 2013 Category A1 - Injection|Топ-10 OWASP 2013 Категория A1 - Внедрение|
-|CWE-930|OWASP Top Ten 2013 Category A2 - Broken Authentication and Session Management|Топ-10 OWASP 2013 Категория A2 - Недостатки аутентификации и управления сессиями|
-|CWE-931|OWASP Top Ten 2013 Category A3 - Cross-Site Scripting (XSS)|Топ-10 OWASP 2013 Категория A3 - Межсайтовое выполнение сценариев (XSS)|
-|CWE-932|OWASP Top Ten 2013 Category A4 - Insecure Direct Object References|Топ-10 OWASP 2013 Категория A4 - Небезопасные прямые ссылки на объекты|
-|CWE-933|OWASP Top Ten 2013 Category A5 - Security Misconfiguration|Топ-10 OWASP 2013 Категория A5 - Некорректная настройка параметров безопасности|
-|CWE-934|OWASP Top Ten 2013 Category A6 - Sensitive Data Exposure|Топ-10 OWASP 2013 Категория A6 - Разглашение конфиденциальных данных|
-|CWE-935|OWASP Top Ten 2013 Category A7 - Missing Function Level Access Control|Топ-10 OWASP 2013 Категория A7 - Отсутствие контроля доступа на функциональном уровне|
-|CWE-936|OWASP Top Ten 2013 Category A8 - Cross-Site Request Forgery (CSRF)|Топ-10 OWASP 2013 Категория A8 - Межсайтовая подмена запросов (CSRF)|
-|CWE-937|OWASP Top Ten 2013 Category A9 - Using Components with Known Vulnerabilities|Топ-10 OWASP 2013 Категория A9 - Использование компонентов с известными уязвимостями|
-|CWE-938|OWASP Top Ten 2013 Category A10 - Unvalidated Redirects and Forwards|Топ-10 OWASP 2013 Категория A10 - Непроверенные перенаправления и переадресации|
+|CWE-928|Weaknesses in OWASP Top Ten (2013)|Недостатки из Топ-10 OWASP (2013 г.)|
+|CWE-929|OWASP Top Ten 2013 Category A1 - Injection|Топ-10 OWASP — 2013 Категория A1 - Внедрение|
+|CWE-930|OWASP Top Ten 2013 Category A2 - Broken Authentication and Session Management|Топ-10 OWASP — 2013 Категория A2 - Недостатки аутентификации и управления сессиями|
+|CWE-931|OWASP Top Ten 2013 Category A3 - Cross-Site Scripting (XSS)|Топ-10 OWASP — 2013 Категория A3 - Межсайтовое выполнение сценариев (XSS)|
+|CWE-932|OWASP Top Ten 2013 Category A4 - Insecure Direct Object References|Топ-10 OWASP — 2013 Категория A4 - Небезопасные прямые ссылки на объекты|
+|CWE-933|OWASP Top Ten 2013 Category A5 - Security Misconfiguration|Топ-10 OWASP — 2013 Категория A5 - Некорректная настройка параметров безопасности|
+|CWE-934|OWASP Top Ten 2013 Category A6 - Sensitive Data Exposure|Топ-10 OWASP — 2013 Категория A6 - Разглашение конфиденциальных данных|
+|CWE-935|OWASP Top Ten 2013 Category A7 - Missing Function Level Access Control|Топ-10 OWASP — 2013 Категория A7 - Отсутствие контроля доступа на функциональном уровне|
+|CWE-936|OWASP Top Ten 2013 Category A8 - Cross-Site Request Forgery (CSRF)|Топ-10 OWASP — 2013 Категория A8 - Межсайтовая подмена запросов (CSRF)|
+|CWE-937|OWASP Top Ten 2013 Category A9 - Using Components with Known Vulnerabilities|Топ-10 OWASP — 2013 Категория A9 - Использование компонентов с известными уязвимостями|
+|CWE-938|OWASP Top Ten 2013 Category A10 - Unvalidated Redirects and Forwards|Топ-10 OWASP — 2013 Категория A10 - Непроверенные перенаправления и переадресации|
 |CWE-939|Improper Authorization in Handler for Custom URL Scheme|Некорректная авторизация в обработчике нестандартных схем URL|
 |CWE-940|Improper Verification of Source of a Communication Channel|Некорректная проверка источника для канала связи|
 |CWE-941|Incorrectly Specified Destination in a Communication Channel|Некорректное определение адреса назначения для канала связи|
@@ -998,11 +998,11 @@
 |CWE-996|SFP Secondary Cluster: Security|Модели программных сбоев (вторичный кластер): безопасность|
 |CWE-997|SFP Secondary Cluster: Information Loss|Модели программных сбоев (вторичный кластер): потеря данных|
 |CWE-998|SFP Secondary Cluster: Glitch in Computation|Модели программных сбоев (вторичный кластер): сбой при вычислении|
-|CWE-999|Weaknesses without Software Fault Patterns|Уязвимости без моделей программных сбоев|
+|CWE-999|Weaknesses without Software Fault Patterns|Недостатки без моделей программных сбоев|
 |CWE-1000|Research Concepts|Концепции исследования|
 |CWE-1001|SFP Secondary Cluster: Use of an Improper API|Модели программных сбоев (вторичный кластер): использование некорректного API|
 |CWE-1002|SFP Secondary Cluster: Unexpected Entry Points|Модели программных сбоев (вторичный кластер): непредусмотренные точки входа|
-|CWE-1003|Weaknesses for Simplified Mapping of Published Vulnerabilities|Упрощенная привязка опубликованных уязвимостей|
+|CWE-1003|Weaknesses for Simplified Mapping of Published Vulnerabilities|Недостатки для упрощенной привязки опубликованных уязвимостей|
 |CWE-1004|Sensitive Cookie Without 'HttpOnly' Flag|Отсутствие флага HttpOnly у конфиденциальных куки-файлов|
 |CWE-1005|Input Validation and Representation|Отображение и проверка входных данных|
 |CWE-1006|Bad Coding Practices|Недостатки программирования|
@@ -1025,17 +1025,17 @@
 |CWE-1023|Incomplete Comparison with Missing Factors|Неполное сравнение, связанное с отсутствующими факторами|
 |CWE-1024|Comparison of Incompatible Types|Сравнение несовместимых типов|
 |CWE-1025|Comparison Using Wrong Factors|Сравнение некорректных факторов|
-|CWE-1026|Weaknesses in OWASP Top Ten (2017)|Уязвимости из Топ-10 OWASP (2017 г.)|
-|CWE-1027|OWASP Top Ten 2017 Category A1 - Injection|Топ-10 OWASP 2017 Категория А1 - Внедрение|
-|CWE-1028|OWASP Top Ten 2017 Category A2 - Broken Authentication|Топ-10 OWASP 2017 Категория А2 - Недостатки аутентификации|
-|CWE-1029|OWASP Top Ten 2017 Category A3 - Sensitive Data Exposure|Топ-10 OWASP 2017 Категория А3 - Разглашение конфиденциальных данных|
-|CWE-1030|OWASP Top Ten 2017 Category A4 - XML External Entities (XXE)|Топ-10 OWASP 2017 Категория А4 - Внешние сущности XML (XXE)|
-|CWE-1031|OWASP Top Ten 2017 Category A5 - Broken Access Control|Топ-10 OWASP 2017 Категория А5 - Недостатки контроля доступа|
-|CWE-1032|OWASP Top Ten 2017 Category A6 - Security Misconfiguration|Топ-10 OWASP 2017 Категория А6 - Некорректная настройка параметров безопасности|
-|CWE-1033|OWASP Top Ten 2017 Category A7 - Cross-Site Scripting (XSS)|Топ-10 OWASP 2017 Категория А7 - Межсайтовое выполнение сценариев (XSS)|
-|CWE-1034|OWASP Top Ten 2017 Category A8 - Insecure Deserialization|Топ-10 OWASP 2017 Категория А8 - Небезопасная десериализация|
-|CWE-1035|OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities|Топ-10 OWASP 2017 Категория А9 - Использование компонентов с известными уязвимостями|
-|CWE-1036|OWASP Top Ten 2017 Category A10 - Insufficient Logging & Monitoring|Топ-10 OWASP 2017 Категория А10 - Недостатки журналирования и мониторинга|
+|CWE-1026|Weaknesses in OWASP Top Ten (2017)|Недостатки из Топ-10 OWASP (2017 г.)|
+|CWE-1027|OWASP Top Ten 2017 Category A1 - Injection|Топ-10 OWASP — 2017 Категория А1 - Внедрение|
+|CWE-1028|OWASP Top Ten 2017 Category A2 - Broken Authentication|Топ-10 OWASP — 2017 Категория А2 - Недостатки аутентификации|
+|CWE-1029|OWASP Top Ten 2017 Category A3 - Sensitive Data Exposure|Топ-10 OWASP — 2017 Категория А3 - Разглашение конфиденциальных данных|
+|CWE-1030|OWASP Top Ten 2017 Category A4 - XML External Entities (XXE)|Топ-10 OWASP — 2017 Категория А4 - Внешние сущности XML (XXE)|
+|CWE-1031|OWASP Top Ten 2017 Category A5 - Broken Access Control|Топ-10 OWASP — 2017 Категория А5 - Недостатки контроля доступа|
+|CWE-1032|OWASP Top Ten 2017 Category A6 - Security Misconfiguration|Топ-10 OWASP — 2017 Категория А6 - Некорректная настройка параметров безопасности|
+|CWE-1033|OWASP Top Ten 2017 Category A7 - Cross-Site Scripting (XSS)|Топ-10 OWASP — 2017 Категория А7 - Межсайтовое выполнение сценариев (XSS)|
+|CWE-1034|OWASP Top Ten 2017 Category A8 - Insecure Deserialization|Топ-10 OWASP — 2017 Категория А8 - Небезопасная десериализация|
+|CWE-1035|OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities|Топ-10 OWASP — 2017 Категория А9 - Использование компонентов с известными уязвимостями|
+|CWE-1036|OWASP Top Ten 2017 Category A10 - Insufficient Logging & Monitoring|Топ-10 OWASP — 2017 Категория А10 - Недостатки журналирования и мониторинга|
 |CWE-1037|Processor Optimization Removal or Modification of Security-critical Code|Удаление или изменение обеспечивающего безопасность кода при оптимизации процессором|
 |CWE-1038|Insecure Automated Optimizations|Небезопасная автоматическая оптимизация|
 |CWE-1039|Automated Recognition Mechanism with Inadequate Detection or Handling of Adversarial Input Perturbations|Некорректная работа автоматизированного механизма распознавания при определении или обработке входных данных, модифицированных злоумышленником|
@@ -1131,7 +1131,7 @@
 |CWE-1130|CISQ Quality Measures - Maintainability|Критерии качества CISQ - Удобство сопровождения|
 |CWE-1131|CISQ Quality Measures - Security|Критерии качества CISQ - Безопасность|
 |CWE-1132|CISQ Quality Measures - Performance|Критерии качества CISQ - Производительность|
-|CWE-1133|Weaknesses Addressed by the SEI CERT Oracle Coding Standard for Java|Уязвимости из стандарта SEI CERT Oracle по программированию на Java|
+|CWE-1133|Weaknesses Addressed by the SEI CERT Oracle Coding Standard for Java|Недостатки из стандарта SEI CERT Oracle по программированию на Java|
 |CWE-1134|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 00. Input Validation and Data Sanitization (IDS)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 00. Проверка и обработка входных данных (IDS)|
 |CWE-1135|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 01. Declarations and Initialization (DCL)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 01. Объявления и инициализация (DCL)|
 |CWE-1136|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 02. Expressions (EXP)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 02. Выражения (EXP)|
@@ -1152,7 +1152,7 @@
 |CWE-1151|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 17. Java Native Interface (JNI)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 17. Собственный интерфейс Java (JNI)|
 |CWE-1152|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 49. Miscellaneous (MSC)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 49. Прочее (MSC)|
 |CWE-1153|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 50. Android (DRD)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 50. Андроид (DRD)|
-|CWE-1154|Weaknesses Addressed by the SEI CERT C Coding Standard|Уязвимости из стандарта SEI CERT по программированию на Си|
+|CWE-1154|Weaknesses Addressed by the SEI CERT C Coding Standard|Недостатки из стандарта SEI CERT по программированию на Си|
 |CWE-1155|SEI CERT C Coding Standard - Guidelines 01. Preprocessor (PRE)|Стандарт SEI CERT по программированию на Си - Рекомендации 01. Препроцессор (PRE)|
 |CWE-1156|SEI CERT C Coding Standard - Guidelines 02. Declarations and Initialization (DCL)|Стандарт SEI CERT по программированию на Си - Рекомендации 02. Объявления и инициализация (DCL)|
 |CWE-1157|SEI CERT C Coding Standard - Guidelines 03. Expressions (EXP)|Стандарт SEI CERT по программированию на Си - Рекомендации 03. Выражения (EXP)|
@@ -1176,4 +1176,16 @@
 |CWE-1175|SEI CERT Oracle Secure Coding Standard for Java - Guidelines 18. Concurrency (CON)|Стандарт SEI CERT Oracle по безопасному программированию на Java - Рекомендации 18. Параллелизм (CON)|
 |CWE-1176|Inefficient CPU Computation|Неэффективное использование ЦП|
 |CWE-1177|Use of Prohibited Code|Использование запрещенного кода|
+|CWE-1178|Weaknesses Addressed by the SEI CERT Perl Coding Standard|Недостатки из стандарта SEI CERT по программированию на Perl|
+|CWE-1179|SEI CERT Perl Coding Standard - Guidelines 01. Input Validation and Data Sanitization (IDS)|Стандарт SEI CERT по программированию на Perl - Рекомендации 01. Проверка и обработка входных данных (IDS)|
+|CWE-1180|SEI CERT Perl Coding Standard - Guidelines 02. Declarations and Initialization (DCL)|Стандарт SEI CERT по программированию на Perl - Рекомендации 02. Объявления и инициализация (DCL)|
+|CWE-1181|SEI CERT Perl Coding Standard - Guidelines 03. Expressions (EXP)|Стандарт SEI CERT по программированию на Perl - Рекомендации 03. Выражения (EXP)|
+|CWE-1182|SEI CERT Perl Coding Standard - Guidelines 04. Integers (INT)|Стандарт SEI CERT по программированию на Perl - Рекомендации 04. Целые числа (INT)|
+|CWE-1183|SEI CERT Perl Coding Standard - Guidelines 05. Strings (STR)|Стандарт SEI CERT по программированию на Perl - Рекомендации 05. Строки (STR)|
+|CWE-1184|SEI CERT Perl Coding Standard - Guidelines 06. Object-Oriented Programming (OOP)|Стандарт SEI CERT по программированию на Perl - Рекомендации 06. Объектно-ориентированное программирование (OOP)|
+|CWE-1185|EI CERT Perl Coding Standard - Guidelines 07. File Input and Output (FIO)|Стандарт SEI CERT по программированию на Perl - Рекомендации 07.  Ввод-вывод (FIO)|
+|CWE-1186|SEI CERT Perl Coding Standard - Guidelines 50. Miscellaneous (MSC)|Стандарт SEI CERT по программированию на Perl - Рекомендации 50. Прочее (MSC)|
+|CWE-1187|Use of Uninitialized Resource|Использование неинициализированных ресурсов|
+|CWE-1188|Insecure Default Initialization of Resource|Инициализация ресурса с небезопасными параметрами по умолчанию|
+|CWE-1200|Weaknesses in the 2019 CWE Top 25 Most Dangerous Software Errors|Недостатки из 2019 CWE Топ-25 самых опасных ошибок ПО|
 |CWE-2000|Comprehensive CWE Dictionary|Полный список CWE|
