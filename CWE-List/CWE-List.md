@@ -520,7 +520,7 @@
 |CWE-518|DEPRECATED: Inadvertently Introduced Weakness|НЕ РЕКОМЕНДУЕТСЯ: Непреднамеренно реализованный недостаток|
 |CWE-519|.NET Environment Issues|Уязвимости, связанные со средой .NET|
 |CWE-520|.NET Misconfiguration: Use of Impersonation|Ошибка в конфигурации .NET: использование олицетворения|
-|CWE-521|Weak Password Requirements|Недостаточно надежный пароль|
+|CWE-521|Weak Password Requirements|Недостаточные требования к паролю|
 |CWE-522|Insufficiently Protected Credentials|Недостаточно надежная защита учетных данных|
 |CWE-523|Unprotected Transport of Credentials|Незащищенная передача учетных данных|
 |CWE-524|Information Exposure Through Caching|Разглашение информации, связанное с кэшированием|
@@ -613,7 +613,7 @@
 |CWE-611|Improper Restriction of XML External Entity Reference ('XXE')|Некорректное ограничение ссылок на внешние сущности XML|
 |CWE-612|Information Exposure Through Indexing of Private Data|Разглашение информации, связанное с индексацией конфиденциальных данных|
 |CWE-613|Insufficient Session Expiration|Некорректно настроенный срок действия сессий|
-|CWE-614|Sensitive Cookie in HTTPS Session Without 'Secure' Attribute|Отсутствие в HTTPS-сессиях атрибута Secure у конфиденциальных куки-файлов|
+|CWE-614|Sensitive Cookie in HTTPS Session Without 'Secure' Attribute|Отсутствие в HTTPS-сессиях атрибута Secure у конфиденциальных куки-параметров|
 |CWE-615|Information Exposure Through Comments|Разглашение информации в комментариях|
 |CWE-616|Incomplete Identification of Uploaded File Variables (PHP)|Частичная идентификация переменных загружаемых файлов|
 |CWE-617|Reachable Assertion|Несанкционированный вызов утверждения|
@@ -1003,7 +1003,7 @@
 |CWE-1001|SFP Secondary Cluster: Use of an Improper API|Модели программных сбоев (вторичный кластер): использование некорректного API|
 |CWE-1002|SFP Secondary Cluster: Unexpected Entry Points|Модели программных сбоев (вторичный кластер): непредусмотренные точки входа|
 |CWE-1003|Weaknesses for Simplified Mapping of Published Vulnerabilities|Недостатки для упрощенной привязки опубликованных уязвимостей|
-|CWE-1004|Sensitive Cookie Without 'HttpOnly' Flag|Отсутствие флага HttpOnly у конфиденциальных куки-файлов|
+|CWE-1004|Sensitive Cookie Without 'HttpOnly' Flag|Отсутствие флага HttpOnly у конфиденциальных куки-параметров|
 |CWE-1005|Input Validation and Representation|Отображение и проверка входных данных|
 |CWE-1006|Bad Coding Practices|Недостатки программирования|
 |CWE-1007|Insufficient Visual Distinction of Homoglyphs Presented to User|Недостаточно очевидные для пользователя визуальные отличия омоглифов|
