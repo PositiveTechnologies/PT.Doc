@@ -351,7 +351,7 @@
 |CWE-349|Acceptance of Extraneous Untrusted Data With Trusted Data|Одобрение сторонних недоверенных данных вместе с доверенными|
 |CWE-350|Reliance on Reverse DNS Resolution for a Security-Critical Action|Использование обратного разрешения DNS для принятия решений, связанных с безопасностью|
 |CWE-351|Insufficient Type Distinction|Некорректное распознавание типов|
-|CWE-352|Cross-Site Request Forgery (CSRF)|Подделка межсайтового запроса|
+|CWE-352|Cross-Site Request Forgery (CSRF)|Подделка межсайтового запроса (CSRF)|
 |CWE-353|Missing Support for Integrity Check|Отсутствует проверка целостности|
 |CWE-354|Improper Validation of Integrity Check Value|Некорректная проверка контрольных сумм|
 |CWE-355|User Interface Security Issues|Уязвимости в интерфейсе пользователя|
@@ -715,7 +715,7 @@
 |CWE-713|OWASP Top Ten 2007 Category A2 - Injection Flaws|Топ-10 OWASP 2007 Категория А2 - Внедрение|
 |CWE-714|OWASP Top Ten 2007 Category A3 - Malicious File Execution|Топ-10 OWASP 2007 Категория А3 - Выполнение вредоносных файлов|
 |CWE-715|OWASP Top Ten 2007 Category A4 - Insecure Direct Object Reference|Топ-10 OWASP 2007 Категория А4 - Небезопасные прямые ссылки на объекты|
-|CWE-716|OWASP Top Ten 2007 Category A5 - Cross Site Request Forgery (CSRF)|Топ-10 OWASP 2007 Категория А5 - Межсайтовая подмена запросов|
+|CWE-716|OWASP Top Ten 2007 Category A5 - Cross Site Request Forgery (CSRF)|Топ-10 OWASP 2007 Категория А5 - Подделка межсайтового запроса (CSRF)|
 |CWE-717|OWASP Top Ten 2007 Category A6 - Information Leakage and Improper Error Handling|Топ-10 OWASP 2007 Категория А6 - Утечка данных и некорректная обработка ошибок|
 |CWE-718|OWASP Top Ten 2007 Category A7 - Broken Authentication and Session Management|Топ-10 OWASP 2007 Категория А7 - Недостатки аутентификации и управления сессиями|
 |CWE-719|OWASP Top Ten 2007 Category A8 - Insecure Cryptographic Storage|Топ-10 OWASP 2007 Категория А8 - Ненадежная криптографическая защита|
@@ -813,7 +813,7 @@
 |CWE-811|OWASP Top Ten 2010 Category A2 - Cross-Site Scripting (XSS)|Топ-10 OWASP — 2010 Категория А2 - Межсайтовое выполнение сценариев (XSS)|
 |CWE-812|OWASP Top Ten 2010 Category A3 - Broken Authentication and Session Management|Топ-10 OWASP — 2010 Категория А3 - Недостатки аутентификации и управления сессиями|
 |CWE-813|OWASP Top Ten 2010 Category A4 - Insecure Direct Object References|Топ-10 OWASP — 2010 Категория А4 - Небезопасные прямые ссылки на объекты|
-|CWE-814|OWASP Top Ten 2010 Category A5 - Cross-Site Request Forgery(CSRF)|Топ-10 OWASP — 2010 Категория А5 - Межсайтовая подмена запросов (CSRF)|
+|CWE-814|OWASP Top Ten 2010 Category A5 - Cross-Site Request Forgery (CSRF)|Топ-10 OWASP — 2010 Категория А5 - Подделка межсайтового запроса (CSRF)|
 |CWE-815|OWASP Top Ten 2010 Category A6 - Security Misconfiguration|Топ-10 OWASP — 2010 Категория А6 - Некорректная настройка параметров безопасности|
 |CWE-816|OWASP Top Ten 2010 Category A7 - Insecure Cryptographic Storage|Топ-10 OWASP — 2010 Категория А7 - Ненадежное шифрование хранимых данных|
 |CWE-817|OWASP Top Ten 2010 Category A8 - Failure to Restrict URL Access|Топ-10 OWASP — 2010 Категория А8 - Некорректное ограничение URL-доступа|
@@ -935,7 +935,7 @@
 |CWE-933|OWASP Top Ten 2013 Category A5 - Security Misconfiguration|Топ-10 OWASP — 2013 Категория A5 - Некорректная настройка параметров безопасности|
 |CWE-934|OWASP Top Ten 2013 Category A6 - Sensitive Data Exposure|Топ-10 OWASP — 2013 Категория A6 - Разглашение конфиденциальных данных|
 |CWE-935|OWASP Top Ten 2013 Category A7 - Missing Function Level Access Control|Топ-10 OWASP — 2013 Категория A7 - Отсутствие контроля доступа на функциональном уровне|
-|CWE-936|OWASP Top Ten 2013 Category A8 - Cross-Site Request Forgery (CSRF)|Топ-10 OWASP — 2013 Категория A8 - Межсайтовая подмена запросов (CSRF)|
+|CWE-936|OWASP Top Ten 2013 Category A8 - Cross-Site Request Forgery (CSRF)|Топ-10 OWASP — 2013 Категория A8 - Подделка межсайтового запроса (CSRF)|
 |CWE-937|OWASP Top Ten 2013 Category A9 - Using Components with Known Vulnerabilities|Топ-10 OWASP — 2013 Категория A9 - Использование компонентов с известными уязвимостями|
 |CWE-938|OWASP Top Ten 2013 Category A10 - Unvalidated Redirects and Forwards|Топ-10 OWASP — 2013 Категория A10 - Непроверенные перенаправления и переадресации|
 |CWE-939|Improper Authorization in Handler for Custom URL Scheme|Некорректная авторизация в обработчике нестандартных схем URL|
