@@ -90,7 +90,7 @@
 |CWE-88|Argument Injection or Modification|Внедрение или изменение аргументов|
 |CWE-89|Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')|Некорректная нейтрализация специальных элементов, используемых в SQL-командах (Внедрение SQL-кода)|
 |CWE-90|Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection')|Некорректная нейтрализация специальных элементов, используемых в LDAP-запросах (Внедрение LDAP)|
-|CWE-91|XML Injection (aka Blind XPath Injection)|Внедрение XML (Внедрение XPath вслепую)|
+|CWE-91|XML Injection (aka Blind XPath Injection)|Внедрение XML (Внедрение XPath-кода вслепую)|
 |CWE-92|DEPRECATED: Improper Sanitization of Custom Special Characters|НЕ РЕКОМЕНДУЕТСЯ: Некорректная очистка пользовательских спецсимволов|
 |CWE-93|Improper Neutralization of CRLF Sequences ('CRLF Injection')|Некорректная нейтрализация последовательностей символов CRLF (Внедрение символов CRLF)|
 |CWE-94|Improper Control of Generation of Code ('Code Injection')|Некорректное управление генерированием кода (Внедрение кода)|
@@ -274,7 +274,7 @@
 |CWE-272|Least Privilege Violation|Нарушение принципа минимальных привилегий|
 |CWE-273|Improper Check for Dropped Privileges|Некорректная проверка выполнения сброса привилегий|
 |CWE-274|Improper Handling of Insufficient Privileges|Некорректная обработка несоответствия привилегий|
-|CWE-275|Permission Issues|Уязвимости , связанные с разрешениями|
+|CWE-275|Permission Issues|Уязвимости, связанные с разрешениями|
 |CWE-276|Incorrect Default Permissions|Некорректные разрешения, назначаемые по умолчанию|
 |CWE-277|Insecure Inherited Permissions|Небезопасное наследование разрешений|
 |CWE-278|Insecure Preserved Inherited Permissions|Небезопасные наследуемые разрешения|
@@ -642,7 +642,7 @@
 |CWE-640|Weak Password Recovery Mechanism for Forgotten Password|Ненадежный механизм восстановления забытого пароля|
 |CWE-641|Improper Restriction of Names for Files and Other Resources|Некорректные ограничения для имен фалов и ресурсов|
 |CWE-642|External Control of Critical State Data|Возможность доступа к критичной информации о состоянии|
-|CWE-643|Improper Neutralization of Data within XPath Expressions ('XPath Injection')|Некорректная нейтрализация данных в выражениях XPath (Внедрение Xpath)|
+|CWE-643|Improper Neutralization of Data within XPath Expressions ('XPath Injection')|Некорректная нейтрализация данных в выражениях XPath (Внедрение XPath-кода)|
 |CWE-644|Improper Neutralization of HTTP Headers for Scripting Syntax|Некорректная нейтрализация сценариев в HTTP-заголовках|
 |CWE-645|Overly Restrictive Account Lockout Mechanism|Излишне ограничивающий механизм блокировки учетных записей|
 |CWE-646|Reliance on File Name or Extension of Externally-Supplied File|Проверка загружаемых файлов по имени или расширению|
