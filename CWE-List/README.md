@@ -1,1 +1,1 @@
-Current version of the CWE List is **4.5**
+Current version of the CWE List is `**4.6**`
